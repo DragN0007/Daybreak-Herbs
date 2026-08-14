@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "tag": "daybreak_herbs:test"
+  },
+  "result": {
+    "item": "daybreak_herbs:test_2"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
