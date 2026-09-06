@@ -1,16 +1,169 @@
 package com.dragn0007.daybreak_herbs.items;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
+import com.dragn0007.daybreak_herbs.blocks.DBHBlocks;
+import com.dragn0007.daybreak_herbs.items.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class DBHItems {
-
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, DaybreakHerbs.MODID);
 
+    //Plants
+    public static final RegistryObject<Item> GOLDENROD = ITEMS.register("goldenrod",
+            () -> new GoldenrodItem(DBHBlocks.GOLDENROD.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> GOLDENROD_PETALS = ITEMS.register("goldenrod_petals",
+            () -> new GoldenrodPetalsItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> HORSE_MINT = ITEMS.register("horse_mint",
+            () -> new HorseMintItem(DBHBlocks.HORSE_MINT.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> HORSE_MINT_PETALS = ITEMS.register("horse_mint_petals",
+            () -> new HorseMintPetalsItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> ELDERBERRY = ITEMS.register("elderberry",
+            () -> new ElderberryItem(DBHBlocks.ELDERBERRY.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> CATMINT = ITEMS.register("catmint",
+            () -> new CatmintItem(DBHBlocks.CATMINT.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> YARROW = ITEMS.register("yarrow",
+            () -> new YarrowItem(DBHBlocks.YARROW.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> ECHINACEA_ROOTS = ITEMS.register("echinacea_roots",
+            () -> new EchinaceaItem(DBHBlocks.ECHINACEA.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> WHITE_SAGEBRUSH = ITEMS.register("white_sagebrush",
+            () -> new WhiteSagebrushItem(DBHBlocks.WHITE_SAGEBRUSH.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> WHITE_SAGEBRUSH_LEAF = ITEMS.register("white_sagebrush_leaf",
+            () -> new WhiteSagebrushLeafItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> RIBWORT = ITEMS.register("ribwort",
+            () -> new RibwortItem(DBHBlocks.RIBWORT.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> RIBWORT_LEAF = ITEMS.register("ribwort_leaf",
+            () -> new RibwortLeafItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> SWEETROOT = ITEMS.register("sweetroot",
+            () -> new SweetrootItem(DBHBlocks.SWEETROOT.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> SUNDROPS = ITEMS.register("sundrops",
+            () -> new SundropsItem(DBHBlocks.SUNDROPS.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> SUNDROPS_BUDS = ITEMS.register("sundrops_buds",
+            () -> new SundropsBudsItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> BONESET = ITEMS.register("boneset",
+            () -> new BonesetItem(DBHBlocks.BONESET.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> MARSH_MALLOW = ITEMS.register("marsh_mallow",
+            () -> new MarshMallowItem(DBHBlocks.MARSH_MALLOW.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> MARSH_MALLOW_ROOTS = ITEMS.register("marsh_mallow_roots",
+            () -> new MarshMallowRootsItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> CALAMUS = ITEMS.register("calamus",
+            () -> new CalamusItem(DBHBlocks.CALAMUS.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> JEWELWEED = ITEMS.register("jewelweed",
+            () -> new JewelweedItem(DBHBlocks.JEWELWEED.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> WINTERBLOOM = ITEMS.register("winterbloom",
+            () -> new WinterbloomItem(DBHBlocks.WINTERBLOOM.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> BULRUSH = ITEMS.register("bulrush",
+            () -> new BulrushItem(DBHBlocks.BULRUSH.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> GOLDENSEAL = ITEMS.register("goldenseal",
+            () -> new GoldensealItem(DBHBlocks.GOLDENSEAL.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> ARNICA = ITEMS.register("arnica",
+            () -> new ArnicaItem(DBHBlocks.ARNICA.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> RATTLEWEED = ITEMS.register("rattleweed",
+            () -> new RattleweedItem(DBHBlocks.RATTLEWEED.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> USNEA = ITEMS.register("usnea",
+            () -> new UsneaItem(DBHBlocks.USNEA.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> JUNIPER_BERRY = ITEMS.register("juniper_berry",
+            () -> new JuniperBerryItem(DBHBlocks.JUNIPER.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> DEATH_CAMAS = ITEMS.register("death_camas",
+            () -> new DeathCamasItem(DBHBlocks.DEATH_CAMAS.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> LARKSPUR = ITEMS.register("larkspur",
+            () -> new LarkspurItem(DBHBlocks.LARKSPUR.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> DEADLY_NIGHTSHADE_BERRY = ITEMS.register("deadly_nightshade_berry",
+            () -> new DeadlyNightshadeItem(DBHBlocks.DEADLY_NIGHTSHADE.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> POISON_IVY = ITEMS.register("poison_ivy",
+            () -> new PoisonIvyItem(DBHBlocks.POISON_IVY.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> DEVILS_TRUMPET = ITEMS.register("devils_trumpet",
+            () -> new DevilsTrumpetItem(DBHBlocks.DEVILS_TRUMPET.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> POKEWEED = ITEMS.register("pokeweed",
+            () -> new PokeweedItem(DBHBlocks.POKEWEED.get(), (new Item.Properties())));
+
+    //Pastes
+    public static final RegistryObject<Item> GOLDENROD_POULTICE = ITEMS.register("goldenrod_poultice",
+            () -> new GoldenrodPasteItem(new Item.Properties()));
+
+    //Materials
+    public static final RegistryObject<Item> WHITE_WILLOW = ITEMS.register("white_willow",
+            () -> new WhiteWillowItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> COBWEB = ITEMS.register("cobweb",
+            () -> new CobwebItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> MOSS_CLUMP = ITEMS.register("moss_clump",
+            () -> new MossItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> PINE_RESIN = ITEMS.register("pine_resin",
+            () -> new PineResinItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_MOSS_CLUMP = ITEMS.register("dried_moss_clump",
+            () -> new DriedMossItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_HORSE_MINT_PETALS = ITEMS.register("dried_horse_mint_petals",
+            () -> new DriedHorseMintPetalsItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_CATMINT = ITEMS.register("dried_catmint",
+            () -> new DriedCatmintItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_YARROW = ITEMS.register("dried_yarrow",
+            () -> new DriedYarrowItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_WHITE_SAGEBRUSH_LEAF = ITEMS.register("dried_white_sagebrush_leaf",
+            () -> new DriedWhiteSagebrushLeafItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_MARSH_MALLOW = ITEMS.register("dried_marsh_mallow",
+            () -> new DriedMarshMallowItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_JEWELWEED = ITEMS.register("dried_jewelweed",
+            () -> new DriedJewelweedItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_WINTERBLOOM = ITEMS.register("dried_winterbloom",
+            () -> new DriedWinterbloomItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_BULRUSH = ITEMS.register("dried_bulrush",
+            () -> new DriedBulrushItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_ARNICA = ITEMS.register("dried_arnica",
+            () -> new DriedArnicaItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_USNEA = ITEMS.register("dried_usnea",
+            () -> new DriedUsneaItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_JUNIPER_BERRY = ITEMS.register("dried_juniper_berry",
+            () -> new DriedJuniperBerryItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

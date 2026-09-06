@@ -31,10 +31,6 @@ public class HerbalItem extends Item {
             serverPlayer.awardStat(Stats.ITEM_USED.get(this));
         }
 
-        if (livingEntity instanceof Player && !((Player) livingEntity).getAbilities().instabuild) {
-            stack.shrink(1);
-        }
-
         return super.finishUsingItem(stack, level, livingEntity);
     }
 

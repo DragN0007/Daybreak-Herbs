@@ -108,6 +108,7 @@ dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     //compat stuff
+    implementation fg.deobf("curse.maven:regions-unexplored-659110:5558225")
     implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.4.4')
     implementation fg.deobf("curse.maven:spoiled-364918:6828889")
     implementation fg.deobf("curse.maven:serene-seasons-291874:6398227")

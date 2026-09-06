@@ -1,3 +1,55 @@
 {
-  "itemGroup.daybreak_herbs": "Daybreak Herbs"
+  "itemGroup.daybreak_herbs": "Daybreak Herbs",
+
+  "tooltip.nomadic_herbs.poultice.tooltip": "Can be turned into a poultice.",
+  "tooltip.nomadic_herbs.dryable.tooltip": "Becomes dried over time.",
+  "tooltip.nomadic_herbs.petals.tooltip": "Can be stripped into petals.",
+  "tooltip.nomadic_herbs.leaves.tooltip": "Can be stripped into leaves.",
+
+  "block.nomadic_herbs.goldenrod": "Goldenrod",
+  "block.nomadic_herbs.wild_goldenrod": "Goldenrod",
+  "item.nomadic_herbs.goldenrod": "Goldenrod",
+  "item.nomadic_herbs.goldenrod_petals": "Goldenrod Petals",
+  "tooltip.nomadic_herbs.goldenrod.tooltip": "Goldenrod is a herb used for treating open wounds, helping prevent infection.",
+  "tooltip.nomadic_herbs.goldenrod_plants.tooltip": "Plants Goldenrod.",
+
+  "block.nomadic_herbs.horse_mint": "Horse Mint",
+  "block.nomadic_herbs.wild_horse_mint": "Horse Mint",
+  "item.nomadic_herbs.horse_mint": "Horse Mint",
+  "item.nomadic_herbs.horse_mint_petals": "Horse Mint Petals",
+  "tooltip.nomadic_herbs.horse_mint.tooltip": "Can be applied to wounds to prevent infection, or eaten to treat respiratory ailments when dried.",
+  "tooltip.nomadic_herbs.horse_mint_plants.tooltip": "Plants Horse Mint.",
+  "tooltip.nomadic_herbs.goldenrod_paste.tooltip": "Treats open wounds, helping prevent infection. This poultice should be applied directly on the wound after bleeding has stopped.",
+  "tooltip.nomadic_herbs.horse_mint_petals.tooltip": "Eaten to treat respiratory ailments.",
+
+  "block.nomadic_herbs.elderberry": "Elderberry Bush",
+  "block.nomadic_herbs.wild_elderberry": "Elderberry Bush",
+  "item.nomadic_herbs.elderberry": "Elderberry",
+  "tooltip.nomadic_herbs.elderberry.tooltip": "Eaten to treat mild fever and colds.",
+  "tooltip.nomadic_herbs.elderberry_plants.tooltip": "Plants Elderberry Bush.",
+
+  "block.nomadic_herbs.catmint": "Catmint",
+  "block.nomadic_herbs.wild_catmint": "Catmint",
+  "item.nomadic_herbs.catmint": "Catmint",
+  "tooltip.nomadic_herbs.catmint.tooltip": "Can be used to help with congestion, as well as one of the main remedies for greencough, when breathed in or eaten. Can also be used to relax and calm cats.",
+  "tooltip.nomadic_herbs.catmint_plants.tooltip": "Plants Catmint.",
+
+  "block.nomadic_herbs.yarrow": "Yarrow",
+  "block.nomadic_herbs.wild_yarrow": "Yarrow",
+  "item.nomadic_herbs.yarrow": "Yarrow",
+  "tooltip.nomadic_herbs.yarrow.tooltip": "Excellent for fresh wounds and one of the most important battlefield herbs by applying pieces of yarrow to the wound.",
+  "tooltip.nomadic_herbs.yarrow_plants.tooltip": "Plants Yarrow.",
+
+  "block.nomadic_herbs.echinacea": "Echinacea",
+  "block.nomadic_herbs.wild_echinacea": "Echinacea",
+  "item.nomadic_herbs.echinacea": "Echinacea",
+  "tooltip.nomadic_herbs.echinacea.tooltip": "Used to support the body's response to infection.",
+  "tooltip.nomadic_herbs.echinacea_plants.tooltip": "Plants Echinacea.",
+
+  "block.nomadic_herbs.white_sagebrush": "White Sagebrush",
+  "block.nomadic_herbs.wild_white_sagebrush": "White Sagebrush",
+  "item.nomadic_herbs.white_sagebrush": "White Sagebrush",
+  "tooltip.nomadic_herbs.white_sagebrush_plants.tooltip": "Plants White Sagebrush.",
+  "tooltip.nomadic_herbs.white_sagebrush.tooltip": "Crushed leaves clean wounds and repel insects, when sprinkled over a cat.",
+  "tooltip.nomadic_herbs.white_sagebrush_petals.tooltip": "Cleans wounds and repels insects."
 }
