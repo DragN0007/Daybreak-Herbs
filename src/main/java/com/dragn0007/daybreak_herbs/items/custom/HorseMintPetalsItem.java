@@ -28,6 +28,6 @@ public class HorseMintPetalsItem extends HerbalItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.dryable.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.horse_mint_petals.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

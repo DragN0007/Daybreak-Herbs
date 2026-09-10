@@ -12,9 +12,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class GoldenrodPetalsItem extends HerbalItem {
+public class RibwortLeafItem extends HerbalItem {
 
-    public GoldenrodPetalsItem(Properties properties) {
+    public RibwortLeafItem(Properties properties) {
         super(properties);
     }
 
@@ -29,6 +29,7 @@ public class GoldenrodPetalsItem extends HerbalItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.poultice.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.ribwort_leaf.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.dryable.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

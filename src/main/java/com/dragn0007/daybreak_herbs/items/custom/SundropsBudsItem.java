@@ -12,9 +12,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class GoldenrodPetalsItem extends HerbalItem {
+public class SundropsBudsItem extends HerbalItem {
 
-    public GoldenrodPetalsItem(Properties properties) {
+    public SundropsBudsItem(Properties properties) {
         super(properties);
     }
 

@@ -12,9 +12,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class GoldenrodPetalsItem extends HerbalItem {
+public class MarshMallowRootsItem extends HerbalItem {
 
-    public GoldenrodPetalsItem(Properties properties) {
+    public MarshMallowRootsItem(Properties properties) {
         super(properties);
     }
 
@@ -23,12 +23,11 @@ public class GoldenrodPetalsItem extends HerbalItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        //poultice
         return super.finishUsingItem(itemStack, level, entity);
     }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.poultice.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.marsh_mallow_roots.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

@@ -1,8 +1,7 @@
 {
   "itemGroup.daybreak_herbs": "Daybreak Herbs",
 
-  "tooltip.nomadic_herbs.poultice.tooltip": "Can be turned into a poultice.",
-  "tooltip.nomadic_herbs.dryable.tooltip": "Becomes dried over time.",
+  "tooltip.nomadic_herbs.poultice.tooltip": "Can be chewed into a poultice.",
   "tooltip.nomadic_herbs.petals.tooltip": "Can be stripped into petals.",
   "tooltip.nomadic_herbs.leaves.tooltip": "Can be stripped into leaves.",
 
@@ -10,6 +9,7 @@
   "block.nomadic_herbs.wild_goldenrod": "Goldenrod",
   "item.nomadic_herbs.goldenrod": "Goldenrod",
   "item.nomadic_herbs.goldenrod_petals": "Goldenrod Petals",
+  "item.nomadic_herbs.goldenrod_poultice": "Goldenrod Poultice",
   "tooltip.nomadic_herbs.goldenrod.tooltip": "Goldenrod is a herb used for treating open wounds, helping prevent infection.",
   "tooltip.nomadic_herbs.goldenrod_plants.tooltip": "Plants Goldenrod.",
 
@@ -49,7 +49,43 @@
   "block.nomadic_herbs.white_sagebrush": "White Sagebrush",
   "block.nomadic_herbs.wild_white_sagebrush": "White Sagebrush",
   "item.nomadic_herbs.white_sagebrush": "White Sagebrush",
+  "item.nomadic_herbs.white_sagebrush_leaf": "White Sagebrush Leaf",
   "tooltip.nomadic_herbs.white_sagebrush_plants.tooltip": "Plants White Sagebrush.",
   "tooltip.nomadic_herbs.white_sagebrush.tooltip": "Crushed leaves clean wounds and repel insects, when sprinkled over a cat.",
-  "tooltip.nomadic_herbs.white_sagebrush_petals.tooltip": "Cleans wounds and repels insects."
+  "tooltip.nomadic_herbs.white_sagebrush_petals.tooltip": "Cleans wounds and repels insects.",
+
+  "block.nomadic_herbs.ribwort": "Ribwort",
+  "block.nomadic_herbs.wild_ribwort": "Ribwort",
+  "item.nomadic_herbs.ribwort": "Ribwort",
+  "item.nomadic_herbs.ribwort_leaf": "Ribwort Leaf",
+  "item.nomadic_herbs.ribwort_poultice": "Ribwort Poultice",
+  "tooltip.nomadic_herbs.ribwort_plants.tooltip": "Plants Ribwort.",
+  "tooltip.nomadic_herbs.ribwort_paste.tooltip": "Applied to skin for splinters, stings, and minor infections.",
+
+  "block.nomadic_herbs.sweetroot": "Sweetroot",
+  "block.nomadic_herbs.wild_sweetroot": "Sweetroot",
+  "item.nomadic_herbs.sweetroot": "Sweetroot",
+  "tooltip.nomadic_herbs.sweetroot_plants.tooltip": "Plants Sweetroot.",
+  "tooltip.nomadic_herbs.sweetroot.tooltip": "Soothes irritated throats when eaten.",
+
+  "block.nomadic_herbs.sundrops": "Sundrops",
+  "block.nomadic_herbs.wild_sundrops": "Sundrops",
+  "item.nomadic_herbs.sundrops": "Sundrops",
+  "item.nomadic_herbs.sundrops_buds": "Sundrops Buds",
+  "item.nomadic_herbs.sundrops_poultice": "Sundrops Poultice",
+  "tooltip.nomadic_herbs.sundrops_plants.tooltip": "Plants Sundrops.",
+
+  "block.nomadic_herbs.boneset": "Boneset",
+  "block.nomadic_herbs.wild_boneset": "Boneset",
+  "item.nomadic_herbs.boneset": "Boneset",
+  "tooltip.nomadic_herbs.boneset.tooltip": "Eaten by a cat, it is the most respected fever remedy in The Basin. Highly effective.",
+  "tooltip.nomadic_herbs.boneset_plants.tooltip": "Plants Boneset.",
+
+  "block.nomadic_herbs.marsh_mallow": "Marsh Mallow",
+  "block.nomadic_herbs.wild_marsh_mallow": "Marsh Mallow",
+  "item.nomadic_herbs.marsh_mallow": "Marsh Mallow",
+  "item.nomadic_herbs.marsh_mallow_roots": "Marsh Mallow Roots",
+  "tooltip.nomadic_herbs.marsh_mallow.tooltip": "Can be turned into thick, soothing roots that produce a sap.",
+  "tooltip.nomadic_herbs.marsh_mallow_plants.tooltip": "Plants Marsh Mallow.",
+  "tooltip.nomadic_herbs.marsh_mallow_roots.tooltip": "Produces a sap that coats irritated tissue."
 }

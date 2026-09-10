@@ -12,23 +12,22 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class GoldenrodPetalsItem extends HerbalItem {
+public class RibwortPasteItem extends HerbalItem {
 
-    public GoldenrodPetalsItem(Properties properties) {
+    public RibwortPasteItem(Properties properties) {
         super(properties);
     }
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
-        return UseAnim.EAT;
+        return UseAnim.BRUSH;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        //poultice
         return super.finishUsingItem(itemStack, level, entity);
     }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.poultice.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.ribwort_paste.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }
