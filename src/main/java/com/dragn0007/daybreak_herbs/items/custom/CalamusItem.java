@@ -13,14 +13,14 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class YarrowItem extends HerbalNameBlockItem {
+public class CalamusItem extends HerbalNameBlockItem {
 
-    public YarrowItem(Block block, Properties properties) {
+    public CalamusItem(Block block, Properties properties) {
         super(block, properties);
     }
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
-        return UseAnim.BRUSH;
+        return UseAnim.EAT;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
@@ -29,7 +29,7 @@ public class YarrowItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.yarrow.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.yarrow_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.calamus.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.calamus_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

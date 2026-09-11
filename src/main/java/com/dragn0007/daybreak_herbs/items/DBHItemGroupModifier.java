@@ -16,7 +16,17 @@ public class DBHItemGroupModifier {
     public static final RegistryObject<CreativeModeTab> GROUP = CREATIVE_MODE_TABS.register("daybreak_herbs",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(DBHItems.GOLDENROD.get())).title(Component.translatable("itemGroup.daybreak_herbs"))
                     .displayItems((displayParameters, output) -> {
+
                         output.accept(DBHItems.WHITE_WILLOW.get());
+                        output.accept(DBHItems.COBWEB.get());
+                        output.accept(DBHItems.MOSS_CLUMP.get());
+                        output.accept(DBHItems.PINE_RESIN.get());
+
+                        output.accept(DBHItems.GOLDENROD_POULTICE.get());
+                        output.accept(DBHItems.RIBWORT_POULTICE.get());
+                        output.accept(DBHItems.SUNDROPS_POULTICE.get());
+                        output.accept(DBHItems.GOLDENSEAL_POULTICE.get());
+
                         output.accept(DBHItems.GOLDENROD.get());
                         output.accept(DBHItems.GOLDENROD_PETALS.get());
                         output.accept(DBHItems.HORSE_MINT.get());
@@ -38,9 +48,13 @@ public class DBHItemGroupModifier {
                         output.accept(DBHItems.CALAMUS.get());
                         output.accept(DBHItems.JEWELWEED.get());
                         output.accept(DBHItems.WINTERBLOOM.get());
+                        output.accept(DBHItems.WINTERBLOOM_LEAF.get());
                         output.accept(DBHItems.BULRUSH.get());
+                        output.accept(DBHItems.BULRUSH_FLUFF.get());
+                        output.accept(DBHItems.BULRUSH_ROOTS.get());
                         output.accept(DBHItems.GOLDENSEAL.get());
                         output.accept(DBHItems.ARNICA.get());
+                        output.accept(DBHItems.ARNICA_PETALS.get());
                         output.accept(DBHItems.RATTLEWEED.get());
                         output.accept(DBHItems.USNEA.get());
                         output.accept(DBHItems.JUNIPER_BERRY.get());
@@ -50,22 +64,35 @@ public class DBHItemGroupModifier {
                         output.accept(DBHItems.POISON_IVY.get());
                         output.accept(DBHItems.DEVILS_TRUMPET.get());
                         output.accept(DBHItems.POKEWEED.get());
-                        output.accept(DBHItems.GOLDENROD_POULTICE.get());
-                        output.accept(DBHItems.COBWEB.get());
-                        output.accept(DBHItems.MOSS_CLUMP.get());
-                        output.accept(DBHItems.PINE_RESIN.get());
-                        output.accept(DBHItems.DRIED_ARNICA.get());
-                        output.accept(DBHItems.DRIED_BULRUSH.get());
-                        output.accept(DBHItems.DRIED_CATMINT.get());
-                        output.accept(DBHItems.DRIED_JEWELWEED.get());
+
+                        output.accept(DBHItems.DRIED_GOLDENROD_PETALS.get());
                         output.accept(DBHItems.DRIED_HORSE_MINT_PETALS.get());
-                        output.accept(DBHItems.DRIED_JUNIPER_BERRY.get());
-                        output.accept(DBHItems.DRIED_MARSH_MALLOW.get());
-                        output.accept(DBHItems.DRIED_MOSS_CLUMP.get());
-                        output.accept(DBHItems.DRIED_USNEA.get());
-                        output.accept(DBHItems.DRIED_WHITE_SAGEBRUSH_LEAF.get());
-                        output.accept(DBHItems.DRIED_WINTERBLOOM.get());
+                        output.accept(DBHItems.DRIED_ELDERBERRY.get());
+                        output.accept(DBHItems.DRIED_CATMINT.get());
                         output.accept(DBHItems.DRIED_YARROW.get());
+                        output.accept(DBHItems.DRIED_ECHINACEA_ROOTS.get());
+                        output.accept(DBHItems.DRIED_WHITE_SAGEBRUSH_LEAF.get());
+                        output.accept(DBHItems.DRIED_RIBWORT_LEAF.get());
+                        output.accept(DBHItems.DRIED_SWEETROOT.get());
+                        output.accept(DBHItems.DRIED_SUNDROPS_BUDS.get());
+                        output.accept(DBHItems.DRIED_BONESET.get());
+                        output.accept(DBHItems.DRIED_MARSH_MALLOW_ROOTS.get());
+                        output.accept(DBHItems.DRIED_CALAMUS.get());
+                        output.accept(DBHItems.DRIED_JEWELWEED.get());
+                        output.accept(DBHItems.DRIED_WINTERBLOOM_LEAF.get());
+                        output.accept(DBHItems.DRIED_BULRUSH_FLUFF.get());
+                        output.accept(DBHItems.DRIED_BULRUSH_ROOTS.get());
+                        output.accept(DBHItems.DRIED_GOLDENSEAL.get());
+                        output.accept(DBHItems.DRIED_ARNICA_PETALS.get());
+                        output.accept(DBHItems.DRIED_RATTLEWEED.get());
+                        output.accept(DBHItems.DRIED_USNEA.get());
+                        output.accept(DBHItems.DRIED_JUNIPER_BERRY.get());
+                        output.accept(DBHItems.DRIED_DEATH_CAMAS.get());
+                        output.accept(DBHItems.DRIED_LARKSPUR.get());
+                        output.accept(DBHItems.DRIED_DEADLY_NIGHTSHADE_BERRY.get());
+                        output.accept(DBHItems.DRIED_POISON_IVY.get());
+                        output.accept(DBHItems.DRIED_DEVILS_TRUMPET.get());
+                        output.accept(DBHItems.DRIED_POKEWEED.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -1,6 +1,7 @@
 package com.dragn0007.daybreak_herbs.blocks;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
+import com.dragn0007.daybreak_herbs.blocks.crop.*;
 import com.dragn0007.daybreak_herbs.items.DBHItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -128,33 +129,21 @@ public class DBHBlocks {
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> DEATH_CAMAS = registerBlockWithoutItem("death_camas",
-            () -> new DeathCamasBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
-    public static final RegistryObject<Block> WILD_DEATH_CAMAS = registerBlockWithoutItem("wild_death_camas",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> LARKSPUR = registerBlockWithoutItem("larkspur",
-            () -> new LarkspurBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
-    public static final RegistryObject<Block> WILD_LARKSPUR = registerBlockWithoutItem("wild_larkspur",
+    public static final RegistryObject<Block> WILD_LARKSPUR = registerBlockWithoutItem("larkspur",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> DEADLY_NIGHTSHADE = registerBlockWithoutItem("deadly_nightshade",
-            () -> new DeadlyNightshadeBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
-    public static final RegistryObject<Block> WILD_DEADLY_NIGHTSHADE = registerBlockWithoutItem("wild_deadly_nightshade",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> POISON_IVY = registerBlockWithoutItem("poison_ivy",
-            () -> new PoisonIvyBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
-    public static final RegistryObject<Block> WILD_POISON_IVY = registerBlockWithoutItem("wild_poison_ivy",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> DEVILS_TRUMPET = registerBlockWithoutItem("devils_trumpet",
-            () -> new DevilsTrumpetBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
-    public static final RegistryObject<Block> WILD_DEVILS_TRUMPET = registerBlockWithoutItem("wild_devils_trumpet",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> POKEWEED = registerBlockWithoutItem("pokeweed",
-            () -> new PokeweedBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
-    public static final RegistryObject<Block> WILD_POKEWEED = registerBlockWithoutItem("wild_pokeweed",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
 

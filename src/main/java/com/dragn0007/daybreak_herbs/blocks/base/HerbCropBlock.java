@@ -1,4 +1,4 @@
-package com.dragn0007.daybreak_herbs.blocks.base_plant;
+package com.dragn0007.daybreak_herbs.blocks.base;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;

@@ -13,9 +13,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class YarrowItem extends HerbalNameBlockItem {
+public class JewelweedItem extends HerbalNameBlockItem {
 
-    public YarrowItem(Block block, Properties properties) {
+    public JewelweedItem(Block block, Properties properties) {
         super(block, properties);
     }
 
@@ -29,7 +29,7 @@ public class YarrowItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.yarrow.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.yarrow_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.jewelweed.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.jewelweed_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

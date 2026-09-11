@@ -76,14 +76,26 @@ public class DBHItems {
     public static final RegistryObject<Item> WINTERBLOOM = ITEMS.register("winterbloom",
             () -> new WinterbloomItem(DBHBlocks.WINTERBLOOM.get(), (new Item.Properties())));
 
+    public static final RegistryObject<Item> WINTERBLOOM_LEAF = ITEMS.register("winterbloom_leaf",
+            () -> new WinterbloomLeafItem(new Item.Properties()));
+
     public static final RegistryObject<Item> BULRUSH = ITEMS.register("bulrush",
             () -> new BulrushItem(DBHBlocks.BULRUSH.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> BULRUSH_FLUFF = ITEMS.register("bulrush_fluff",
+            () -> new BulrushFluffItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> BULRUSH_ROOTS = ITEMS.register("bulrush_roots",
+            () -> new BulrushRootsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> GOLDENSEAL = ITEMS.register("goldenseal",
             () -> new GoldensealItem(DBHBlocks.GOLDENSEAL.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> ARNICA = ITEMS.register("arnica",
             () -> new ArnicaItem(DBHBlocks.ARNICA.get(), (new Item.Properties())));
+
+    public static final RegistryObject<Item> ARNICA_PETALS = ITEMS.register("arnica_petals",
+            () -> new ArnicaPetalsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> RATTLEWEED = ITEMS.register("rattleweed",
             () -> new RattleweedItem(DBHBlocks.RATTLEWEED.get(), (new Item.Properties())));
@@ -95,22 +107,22 @@ public class DBHItems {
             () -> new JuniperBerryItem(DBHBlocks.JUNIPER.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> DEATH_CAMAS = ITEMS.register("death_camas",
-            () -> new DeathCamasItem(DBHBlocks.DEATH_CAMAS.get(), (new Item.Properties())));
+            () -> new DeathCamasItem(new Item.Properties()));
 
     public static final RegistryObject<Item> LARKSPUR = ITEMS.register("larkspur",
-            () -> new LarkspurItem(DBHBlocks.LARKSPUR.get(), (new Item.Properties())));
+            () -> new LarkspurItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DEADLY_NIGHTSHADE_BERRY = ITEMS.register("deadly_nightshade_berry",
-            () -> new DeadlyNightshadeItem(DBHBlocks.DEADLY_NIGHTSHADE.get(), (new Item.Properties())));
+            () -> new NightshadeItem(new Item.Properties()));
 
     public static final RegistryObject<Item> POISON_IVY = ITEMS.register("poison_ivy",
-            () -> new PoisonIvyItem(DBHBlocks.POISON_IVY.get(), (new Item.Properties())));
+            () -> new PoisonIvyItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DEVILS_TRUMPET = ITEMS.register("devils_trumpet",
-            () -> new DevilsTrumpetItem(DBHBlocks.DEVILS_TRUMPET.get(), (new Item.Properties())));
+            () -> new DevilsTrumpetItem(new Item.Properties()));
 
     public static final RegistryObject<Item> POKEWEED = ITEMS.register("pokeweed",
-            () -> new PokeweedItem(DBHBlocks.POKEWEED.get(), (new Item.Properties())));
+            () -> new PokeweedItem(new Item.Properties()));
 
     //Pastes
     public static final RegistryObject<Item> GOLDENROD_POULTICE = ITEMS.register("goldenrod_poultice",
@@ -120,7 +132,10 @@ public class DBHItems {
             () -> new RibwortPasteItem(new Item.Properties()));
 
     public static final RegistryObject<Item> SUNDROPS_POULTICE = ITEMS.register("sundrops_poultice",
-            () -> new SundropsBudsItem(new Item.Properties()));
+            () -> new SundropsPasteItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLDENSEAL_POULTICE = ITEMS.register("goldenseal_poultice",
+            () -> new GoldensealPasteItem(new Item.Properties()));
 
     //Materials
     public static final RegistryObject<Item> WHITE_WILLOW = ITEMS.register("white_willow",
@@ -135,11 +150,11 @@ public class DBHItems {
     public static final RegistryObject<Item> PINE_RESIN = ITEMS.register("pine_resin",
             () -> new PineResinItem(new Item.Properties()));
 
-    public static final RegistryObject<Item> DRIED_GOLDENROD_PETALS = ITEMS.register("dried_dried_goldenrod_petals",
-            () -> new DriedGoldenrodPetalsItem(new Item.Properties()));
+    public static final RegistryObject<Item> DRIED_GOLDENROD_PETALS = ITEMS.register("dried_goldenrod_petals",
+            () -> new GoldenrodPetalsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_HORSE_MINT_PETALS = ITEMS.register("dried_horse_mint_petals",
-            () -> new DriedHorseMintPetalsItem(new Item.Properties()));
+            () -> new HorseMintPetalsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_ELDERBERRY = ITEMS.register("dried_elderberry",
             () -> new DriedElderberryItem(new Item.Properties()));
@@ -154,22 +169,22 @@ public class DBHItems {
             () -> new DriedEchinaceaItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_WHITE_SAGEBRUSH_LEAF = ITEMS.register("dried_white_sagebrush_leaf",
-            () -> new DriedWhiteSagebrushLeafItem(new Item.Properties()));
+            () -> new WhiteSagebrushLeafItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_RIBWORT_LEAF = ITEMS.register("dried_ribwort_leaf",
-            () -> new DriedRibwortLeafItem(new Item.Properties()));
+            () -> new RibwortLeafItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_SWEETROOT = ITEMS.register("dried_sweetroot",
             () -> new DriedSweetrootItem(new Item.Properties()));
 
    public static final RegistryObject<Item> DRIED_SUNDROPS_BUDS = ITEMS.register("dried_sundrops_buds",
-            () -> new DriedSundropsBudsItem(new Item.Properties()));
+            () -> new SundropsBudsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_BONESET = ITEMS.register("dried_boneset",
             () -> new DriedBonesetItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_MARSH_MALLOW_ROOTS = ITEMS.register("dried_marsh_mallow_roots",
-            () -> new DriedMarshMallowRootsItem(new Item.Properties()));
+            () -> new MarshMallowRootsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_CALAMUS = ITEMS.register("dried_calamus",
             () -> new DriedCalamusItem(new Item.Properties()));
@@ -177,17 +192,20 @@ public class DBHItems {
     public static final RegistryObject<Item> DRIED_JEWELWEED = ITEMS.register("dried_jewelweed",
             () -> new DriedJewelweedItem(new Item.Properties()));
 
-    public static final RegistryObject<Item> DRIED_WINTERBLOOM = ITEMS.register("dried_winterbloom",
-            () -> new DriedWinterbloomItem(new Item.Properties()));
+    public static final RegistryObject<Item> DRIED_WINTERBLOOM_LEAF = ITEMS.register("dried_winterbloom_leaf",
+            () -> new WinterbloomLeafItem(new Item.Properties()));
 
-    public static final RegistryObject<Item> DRIED_BULRUSH = ITEMS.register("dried_bulrush",
-            () -> new DriedBulrushItem(new Item.Properties()));
+    public static final RegistryObject<Item> DRIED_BULRUSH_FLUFF = ITEMS.register("dried_bulrush_fluff",
+            () -> new BulrushFluffItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DRIED_BULRUSH_ROOTS = ITEMS.register("dried_bulrush_roots",
+            () -> new BulrushRootsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_GOLDENSEAL = ITEMS.register("dried_goldenseal",
             () -> new DriedGoldensealItem(new Item.Properties()));
 
-    public static final RegistryObject<Item> DRIED_ARNICA = ITEMS.register("dried_arnica",
-            () -> new DriedArnicaItem(new Item.Properties()));
+    public static final RegistryObject<Item> DRIED_ARNICA_PETALS = ITEMS.register("dried_arnica_petals",
+            () -> new ArnicaPetalsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_RATTLEWEED = ITEMS.register("dried_rattleweed",
             () -> new DriedRattleweedItem(new Item.Properties()));
@@ -199,22 +217,22 @@ public class DBHItems {
             () -> new DriedJuniperBerryItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_DEATH_CAMAS = ITEMS.register("dried_death_camas",
-            () -> new DriedDeathCamasItem(new Item.Properties()));
+            () -> new DeathCamasItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_LARKSPUR = ITEMS.register("dried_larkspur",
-            () -> new DriedLarkspurItem(new Item.Properties()));
+            () -> new LarkspurItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_DEADLY_NIGHTSHADE_BERRY = ITEMS.register("dried_deadly_nightshade_berry",
-            () -> new DriedDeadlyNightshadeItem(new Item.Properties()));
+            () -> new NightshadeItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_POISON_IVY = ITEMS.register("dried_poison_ivy",
-            () -> new DriedPoisonIvyItem(new Item.Properties()));
+            () -> new PoisonIvyItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_DEVILS_TRUMPET = ITEMS.register("dried_devils_trumpet",
-            () -> new DriedDevilsTrumpetItem(new Item.Properties()));
+            () -> new DevilsTrumpetItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_POKEWEED = ITEMS.register("dried_pokeweed",
-            () -> new DriedPokeweedItem(new Item.Properties()));
+            () -> new PokeweedItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

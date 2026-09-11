@@ -13,23 +13,24 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class YarrowItem extends HerbalNameBlockItem {
+public class BulrushItem extends HerbalNameBlockItem {
 
-    public YarrowItem(Block block, Properties properties) {
+    public BulrushItem(Block block, Properties properties) {
         super(block, properties);
     }
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
-        return UseAnim.BRUSH;
+        return UseAnim.BOW;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
+        //turn into fluff & roots
         return super.finishUsingItem(itemStack, level, entity);
     }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.yarrow.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.yarrow_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.bulrush.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.bulrush_plants.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }
