@@ -73,6 +73,7 @@
   "item.nomadic_herbs.sundrops": "Sundrops",
   "item.nomadic_herbs.sundrops_buds": "Sundrops Buds",
   "item.nomadic_herbs.sundrops_poultice": "Sundrops Poultice",
+  "tooltip.nomadic_herbs.sundrops_paste.tooltip": "Used for inflammation and skin ailments, such as bruising, or skin irritation.",
   "tooltip.nomadic_herbs.sundrops_plants.tooltip": "Plants Sundrops.",
 
   "block.nomadic_herbs.boneset": "Boneset",
@@ -87,5 +88,104 @@
   "item.nomadic_herbs.marsh_mallow_roots": "Marsh Mallow Roots",
   "tooltip.nomadic_herbs.marsh_mallow.tooltip": "Can be turned into thick, soothing roots that produce a sap.",
   "tooltip.nomadic_herbs.marsh_mallow_plants.tooltip": "Plants Marsh Mallow.",
-  "tooltip.nomadic_herbs.marsh_mallow_roots.tooltip": "Produces a sap that coats irritated tissue."
+  "tooltip.nomadic_herbs.marsh_mallow_roots.tooltip": "Produces a sap that coats irritated tissue.",
+
+  "block.nomadic_herbs.calamus": "Calamus",
+  "block.nomadic_herbs.wild_calamus": "Calamus",
+  "item.nomadic_herbs.calamus": "Calamus",
+  "tooltip.nomadic_herbs.calamus.tooltip": "Used to soothe nausea and upset stomach.",
+  "tooltip.nomadic_herbs.calamus_plants.tooltip": "Plants Calamus.",
+
+  "block.nomadic_herbs.jewelweed": "Jewelweed",
+  "block.nomadic_herbs.wild_jewelweed": "Jewelweed",
+  "item.nomadic_herbs.jewelweed": "Jewelweed",
+  "tooltip.nomadic_herbs.jewelweed.tooltip": "Applying the sap relieves skin irritation and insect bites.",
+  "tooltip.nomadic_herbs.jewelweed_plants.tooltip": "Plants Jewelweed.",
+
+  "block.nomadic_herbs.winterbloom": "Winterbloom",
+  "block.nomadic_herbs.wild_winterbloom": "Winterbloom",
+  "item.nomadic_herbs.winterbloom": "Winterbloom",
+  "item.nomadic_herbs.winterbloom_leaf": "Winterbloom Leaf",
+  "tooltip.nomadic_herbs.winterbloom.tooltip": "Mixing the leaves with water makes an excellent antimicrobial wash that can also reduce swelling.",
+  "tooltip.nomadic_herbs.winterbloom_plants.tooltip": "Plants Winterbloom.",
+  "tooltip.nomadic_herbs.winterbloom_leaf.tooltip": "Makes an excellent antimicrobial wash when combined with water that can also reduce swelling.",
+
+  "block.nomadic_herbs.bulrush": "Bulrush",
+  "block.nomadic_herbs.wild_bulrush": "Bulrush",
+  "item.nomadic_herbs.bulrush": "Bulrush",
+  "item.nomadic_herbs.bulrush_fluff": "Bulrush Fluff",
+  "item.nomadic_herbs.bulrush_roots": "Bulrush Roots",
+  "tooltip.nomadic_herbs.bulrush.tooltip": "Can be stripped into fluff and roots.",
+  "tooltip.nomadic_herbs.bulrush_plants.tooltip": "Plants Bulrush.",
+  "tooltip.nomadic_herbs.bulrush_fluff.tooltip": "Soft seed fluff that can pad wounds or nests.",
+  "tooltip.nomadic_herbs.bulrush_roots.tooltip": "While not very appetizing, these roots are edible during famine.",
+
+  "block.nomadic_herbs.goldenseal": "Goldenseal",
+  "block.nomadic_herbs.wild_goldenseal": "Goldenseal",
+  "item.nomadic_herbs.goldenseal": "Goldenseal",
+  "item.nomadic_herbs.goldenseal_fluff": "Goldenseal Fluff",
+  "item.nomadic_herbs.goldenseal_poultice": "Goldenseal Poultice",
+  "tooltip.nomadic_herbs.goldenseal.tooltip": "Chewed into a poultice and applied to wounds, its a powerful remedy to serious infected wounds.",
+  "tooltip.nomadic_herbs.goldenseal_plants.tooltip": "Plants Goldenseal.",
+  "tooltip.nomadic_herbs.goldenseal_paste.tooltip": "A powerful remedy to seriously-infected wounds.",
+
+  "block.nomadic_herbs.arnica": "Arnica",
+  "block.nomadic_herbs.wild_arnica": "Arnica",
+  "item.nomadic_herbs.arnica": "Arnica",
+  "tooltip.nomadic_herbs.arnica.tooltip": "Applied externally to reduce swelling and bruising after falls or difficult hunts. Never eaten.",
+  "tooltip.nomadic_herbs.arnica_plants.tooltip": "Plants Arnica.",
+
+  "block.nomadic_herbs.rattleweed": "Rattleweed",
+  "block.nomadic_herbs.wild_rattleweed": "Rattleweed",
+  "item.nomadic_herbs.rattleweed": "Rattleweed",
+  "tooltip.nomadic_herbs.rattleweed.tooltip": "Eaten to reduce aches and severe muscle pain.",
+  "tooltip.nomadic_herbs.rattleweed_plants.tooltip": "Plants Rattleweed.",
+
+  "block.nomadic_herbs.usnea": "Usnea",
+  "block.nomadic_herbs.wild_usnea": "Usnea",
+  "item.nomadic_herbs.usnea": "Usnea",
+  "tooltip.nomadic_herbs.usnea.tooltip": "Makes a cat tired and relaxes muscles. Used as a powerful temporary sedative.",
+  "tooltip.nomadic_herbs.usnea_plants.tooltip": "Plants Unsea.",
+
+  "block.nomadic_herbs.juniper": "Juniper Bush",
+  "block.nomadic_herbs.wild_juniper": "Juniper Bush",
+  "item.nomadic_herbs.juniper_berry": "Juniper Berry",
+  "tooltip.nomadic_herbs.juniper.tooltip": "Used as a mildly effective antiseptic.",
+  "tooltip.nomadic_herbs.juniper_plants.tooltip": "Plants Juniper Bush.",
+
+  "block.nomadic_herbs.death_camas": "Death Camas",
+  "item.nomadic_herbs.death_camas": "Death Camas",
+  "tooltip.nomadic_herbs.death_camas.tooltip": "Causes vomiting, weakness, slowed heartbeat, and can be fatal.",
+
+  "block.nomadic_herbs.larkspur": "Larkspur",
+  "item.nomadic_herbs.larkspur": "Larkspur",
+  "tooltip.nomadic_herbs.larkspur.tooltip": "Its beautiful blue-purple flowers hide potent alkaloids that affect the nervous system.",
+
+  "block.nomadic_herbs.nightshade": "Nightshade",
+  "item.nomadic_herbs.nightshade_berry": "Nightshade Berry",
+  "tooltip.nomadic_herbs.nightshade.tooltip": "Berries and foliage may cause stomach upset, confusion, weakness, and, in larger amounts, more severe neurological symptoms.",
+
+  "block.nomadic_herbs.poison_ivy": "Poison Ivy",
+  "item.nomadic_herbs.poison_ivy": "Poison Ivy",
+  "tooltip.nomadic_herbs.poison_ivy.tooltip": "Not deadly, but contact with the oils causes painful itching and blistering. Can be treated with Jewelweed.",
+
+  "block.nomadic_herbs.devils_trumpet": "Devils Trumpet",
+  "item.nomadic_herbs.devils_trumpet": "Devils Trumpet",
+  "tooltip.nomadic_herbs.devils_trumpet.tooltip": "Highly toxic plant that affects the nervous system, causing confusion, dilated pupils, and dangerous hallucinations.",
+
+  "block.nomadic_herbs.pokeweed": "Pokeweed",
+  "item.nomadic_herbs.pokeweed": "Pokeweed",
+  "tooltip.nomadic_herbs.pokeweed.tooltip": "Young shoots and mature plants are highly toxic. When eaten, it can cause stomach illness and eventual death if not treated.",
+
+  "item.nomadic_herbs.pine_resin": "Pine Resin",
+  "tooltip.nomadic_herbs.pine_resin.tooltip": "Sticky resin forms a protective barrier over deep cuts and helps prevent contamination.",
+
+  "item.nomadic_herbs.moss_clump": "Moss Clump",
+  "tooltip.nomadic_herbs.moss.tooltip": "Used to carry water to cats who can't travel far to drink, as well as soak up blood from wounds.",
+
+  "item.nomadic_herbs.cobweb": "Cobweb",
+  "tooltip.nomadic_herbs.cobweb.tooltip": "Used to wrap and cover wounds.",
+
+  "item.nomadic_herbs.white_willow": "White Willow",
+  "tooltip.nomadic_herbs.white_willow.tooltip": "Can be used as a mild pain relief, and to soothe fevers. This herb is digestible and should be eaten for treatment."
 }
