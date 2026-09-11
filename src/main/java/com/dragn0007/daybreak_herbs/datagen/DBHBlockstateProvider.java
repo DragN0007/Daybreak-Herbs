@@ -1,7 +1,7 @@
 package com.dragn0007.daybreak_herbs.datagen;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
-import com.dragn0007.daybreak_herbs.blocks.base_plant.HerbCropBlock;
+import com.dragn0007.daybreak_herbs.blocks.base.HerbCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;

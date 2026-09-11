@@ -109,7 +109,7 @@ dependencies {
 
     //compat stuff
     implementation fg.deobf("curse.maven:regions-unexplored-659110:5558225")
-    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.4.4')
+    implementation fg.deobf("curse.maven:terrablender-563928:6290448")
     implementation fg.deobf("curse.maven:spoiled-364918:6828889")
     implementation fg.deobf("curse.maven:serene-seasons-291874:6398227")
     implementation fg.deobf("curse.maven:glitchcore-955399:5787839")
