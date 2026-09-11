@@ -1,6 +1,7 @@
 package com.dragn0007.daybreak_herbs.items;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
+import com.dragn0007.daybreak_herbs.blocks.DBHBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -93,6 +94,33 @@ public class DBHItemGroupModifier {
                         output.accept(DBHItems.DRIED_POISON_IVY.get());
                         output.accept(DBHItems.DRIED_DEVILS_TRUMPET.get());
                         output.accept(DBHItems.DRIED_POKEWEED.get());
+
+                        output.accept(DBHBlocks.WILD_GOLDENROD.get());
+                        output.accept(DBHBlocks.WILD_HORSE_MINT.get());
+                        output.accept(DBHBlocks.WILD_ELDERBERRY.get());
+                        output.accept(DBHBlocks.WILD_CATMINT.get());
+                        output.accept(DBHBlocks.WILD_YARROW.get());
+                        output.accept(DBHBlocks.WILD_WHITE_SAGEBRUSH.get());
+                        output.accept(DBHBlocks.WILD_RIBWORT.get());
+                        output.accept(DBHBlocks.WILD_SWEETROOT.get());
+                        output.accept(DBHBlocks.WILD_SUNDROPS.get());
+                        output.accept(DBHBlocks.WILD_BONESET.get());
+                        output.accept(DBHBlocks.WILD_MARSH_MALLOW.get());
+                        output.accept(DBHBlocks.WILD_CALAMUS.get());
+                        output.accept(DBHBlocks.WILD_JEWELWEED.get());
+                        output.accept(DBHBlocks.WILD_WINTERBLOOM.get());
+                        output.accept(DBHBlocks.WILD_BULRUSH.get());
+                        output.accept(DBHBlocks.WILD_GOLDENSEAL.get());
+                        output.accept(DBHBlocks.WILD_ARNICA.get());
+                        output.accept(DBHBlocks.WILD_RATTLEWEED.get());
+                        output.accept(DBHBlocks.WILD_USNEA.get());
+                        output.accept(DBHBlocks.WILD_JUNIPER.get());
+                        output.accept(DBHBlocks.DEATH_CAMAS.get());
+                        output.accept(DBHBlocks.LARKSPUR.get());
+                        output.accept(DBHBlocks.DEADLY_NIGHTSHADE.get());
+                        output.accept(DBHBlocks.POISON_IVY.get());
+                        output.accept(DBHBlocks.DEVILS_TRUMPET.get());
+                        output.accept(DBHBlocks.POKEWEED.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -131,7 +131,7 @@ public class DBHBlocks {
     public static final RegistryObject<Block> DEATH_CAMAS = registerBlock("death_camas",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> WILD_LARKSPUR = registerBlock("larkspur",
+    public static final RegistryObject<Block> LARKSPUR = registerBlock("larkspur",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> DEADLY_NIGHTSHADE = registerBlock("deadly_nightshade",
