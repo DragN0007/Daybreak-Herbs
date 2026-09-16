@@ -1,10 +1,10 @@
 {
   "type": "spoiled:spoil_recipe",
   "ingredient": {
-    "tag": "daybreak_herbs:test"
+    "tag": "daybreak_herbs:simple_rotters"
   },
   "result": {
-    "item": "daybreak_herbs:test_2"
+    "item": "daybreak_herbs:rotted_plant_matter"
   },
   "spoiltime": 600,
   "priority": 5

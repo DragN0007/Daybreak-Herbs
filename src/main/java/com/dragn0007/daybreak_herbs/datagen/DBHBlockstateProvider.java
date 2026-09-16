@@ -1,6 +1,7 @@
 package com.dragn0007.daybreak_herbs.datagen;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
+import com.dragn0007.daybreak_herbs.blocks.DBHBlocks;
 import com.dragn0007.daybreak_herbs.blocks.base.HerbCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -21,7 +22,19 @@ public class DBHBlockstateProvider extends BlockStateProvider {
     }
     @Override
     protected void registerStatesAndModels() {
+        createCrossCrop((HerbCropBlock) DBHBlocks.GOLDENROD.get(), "goldenrod", "goldenrod",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(DBHBlocks.WILD_GOLDENROD.get(), models().cross(DBHBlocks.WILD_GOLDENROD.getId().getPath(),
+                wildPlantTexture("goldenrod_stage3")).renderType("cutout"));
 
+        createCrossCrop((HerbCropBlock) DBHBlocks.HORSE_MINT.get(), "horse_mint", "horse_mint",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(DBHBlocks.WILD_HORSE_MINT.get(), models().cross(DBHBlocks.WILD_HORSE_MINT.getId().getPath(),
+                wildPlantTexture("horse_mint_stage3")).renderType("cutout"));
+    }
+
+    public ResourceLocation wildPlantTexture(String getTextureName) {
+        return new ResourceLocation(DaybreakHerbs.MODID,"block/" + getTextureName);
     }
 
     public void createCrossCrop(HerbCropBlock block, String modelNamePrefix, String textureNamePrefix, int... stageMap) {

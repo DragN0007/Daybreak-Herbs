@@ -30,7 +30,7 @@ public class ArnicaItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.petals.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.arnica_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.petals.tooltip").withStyle(ChatFormatting.LIGHT_PURPLE));
+        pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.arnica_plants.tooltip").withStyle(ChatFormatting.YELLOW));
     }
 }

@@ -154,7 +154,7 @@ public class DBHItems {
             () -> new GoldenrodPetalsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_HORSE_MINT_PETALS = ITEMS.register("dried_horse_mint_petals",
-            () -> new HorseMintPetalsItem(new Item.Properties()));
+            () -> new DriedHorseMintItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_ELDERBERRY = ITEMS.register("dried_elderberry",
             () -> new DriedElderberryItem(new Item.Properties()));
@@ -195,9 +195,6 @@ public class DBHItems {
     public static final RegistryObject<Item> DRIED_WINTERBLOOM_LEAF = ITEMS.register("dried_winterbloom_leaf",
             () -> new WinterbloomLeafItem(new Item.Properties()));
 
-    public static final RegistryObject<Item> DRIED_BULRUSH_FLUFF = ITEMS.register("dried_bulrush_fluff",
-            () -> new BulrushFluffItem(new Item.Properties()));
-
     public static final RegistryObject<Item> DRIED_BULRUSH_ROOTS = ITEMS.register("dried_bulrush_roots",
             () -> new BulrushRootsItem(new Item.Properties()));
 
@@ -233,6 +230,10 @@ public class DBHItems {
 
     public static final RegistryObject<Item> DRIED_POKEWEED = ITEMS.register("dried_pokeweed",
             () -> new PokeweedItem(new Item.Properties()));
+
+    //Misc
+    public static final RegistryObject<Item> ROTTED_PLANT_MATTER = ITEMS.register("rotted_plant_matter",
+            () -> new MatterItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

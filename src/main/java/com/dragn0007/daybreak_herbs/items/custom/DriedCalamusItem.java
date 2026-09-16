@@ -28,6 +28,6 @@ public class DriedCalamusItem extends HerbalItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.calamus.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.calamus.tooltip").withStyle(ChatFormatting.GRAY));
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:horse_mint_petals"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_horse_mint_petals"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

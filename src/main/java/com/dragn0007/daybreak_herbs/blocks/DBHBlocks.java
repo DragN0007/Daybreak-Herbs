@@ -128,22 +128,22 @@ public class DBHBlocks {
     public static final RegistryObject<Block> WILD_JUNIPER = registerBlock("wild_juniper",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> DEATH_CAMAS = registerBlock("death_camas",
+    public static final RegistryObject<Block> WILD_DEATH_CAMAS = registerBlock("wild_death_camas",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> LARKSPUR = registerBlock("larkspur",
+    public static final RegistryObject<Block> WILD_LARKSPUR = registerBlock("wild_larkspur",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> DEADLY_NIGHTSHADE = registerBlock("deadly_nightshade",
+    public static final RegistryObject<Block> WILD_DEADLY_NIGHTSHADE = registerBlock("wild_deadly_nightshade",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> POISON_IVY = registerBlock("poison_ivy",
+    public static final RegistryObject<Block> WILD_POISON_IVY = registerBlock("wild_poison_ivy",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> DEVILS_TRUMPET = registerBlock("devils_trumpet",
+    public static final RegistryObject<Block> WILD_DEVILS_TRUMPET = registerBlock("wild_devils_trumpet",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
-    public static final RegistryObject<Block> POKEWEED = registerBlock("pokeweed",
+    public static final RegistryObject<Block> WILD_POKEWEED = registerBlock("wild_pokeweed",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
 

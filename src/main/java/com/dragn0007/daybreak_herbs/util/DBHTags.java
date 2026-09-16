@@ -9,7 +9,7 @@ import net.minecraft.world.item.Item;
 public class DBHTags {
 
     public static class Items {
-
+        public static final TagKey<Item> SIMPLE_ROTTERS = forgeTag("simple_rotters"); //plants that just spoil into Rotted Plant Matter
 
         public static TagKey<Item> forgeTag (String name) {
             return ItemTags.create(new ResourceLocation("forge", name));

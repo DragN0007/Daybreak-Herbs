@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "daybreak_herbs:goldenrod", "required": false},
+    {"id": "daybreak_herbs:horse_mint", "required": false},
+    {"id": "daybreak_herbs:white_sagebrush", "required": false},
+    {"id": "daybreak_herbs:ribwort", "required": false},
+    {"id": "daybreak_herbs:sundrops", "required": false},
+    {"id": "daybreak_herbs:marsh_mallow", "required": false},
+    {"id": "daybreak_herbs:winterbloom", "required": false},
+    {"id": "daybreak_herbs:bulrush", "required": false},
+    {"id": "daybreak_herbs:bulrush_fluff", "required": false},
+    {"id": "daybreak_herbs:arnica", "required": false}
+  ]
+}

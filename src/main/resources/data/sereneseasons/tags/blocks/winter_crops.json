@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-
+    {"id": "daybreak_herbs:horse_mint", "required": false}
   ]
 }

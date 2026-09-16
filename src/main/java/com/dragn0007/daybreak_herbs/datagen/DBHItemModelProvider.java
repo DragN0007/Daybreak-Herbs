@@ -1,6 +1,8 @@
 package com.dragn0007.daybreak_herbs.datagen;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
+import com.dragn0007.daybreak_herbs.blocks.DBHBlocks;
+import com.dragn0007.daybreak_herbs.items.DBHItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -17,7 +19,15 @@ public class DBHItemModelProvider extends ItemModelProvider {
 
     @Override
     public void registerModels() {
-
+        advancedBlockItem(DBHBlocks.WILD_GOLDENROD, "goldenrod_stage3");
+        simpleItem(DBHItems.GOLDENROD);
+        simpleItem(DBHItems.GOLDENROD_PETALS);
+        simpleItem(DBHItems.GOLDENROD_POULTICE);
+        advancedItem(DBHItems.DRIED_GOLDENROD_PETALS, "dried_petals");
+        advancedBlockItem(DBHBlocks.WILD_HORSE_MINT, "horse_mint_stage3");
+        simpleItem(DBHItems.HORSE_MINT);
+        simpleItem(DBHItems.HORSE_MINT_PETALS);
+        advancedItem(DBHItems.DRIED_HORSE_MINT_PETALS, "dried_petals");
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -39,5 +49,15 @@ public class DBHItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(DaybreakHerbs.MODID,"block/" + getTextureName));
+    }
+    private ItemModelBuilder simpleSpriteBlock(RegistryObject<Block> block) {
+        return withExistingParent(block.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(DaybreakHerbs.MODID,"block/" + block.getId().getPath()));
+    }
+    private ItemModelBuilder advancedSpriteBlock(RegistryObject<Block> block) {
+        return withExistingParent(block.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(DaybreakHerbs.MODID,"item/" + block.getId().getPath()));
     }
 }

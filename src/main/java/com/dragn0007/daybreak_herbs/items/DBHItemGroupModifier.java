@@ -17,7 +17,6 @@ public class DBHItemGroupModifier {
     public static final RegistryObject<CreativeModeTab> GROUP = CREATIVE_MODE_TABS.register("daybreak_herbs",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(DBHItems.GOLDENROD.get())).title(Component.translatable("itemGroup.daybreak_herbs"))
                     .displayItems((displayParameters, output) -> {
-
                         output.accept(DBHItems.WHITE_WILLOW.get());
                         output.accept(DBHItems.COBWEB.get());
                         output.accept(DBHItems.MOSS_CLUMP.get());
@@ -81,7 +80,6 @@ public class DBHItemGroupModifier {
                         output.accept(DBHItems.DRIED_CALAMUS.get());
                         output.accept(DBHItems.DRIED_JEWELWEED.get());
                         output.accept(DBHItems.DRIED_WINTERBLOOM_LEAF.get());
-                        output.accept(DBHItems.DRIED_BULRUSH_FLUFF.get());
                         output.accept(DBHItems.DRIED_BULRUSH_ROOTS.get());
                         output.accept(DBHItems.DRIED_GOLDENSEAL.get());
                         output.accept(DBHItems.DRIED_ARNICA_PETALS.get());
@@ -100,6 +98,7 @@ public class DBHItemGroupModifier {
                         output.accept(DBHBlocks.WILD_ELDERBERRY.get());
                         output.accept(DBHBlocks.WILD_CATMINT.get());
                         output.accept(DBHBlocks.WILD_YARROW.get());
+                        output.accept(DBHBlocks.WILD_ECHINACEA.get());
                         output.accept(DBHBlocks.WILD_WHITE_SAGEBRUSH.get());
                         output.accept(DBHBlocks.WILD_RIBWORT.get());
                         output.accept(DBHBlocks.WILD_SWEETROOT.get());
@@ -115,12 +114,12 @@ public class DBHItemGroupModifier {
                         output.accept(DBHBlocks.WILD_RATTLEWEED.get());
                         output.accept(DBHBlocks.WILD_USNEA.get());
                         output.accept(DBHBlocks.WILD_JUNIPER.get());
-                        output.accept(DBHBlocks.DEATH_CAMAS.get());
-                        output.accept(DBHBlocks.LARKSPUR.get());
-                        output.accept(DBHBlocks.DEADLY_NIGHTSHADE.get());
-                        output.accept(DBHBlocks.POISON_IVY.get());
-                        output.accept(DBHBlocks.DEVILS_TRUMPET.get());
-                        output.accept(DBHBlocks.POKEWEED.get());
+                        output.accept(DBHBlocks.WILD_DEATH_CAMAS.get());
+                        output.accept(DBHBlocks.WILD_LARKSPUR.get());
+                        output.accept(DBHBlocks.WILD_DEADLY_NIGHTSHADE.get());
+                        output.accept(DBHBlocks.WILD_POISON_IVY.get());
+                        output.accept(DBHBlocks.WILD_DEVILS_TRUMPET.get());
+                        output.accept(DBHBlocks.WILD_POKEWEED.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

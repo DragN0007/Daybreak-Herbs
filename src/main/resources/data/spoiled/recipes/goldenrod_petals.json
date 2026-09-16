@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:goldenrod_petals"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_goldenrod_petals"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

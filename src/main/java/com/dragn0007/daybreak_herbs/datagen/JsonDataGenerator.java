@@ -1,7 +1,6 @@
 package com.dragn0007.daybreak_herbs.datagen;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
-import com.dragn0007.daybreak_herbs.datagen.biglooter.DBHLootTableProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -24,6 +23,6 @@ public class JsonDataGenerator {
         generator.addProvider(event.includeServer(), new DBHRecipeMaker(packOutput));
         generator.addProvider(event.includeClient(), new DBHBlockstateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new DBHItemModelProvider(packOutput, existingFileHelper));
-        generator.addProvider(event.includeServer(), DBHLootTableProvider.create(packOutput));
+//        generator.addProvider(event.includeServer(), DBHLootTableProvider.create(packOutput));
     }
 }

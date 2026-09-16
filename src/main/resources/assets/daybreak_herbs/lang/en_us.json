@@ -4,6 +4,7 @@
   "tooltip.daybreak_herbs.poultice.tooltip": "Can be chewed into a poultice.",
   "tooltip.daybreak_herbs.petals.tooltip": "Can be stripped into petals.",
   "tooltip.daybreak_herbs.leaves.tooltip": "Can be stripped into leaves.",
+  "tooltip.daybreak_herbs.light_healing.tooltip": "Minor healing.",
 
   "block.daybreak_herbs.goldenrod": "Goldenrod",
   "block.daybreak_herbs.wild_goldenrod": "Goldenrod",
@@ -22,7 +23,7 @@
   "tooltip.daybreak_herbs.horse_mint.tooltip": "Can be applied to wounds to prevent infection, or eaten to treat respiratory ailments when dried.",
   "tooltip.daybreak_herbs.horse_mint_plants.tooltip": "Plants Horse Mint.",
   "tooltip.daybreak_herbs.goldenrod_paste.tooltip": "Treats open wounds, helping prevent infection. This poultice should be applied directly on the wound after bleeding has stopped.",
-  "tooltip.daybreak_herbs.horse_mint_petals.tooltip": "Eaten to treat respiratory ailments.",
+  "tooltip.daybreak_herbs.horse_mint_petals.tooltip": "Eaten to treat respiratory ailments. Only effective after drying.",
 
   "block.daybreak_herbs.elderberry": "Elderberry Bush",
   "block.daybreak_herbs.wild_elderberry": "Elderberry Bush",
@@ -47,9 +48,9 @@
 
   "block.daybreak_herbs.echinacea": "Echinacea",
   "block.daybreak_herbs.wild_echinacea": "Echinacea",
-  "item.daybreak_herbs.echinacea": "Echinacea",
-  "item.daybreak_herbs.dried_echinacea": "Dried Echinacea",
-  "tooltip.daybreak_herbs.echinacea.tooltip": "Used to support the body's response to infection.",
+  "item.daybreak_herbs.echinacea_roots": "Echinacea Roots",
+  "item.daybreak_herbs.dried_echinacea_roots": "Dried Echinacea Roots",
+  "tooltip.daybreak_herbs.echinacea_roots.tooltip": "Used to support the body's response to infection.",
   "tooltip.daybreak_herbs.echinacea_plants.tooltip": "Plants Echinacea.",
 
   "block.daybreak_herbs.white_sagebrush": "White Sagebrush",
@@ -148,7 +149,8 @@
   "block.daybreak_herbs.arnica": "Arnica",
   "block.daybreak_herbs.wild_arnica": "Arnica",
   "item.daybreak_herbs.arnica": "Arnica",
-  "item.daybreak_herbs.dried_arnica": "Dried Arnica",
+  "item.daybreak_herbs.arnica_petals": "Arnica Petals",
+  "item.daybreak_herbs.dried_arnica_petals": "Dried Arnica Petals",
   "tooltip.daybreak_herbs.arnica.tooltip": "Applied externally to reduce swelling and bruising after falls or difficult hunts. Never eaten.",
   "tooltip.daybreak_herbs.arnica_plants.tooltip": "Plants Arnica.",
 
@@ -183,9 +185,9 @@
   "item.daybreak_herbs.dried_larkspur": "Dried Larkspur",
   "tooltip.daybreak_herbs.larkspur.tooltip": "Its beautiful blue-purple flowers hide potent alkaloids that affect the nervous system.",
 
-  "block.daybreak_herbs.nightshade": "Nightshade",
-  "item.daybreak_herbs.nightshade_berry": "Nightshade Berry",
-  "item.daybreak_herbs.dried_nightshade_berry": "Dried Nightshade Berry",
+  "block.daybreak_herbs.deadly_nightshade": "Deadly Nightshade",
+  "item.daybreak_herbs.deadly_nightshade_berry": "Nightshade Berry",
+  "item.daybreak_herbs.dried_deadly_nightshade_berry": "Dried Nightshade Berry",
   "tooltip.daybreak_herbs.nightshade.tooltip": "Berries and foliage may cause stomach upset, confusion, weakness, and, in larger amounts, more severe neurological symptoms.",
 
   "block.daybreak_herbs.poison_ivy": "Poison Ivy",
@@ -213,5 +215,8 @@
   "tooltip.daybreak_herbs.cobweb.tooltip": "Used to wrap and cover wounds.",
 
   "item.daybreak_herbs.white_willow": "White Willow",
-  "tooltip.daybreak_herbs.white_willow.tooltip": "Can be used as a mild pain relief, and to soothe fevers. This herb is digestible and should be eaten for treatment."
+  "tooltip.daybreak_herbs.white_willow.tooltip": "Can be used as a mild pain relief, and to soothe fevers. This herb is digestible and should be eaten for treatment.",
+
+  "item.daybreak_herbs.rotted_plant_matter": "Rotted Plant Matter",
+  "tooltip.daybreak_herbs.rotted_plant_matter.tooltip": "The remains of what used to be a plant, now spoiled into useless debris."
 }

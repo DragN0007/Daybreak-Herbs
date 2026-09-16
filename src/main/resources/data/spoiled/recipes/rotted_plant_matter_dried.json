@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "tag": "daybreak_herbs:dried_rotters"
+  },
+  "result": {
+    "item": "daybreak_herbs:rotted_plant_matter"
+  },
+  "spoiltime": 2500,
+  "priority": 5
+}

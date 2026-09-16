@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "daybreak_herbs:dried_goldenrod_petals", "required": false},
+    {"id": "daybreak_herbs:dried_horse_mint_petals", "required": false},
+    {"id": "daybreak_herbs:dried_elderberry", "required": false},
+    {"id": "daybreak_herbs:dried_catmint", "required": false},
+    {"id": "daybreak_herbs:dried_yarrow", "required": false},
+    {"id": "daybreak_herbs:dried_echinacea_roots", "required": false},
+    {"id": "daybreak_herbs:dried_white_sagebrush_leaf", "required": false},
+    {"id": "daybreak_herbs:dried_ribwort_leaf", "required": false},
+    {"id": "daybreak_herbs:dried_sweetroot", "required": false},
+    {"id": "daybreak_herbs:dried_sundrops_buds", "required": false},
+    {"id": "daybreak_herbs:dried_boneset", "required": false},
+    {"id": "daybreak_herbs:dried_marsh_mallow_roots", "required": false},
+    {"id": "daybreak_herbs:dried_calamus", "required": false},
+    {"id": "daybreak_herbs:dried_jewelweed", "required": false},
+    {"id": "daybreak_herbs:dried_winterbloom_leaf", "required": false},
+    {"id": "daybreak_herbs:dried_bulrush_roots", "required": false},
+    {"id": "daybreak_herbs:dried_goldenseal", "required": false},
+    {"id": "daybreak_herbs:dried_arnica_petals", "required": false},
+    {"id": "daybreak_herbs:dried_rattleweed", "required": false},
+    {"id": "daybreak_herbs:dried_usnea", "required": false},
+    {"id": "daybreak_herbs:dried_juniper_berry", "required": false},
+    {"id": "daybreak_herbs:dried_death_camas", "required": false},
+    {"id": "daybreak_herbs:dried_larkspur", "required": false},
+    {"id": "daybreak_herbs:dried_deadly_nightshade_berry", "required": false},
+    {"id": "daybreak_herbs:dried_poison_ivy", "required": false},
+    {"id": "daybreak_herbs:dried_devils_trumpet", "required": false},
+    {"id": "daybreak_herbs:dried_pokeweed", "required": false}
+  ]
+}

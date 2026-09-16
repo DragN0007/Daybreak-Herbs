@@ -30,8 +30,8 @@ public class WhiteSagebrushItem extends HerbalNameBlockItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.white_sagebrush.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.petals.tooltip").withStyle(ChatFormatting.GRAY));
-        pTooltipComponents.add(Component.translatable("tooltip.nomadic_herbs.white_sagebrush_plants.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.white_sagebrush.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.petals.tooltip").withStyle(ChatFormatting.LIGHT_PURPLE));
+        pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.white_sagebrush_plants.tooltip").withStyle(ChatFormatting.YELLOW));
     }
 }
