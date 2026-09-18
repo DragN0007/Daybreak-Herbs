@@ -1,9 +1,10 @@
-// 1.20.1	2026-09-18T15:39:55.6925919	Item Models: daybreak_herbs
+// 1.20.1	2026-09-18T15:50:32.9648475	Item Models: daybreak_herbs
 937872a8523712fdb1223e40390f6fb2facdc200 assets/daybreak_herbs/models/item/catmint.json
 04dc7ec02cf9a0e10d3a4e515a89c45ee9c03f56 assets/daybreak_herbs/models/item/dried_catmint.json
 68cd67cc3cd4f44ca87603dfce58121e31db99b7 assets/daybreak_herbs/models/item/dried_elderberry.json
 89ecefae6f5488dbecd03273296b1785bb935cf6 assets/daybreak_herbs/models/item/dried_goldenrod_petals.json
 89ecefae6f5488dbecd03273296b1785bb935cf6 assets/daybreak_herbs/models/item/dried_horse_mint_petals.json
+11ad4063bbd7257b3566b9c3a12263707d1efc19 assets/daybreak_herbs/models/item/dried_yarrow.json
 6879652601389af0b46c48e41f82c6fc8030db22 assets/daybreak_herbs/models/item/elderberry.json
 b264192bf1462d8606199b3a7fe337fe19a13bc2 assets/daybreak_herbs/models/item/goldenrod.json
 e9bc374a8d66369f86ad457005598d32887e84ed assets/daybreak_herbs/models/item/goldenrod_petals.json
@@ -14,3 +15,5 @@ a8eec2b9137daa5633341b48f26c9683f274a26a assets/daybreak_herbs/models/item/horse
 3eafabdb9e9c01c1bfe0dd7d8a654cb655a1227d assets/daybreak_herbs/models/item/wild_elderberry.json
 3395cd51505fa5b5a65928b37c24f96078208ff4 assets/daybreak_herbs/models/item/wild_goldenrod.json
 1a49d40389ef677897937f33ae21d6d67f02c70f assets/daybreak_herbs/models/item/wild_horse_mint.json
+0cde643c31885eb97dd7332295db90ae85a674c1 assets/daybreak_herbs/models/item/wild_yarrow.json
+efb849cbd0fd8ea90366baf5f83c5b30cb96b3d8 assets/daybreak_herbs/models/item/yarrow.json

@@ -29,5 +29,6 @@ public class DriedEchinaceaItem extends HerbalItem {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.echinacea_roots.tooltip").withStyle(ChatFormatting.GRAY));
+        appendEffectText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

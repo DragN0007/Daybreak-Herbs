@@ -3,6 +3,9 @@ package com.dragn0007.daybreak_herbs.items;
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
 import com.dragn0007.daybreak_herbs.blocks.DBHBlocks;
 import com.dragn0007.daybreak_herbs.items.custom.*;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -35,7 +38,9 @@ public class DBHItems {
             () -> new YarrowItem(DBHBlocks.YARROW.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> ECHINACEA_ROOTS = ITEMS.register("echinacea_roots",
-            () -> new EchinaceaItem(DBHBlocks.ECHINACEA.get(), (new Item.Properties())));
+            () -> new EchinaceaItem(DBHBlocks.ECHINACEA.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 300, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> WHITE_SAGEBRUSH = ITEMS.register("white_sagebrush",
             () -> new WhiteSagebrushItem(DBHBlocks.WHITE_SAGEBRUSH.get(), (new Item.Properties())));

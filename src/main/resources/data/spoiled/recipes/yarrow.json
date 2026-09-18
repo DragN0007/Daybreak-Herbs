@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:yarrow"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_yarrow"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

@@ -60,6 +60,24 @@ public class DBHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cB4).add(LootItem.lootTableItem(DBHItems.CATMINT.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(DBHBlocks.WILD_CATMINT.get(), DBHItems.CATMINT.get());
+
+        LootItemCondition.Builder cB5 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(DBHBlocks.YARROW.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(DBHBlocks.YARROW.get(),
+                this.applyExplosionDecay(DBHBlocks.YARROW.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(DBHItems.YARROW.get())))
+                                .withPool(LootPool.lootPool().when(cB5).add(LootItem.lootTableItem(DBHItems.YARROW.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(DBHBlocks.WILD_YARROW.get(), DBHItems.YARROW.get());
+
+        LootItemCondition.Builder cB6 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(DBHBlocks.ECHINACEA.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(DBHBlocks.ECHINACEA.get(),
+                this.applyExplosionDecay(DBHBlocks.ECHINACEA.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(DBHItems.ECHINACEA_ROOTS.get())))
+                                .withPool(LootPool.lootPool().when(cB6).add(LootItem.lootTableItem(DBHItems.ECHINACEA_ROOTS.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(DBHBlocks.WILD_ECHINACEA.get(), DBHItems.ECHINACEA_ROOTS.get());
     }
 
     @Override

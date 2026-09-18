@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-18T15:39:55.6925919	Block States: daybreak_herbs
+// 1.20.1	2026-09-18T15:50:32.9648475	Block States: daybreak_herbs
 42b3fe808884806f56e630f764abe9de6d2353dd assets/daybreak_herbs/blockstates/catmint.json
 a27c267fece818c3d31d758c51e0e4f147169614 assets/daybreak_herbs/blockstates/elderberry.json
 3d09f49c678a4d51174be9f1296e190ce67595dd assets/daybreak_herbs/blockstates/goldenrod.json
@@ -7,6 +7,8 @@ e60753b559a6f889232e1f7460ffe021cb7a12f4 assets/daybreak_herbs/blockstates/horse
 f18a67edecadbee89f9c43f26a98d9562d764b80 assets/daybreak_herbs/blockstates/wild_elderberry.json
 cc683dc53e6bd5b18bfc179e47ab14e7d31f5e2e assets/daybreak_herbs/blockstates/wild_goldenrod.json
 557ab4e328e45b8caaf226ab78bc5bc2a9b24897 assets/daybreak_herbs/blockstates/wild_horse_mint.json
+1d03f50a91caed51a88933acc89d7ee250091574 assets/daybreak_herbs/blockstates/wild_yarrow.json
+ee27a67c76fabeedad71c95b687f842246bbd4c0 assets/daybreak_herbs/blockstates/yarrow.json
 3f74478501de97a5a4c36902779f922d5f6e4e02 assets/daybreak_herbs/models/block/catmint_stage0.json
 164c45a0a78faaf537f276da572e2cb9423e2662 assets/daybreak_herbs/models/block/catmint_stage1.json
 4d24936672fe2d662cbe1d87f943c183f1327098 assets/daybreak_herbs/models/block/catmint_stage2.json
@@ -27,3 +29,8 @@ bd01269ffaad338616916c54d38c5f045d2eeac5 assets/daybreak_herbs/models/block/wild
 0c89b27d53e1bde39c8b0d9d1e7236a62590209e assets/daybreak_herbs/models/block/wild_elderberry.json
 cdb611cc5f299351bf7e8ee087c9c0aeebee486b assets/daybreak_herbs/models/block/wild_goldenrod.json
 ed43f158da7ada28fe0409d5e8fc90b7dc372c40 assets/daybreak_herbs/models/block/wild_horse_mint.json
+ced12ebebe8641f3e339d55200b9f8d2334fd3a2 assets/daybreak_herbs/models/block/wild_yarrow.json
+aa731efdfa5fef5e6eb015d9ba81f6274379d0af assets/daybreak_herbs/models/block/yarrow_stage0.json
+32870e72a6fdb66434fd329497c81e5ad3115e9f assets/daybreak_herbs/models/block/yarrow_stage1.json
+f35c24eaa60f544da90bf3d9bb2e32ea7747ce0a assets/daybreak_herbs/models/block/yarrow_stage2.json
+ced12ebebe8641f3e339d55200b9f8d2334fd3a2 assets/daybreak_herbs/models/block/yarrow_stage3.json
