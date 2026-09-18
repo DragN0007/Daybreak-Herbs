@@ -45,6 +45,11 @@ public class DBHItemModelProvider extends ItemModelProvider {
         advancedBlockItem(DBHBlocks.WILD_ECHINACEA, "echinacea_stage3");
         simpleItem(DBHItems.ECHINACEA_ROOTS);
         simpleItem(DBHItems.DRIED_ECHINACEA_ROOTS);
+
+        advancedBlockItem(DBHBlocks.WILD_WHITE_SAGEBRUSH, "white_sagebrush_stage3");
+        simpleItem(DBHItems.WHITE_SAGEBRUSH);
+        simpleItem(DBHItems.WHITE_SAGEBRUSH_LEAF);
+        advancedItem(DBHItems.DRIED_WHITE_SAGEBRUSH_LEAF, "dried_leaf");
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

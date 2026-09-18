@@ -29,5 +29,6 @@ public class WhiteSagebrushLeafItem extends HerbalItem {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.white_sagebrush_petals.tooltip").withStyle(ChatFormatting.GRAY));
+        appendEffectText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

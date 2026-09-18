@@ -78,6 +78,15 @@ public class DBHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cB6).add(LootItem.lootTableItem(DBHItems.ECHINACEA_ROOTS.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(DBHBlocks.WILD_ECHINACEA.get(), DBHItems.ECHINACEA_ROOTS.get());
+
+        LootItemCondition.Builder cB7 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(DBHBlocks.WHITE_SAGEBRUSH.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(DBHBlocks.WHITE_SAGEBRUSH.get(),
+                this.applyExplosionDecay(DBHBlocks.WHITE_SAGEBRUSH.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(DBHItems.WHITE_SAGEBRUSH.get())))
+                                .withPool(LootPool.lootPool().when(cB7).add(LootItem.lootTableItem(DBHItems.WHITE_SAGEBRUSH.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(DBHBlocks.WILD_WHITE_SAGEBRUSH.get(), DBHItems.WHITE_SAGEBRUSH.get());
     }
 
     @Override

@@ -46,7 +46,9 @@ public class DBHItems {
             () -> new WhiteSagebrushItem(DBHBlocks.WHITE_SAGEBRUSH.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> WHITE_SAGEBRUSH_LEAF = ITEMS.register("white_sagebrush_leaf",
-            () -> new WhiteSagebrushLeafItem(new Item.Properties()));
+            () -> new WhiteSagebrushLeafItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> RIBWORT = ITEMS.register("ribwort",
             () -> new RibwortItem(DBHBlocks.RIBWORT.get(), (new Item.Properties())));

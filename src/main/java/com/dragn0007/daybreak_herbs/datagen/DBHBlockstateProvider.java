@@ -51,6 +51,11 @@ public class DBHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(DBHBlocks.WILD_ECHINACEA.get(), models().cross(DBHBlocks.WILD_ECHINACEA.getId().getPath(),
                 wildPlantTexture("echinacea_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) DBHBlocks.WHITE_SAGEBRUSH.get(), "white_sagebrush", "white_sagebrush",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(DBHBlocks.WILD_WHITE_SAGEBRUSH.get(), models().cross(DBHBlocks.WILD_WHITE_SAGEBRUSH.getId().getPath(),
+                wildPlantTexture("white_sagebrush_stage3")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {

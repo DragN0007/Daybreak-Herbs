@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:white_sagebrush_leaf"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_white_sagebrush_leaf"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
