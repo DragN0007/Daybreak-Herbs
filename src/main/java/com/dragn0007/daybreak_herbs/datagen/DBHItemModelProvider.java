@@ -33,6 +33,10 @@ public class DBHItemModelProvider extends ItemModelProvider {
         advancedBlockItem(DBHBlocks.WILD_ELDERBERRY, "elderberry_stage3");
         simpleItem(DBHItems.ELDERBERRY);
         simpleItem(DBHItems.DRIED_ELDERBERRY);
+
+        advancedBlockItem(DBHBlocks.WILD_CATMINT, "catmint_stage3");
+        simpleItem(DBHItems.CATMINT);
+        simpleItem(DBHItems.DRIED_CATMINT);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

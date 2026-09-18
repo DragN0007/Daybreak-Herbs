@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:catmint"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_catmint"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
