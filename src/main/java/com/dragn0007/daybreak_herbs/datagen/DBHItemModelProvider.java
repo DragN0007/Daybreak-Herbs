@@ -24,10 +24,15 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.GOLDENROD_PETALS);
         simpleItem(DBHItems.GOLDENROD_POULTICE);
         advancedItem(DBHItems.DRIED_GOLDENROD_PETALS, "dried_petals");
+
         advancedBlockItem(DBHBlocks.WILD_HORSE_MINT, "horse_mint_stage3");
         simpleItem(DBHItems.HORSE_MINT);
         simpleItem(DBHItems.HORSE_MINT_PETALS);
         advancedItem(DBHItems.DRIED_HORSE_MINT_PETALS, "dried_petals");
+
+        advancedBlockItem(DBHBlocks.WILD_ELDERBERRY, "elderberry_stage3");
+        simpleItem(DBHItems.ELDERBERRY);
+        simpleItem(DBHItems.DRIED_ELDERBERRY);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

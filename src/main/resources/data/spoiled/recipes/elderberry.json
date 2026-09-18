@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:elderberry"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_elderberry"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

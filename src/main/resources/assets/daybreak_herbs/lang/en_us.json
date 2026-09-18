@@ -27,8 +27,8 @@
 
   "block.daybreak_herbs.elderberry": "Elderberry Bush",
   "block.daybreak_herbs.wild_elderberry": "Elderberry Bush",
-  "item.daybreak_herbs.elderberry": "Elderberry",
-  "item.daybreak_herbs.dried_elderberry": "Dried Elderberry",
+  "item.daybreak_herbs.elderberry": "Elderberries",
+  "item.daybreak_herbs.dried_elderberry": "Dried Elderberries",
   "tooltip.daybreak_herbs.elderberry.tooltip": "Eaten to treat mild fever and colds.",
   "tooltip.daybreak_herbs.elderberry_plants.tooltip": "Plants Elderberry Bush.",
 
