@@ -39,7 +39,7 @@ public class DBHItems {
 
     public static final RegistryObject<Item> ECHINACEA_ROOTS = ITEMS.register("echinacea_roots",
             () -> new EchinaceaItem(DBHBlocks.ECHINACEA.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
-                    .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 300, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F)
                     .build())));
 
     public static final RegistryObject<Item> WHITE_SAGEBRUSH = ITEMS.register("white_sagebrush",

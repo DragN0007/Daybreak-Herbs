@@ -31,5 +31,6 @@ public class EchinaceaItem extends HerbalNameBlockItem {
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.echinacea_roots.tooltip").withStyle(ChatFormatting.GRAY));
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.echinacea_plants.tooltip").withStyle(ChatFormatting.YELLOW));
+        appendEffectText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:echinacea_roots"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_echinacea_roots"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
