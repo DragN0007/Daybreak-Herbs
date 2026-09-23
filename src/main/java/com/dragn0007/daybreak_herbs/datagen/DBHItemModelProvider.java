@@ -50,6 +50,12 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.WHITE_SAGEBRUSH);
         simpleItem(DBHItems.WHITE_SAGEBRUSH_LEAF);
         advancedItem(DBHItems.DRIED_WHITE_SAGEBRUSH_LEAF, "dried_leaf");
+
+        advancedBlockItem(DBHBlocks.WILD_RIBWORT, "ribwort_stage3");
+        simpleItem(DBHItems.RIBWORT);
+        simpleItem(DBHItems.RIBWORT_LEAF);
+        simpleItem(DBHItems.RIBWORT_POULTICE);
+        advancedItem(DBHItems.DRIED_RIBWORT_LEAF, "dried_leaf");
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

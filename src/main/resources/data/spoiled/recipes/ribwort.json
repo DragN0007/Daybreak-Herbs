@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:ribwort_leaf"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_ribwort_leaf"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

@@ -56,6 +56,11 @@ public class DBHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(DBHBlocks.WILD_WHITE_SAGEBRUSH.get(), models().cross(DBHBlocks.WILD_WHITE_SAGEBRUSH.getId().getPath(),
                 wildPlantTexture("white_sagebrush_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) DBHBlocks.RIBWORT.get(), "ribwort", "ribwort",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(DBHBlocks.WILD_RIBWORT.get(), models().cross(DBHBlocks.WILD_RIBWORT.getId().getPath(),
+                wildPlantTexture("ribwort_stage3")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {
