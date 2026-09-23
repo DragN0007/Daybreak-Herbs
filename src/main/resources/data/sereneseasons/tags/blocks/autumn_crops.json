@@ -4,6 +4,7 @@
     {"id": "daybreak_herbs:goldenrod", "required": false},
     {"id": "daybreak_herbs:horse_mint", "required": false},
     {"id": "daybreak_herbs:elderberry", "required": false},
-    {"id": "daybreak_herbs:white_sagebrush", "required": false}
+    {"id": "daybreak_herbs:white_sagebrush", "required": false},
+    {"id": "daybreak_herbs:sweetroot", "required": false}
   ]
 }

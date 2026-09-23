@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "daybreak_herbs:block/sweetroot_stage3"
+  }
+}

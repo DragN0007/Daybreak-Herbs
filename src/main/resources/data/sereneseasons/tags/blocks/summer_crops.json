@@ -6,6 +6,7 @@
     {"id": "daybreak_herbs:catmint", "required": false},
     {"id": "daybreak_herbs:yarrow", "required": false},
     {"id": "daybreak_herbs:white_sagebrush", "required": false},
-    {"id": "daybreak_herbs:ribwort", "required": false}
+    {"id": "daybreak_herbs:ribwort", "required": false},
+    {"id": "daybreak_herbs:sweetroot", "required": false}
   ]
 }

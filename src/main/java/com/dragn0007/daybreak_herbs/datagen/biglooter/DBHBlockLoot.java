@@ -96,6 +96,15 @@ public class DBHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cB8).add(LootItem.lootTableItem(DBHItems.RIBWORT.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(DBHBlocks.WILD_RIBWORT.get(), DBHItems.RIBWORT.get());
+
+        LootItemCondition.Builder cB9 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(DBHBlocks.SWEETROOT.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(DBHBlocks.SWEETROOT.get(),
+                this.applyExplosionDecay(DBHBlocks.SWEETROOT.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(DBHItems.SWEETROOT.get())))
+                                .withPool(LootPool.lootPool().when(cB9).add(LootItem.lootTableItem(DBHItems.SWEETROOT.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(DBHBlocks.WILD_SWEETROOT.get(), DBHItems.SWEETROOT.get());
     }
 
     @Override
