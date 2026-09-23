@@ -184,9 +184,6 @@ public class DBHItems {
     public static final RegistryObject<Item> DRIED_SWEETROOT = ITEMS.register("dried_sweetroot",
             () -> new DriedSweetrootItem(new Item.Properties()));
 
-   public static final RegistryObject<Item> DRIED_SUNDROPS_BUDS = ITEMS.register("dried_sundrops_buds",
-            () -> new SundropsBudsItem(new Item.Properties()));
-
     public static final RegistryObject<Item> DRIED_BONESET = ITEMS.register("dried_boneset",
             () -> new DriedBonesetItem(new Item.Properties()));
 

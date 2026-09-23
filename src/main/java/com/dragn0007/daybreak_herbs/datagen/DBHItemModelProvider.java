@@ -60,6 +60,11 @@ public class DBHItemModelProvider extends ItemModelProvider {
         advancedBlockItem(DBHBlocks.WILD_SWEETROOT, "sweetroot_stage3");
         simpleItem(DBHItems.SWEETROOT);
         simpleItem(DBHItems.DRIED_SWEETROOT);
+
+        advancedBlockItem(DBHBlocks.WILD_SUNDROPS, "sundrops_stage3");
+        simpleItem(DBHItems.SUNDROPS);
+        simpleItem(DBHItems.SUNDROPS_BUDS);
+        simpleItem(DBHItems.SUNDROPS_POULTICE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

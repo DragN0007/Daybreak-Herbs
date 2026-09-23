@@ -74,7 +74,6 @@ public class DBHItemGroupModifier {
                         output.accept(DBHItems.DRIED_WHITE_SAGEBRUSH_LEAF.get());
                         output.accept(DBHItems.DRIED_RIBWORT_LEAF.get());
                         output.accept(DBHItems.DRIED_SWEETROOT.get());
-                        output.accept(DBHItems.DRIED_SUNDROPS_BUDS.get());
                         output.accept(DBHItems.DRIED_BONESET.get());
                         output.accept(DBHItems.DRIED_MARSH_MALLOW_ROOTS.get());
                         output.accept(DBHItems.DRIED_CALAMUS.get());

@@ -1,10 +1,14 @@
 package com.dragn0007.daybreak_herbs.items.custom;
 
+import com.dragn0007.daybreak_herbs.items.DBHItems;
 import com.dragn0007.daybreak_herbs.items.custom.base.HerbalItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
@@ -23,7 +27,15 @@ public class SundropsBudsItem extends HerbalItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        //poultice
+        ItemStack processedStack = new ItemStack(DBHItems.SUNDROPS_POULTICE.get());
+        if (entity instanceof Player player) {
+            if (player.getOffhandItem().isEmpty() || player.getOffhandItem().getItem() == Items.AIR) {
+                itemStack.shrink(1);
+                player.setItemInHand(InteractionHand.OFF_HAND, processedStack);
+            } else {
+                player.displayClientMessage(Component.translatable("The off-paw must be free to process this plant!").withStyle(ChatFormatting.GOLD), true);
+            }
+        }
         return super.finishUsingItem(itemStack, level, entity);
     }
 

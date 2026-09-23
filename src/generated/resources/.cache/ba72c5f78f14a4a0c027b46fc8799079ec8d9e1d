@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-22T20:33:36.984097	Item Models: daybreak_herbs
+// 1.20.1	2026-09-22T20:43:59.8813343	Item Models: daybreak_herbs
 937872a8523712fdb1223e40390f6fb2facdc200 assets/daybreak_herbs/models/item/catmint.json
 04dc7ec02cf9a0e10d3a4e515a89c45ee9c03f56 assets/daybreak_herbs/models/item/dried_catmint.json
 6e9b74dbe0a7665ba549deccb0f9e6d3b31b890f assets/daybreak_herbs/models/item/dried_echinacea_roots.json
@@ -19,6 +19,9 @@ a8eec2b9137daa5633341b48f26c9683f274a26a assets/daybreak_herbs/models/item/horse
 80a32ddf1328a5e2847e8cf9b3910217cf5da0e4 assets/daybreak_herbs/models/item/ribwort.json
 8ae3ccff568a39cac89c18b02a2d7613e045997a assets/daybreak_herbs/models/item/ribwort_leaf.json
 2c148225c2a2d8721844075da84b3f91aa1b16dc assets/daybreak_herbs/models/item/ribwort_poultice.json
+abb3df711427c3744996840c86246f138ff71370 assets/daybreak_herbs/models/item/sundrops.json
+a4364d44b6ff818970f197678bea34616497fe22 assets/daybreak_herbs/models/item/sundrops_buds.json
+b9502657788e6ad855a0e4a54f21d4427a0e75fb assets/daybreak_herbs/models/item/sundrops_poultice.json
 ace9c775f677454fa62b7e0f5130f4ec96b6f6be assets/daybreak_herbs/models/item/sweetroot.json
 523f4e5a603ff659cbb241397017e4b86be0e18f assets/daybreak_herbs/models/item/white_sagebrush.json
 27b19dd796dbc80772f327d38d0b9e953ae656e0 assets/daybreak_herbs/models/item/white_sagebrush_leaf.json
@@ -28,6 +31,7 @@ f4ad7dea55962ca48b67ff748251d8b2921d0426 assets/daybreak_herbs/models/item/wild_
 3395cd51505fa5b5a65928b37c24f96078208ff4 assets/daybreak_herbs/models/item/wild_goldenrod.json
 1a49d40389ef677897937f33ae21d6d67f02c70f assets/daybreak_herbs/models/item/wild_horse_mint.json
 34745f0193d780e4818dc63c34a2db14c22d4c0d assets/daybreak_herbs/models/item/wild_ribwort.json
+bf1e98ce08f033c05a8eaacee4fe41b747b2eb7c assets/daybreak_herbs/models/item/wild_sundrops.json
 968f90e178819f21d28017baa9c8d31ca01ce0a5 assets/daybreak_herbs/models/item/wild_sweetroot.json
 2544ac5f21c2fc06dcf5808210124b730b4b5ce8 assets/daybreak_herbs/models/item/wild_white_sagebrush.json
 0cde643c31885eb97dd7332295db90ae85a674c1 assets/daybreak_herbs/models/item/wild_yarrow.json
