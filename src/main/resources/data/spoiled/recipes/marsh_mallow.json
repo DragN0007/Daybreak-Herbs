@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:marsh_mallow_roots"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_marsh_mallow_roots"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

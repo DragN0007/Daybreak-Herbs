@@ -69,6 +69,11 @@ public class DBHItemModelProvider extends ItemModelProvider {
         advancedBlockItem(DBHBlocks.WILD_BONESET, "boneset_stage3");
         simpleItem(DBHItems.BONESET);
         simpleItem(DBHItems.DRIED_BONESET);
+
+        advancedBlockItem(DBHBlocks.WILD_MARSH_MALLOW, "marsh_mallow_stage3");
+        simpleItem(DBHItems.MARSH_MALLOW);
+        simpleItem(DBHItems.MARSH_MALLOW_ROOTS);
+        simpleItem(DBHItems.DRIED_MARSH_MALLOW_ROOTS);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
