@@ -65,6 +65,10 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.SUNDROPS);
         simpleItem(DBHItems.SUNDROPS_BUDS);
         simpleItem(DBHItems.SUNDROPS_POULTICE);
+
+        advancedBlockItem(DBHBlocks.WILD_BONESET, "boneset_stage3");
+        simpleItem(DBHItems.BONESET);
+        simpleItem(DBHItems.DRIED_BONESET);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

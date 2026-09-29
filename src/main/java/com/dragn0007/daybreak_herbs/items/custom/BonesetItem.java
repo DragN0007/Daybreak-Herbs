@@ -3,6 +3,7 @@ package com.dragn0007.daybreak_herbs.items.custom;
 import com.dragn0007.daybreak_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -24,6 +25,7 @@ public class BonesetItem extends HerbalNameBlockItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
+        if (!level.isClientSide) entity.removeEffect(MobEffects.CONFUSION);
         return super.finishUsingItem(itemStack, level, entity);
     }
 
@@ -31,5 +33,6 @@ public class BonesetItem extends HerbalNameBlockItem {
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.boneset.tooltip").withStyle(ChatFormatting.GRAY));
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.boneset_plants.tooltip").withStyle(ChatFormatting.YELLOW));
+        appendEffectText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

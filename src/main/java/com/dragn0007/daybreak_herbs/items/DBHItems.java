@@ -66,7 +66,9 @@ public class DBHItems {
             () -> new SundropsBudsItem(new Item.Properties()));
 
     public static final RegistryObject<Item> BONESET = ITEMS.register("boneset",
-            () -> new BonesetItem(DBHBlocks.BONESET.get(), (new Item.Properties())));
+            () -> new BonesetItem(DBHBlocks.BONESET.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> MARSH_MALLOW = ITEMS.register("marsh_mallow",
             () -> new MarshMallowItem(DBHBlocks.MARSH_MALLOW.get(), (new Item.Properties())));
