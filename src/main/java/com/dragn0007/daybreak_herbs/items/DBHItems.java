@@ -95,7 +95,7 @@ public class DBHItems {
             () -> new BulrushFluffItem(new Item.Properties()));
 
     public static final RegistryObject<Item> BULRUSH_ROOTS = ITEMS.register("bulrush_roots",
-            () -> new BulrushRootsItem(new Item.Properties()));
+            () -> new BulrushRootsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).build())));
 
     public static final RegistryObject<Item> GOLDENSEAL = ITEMS.register("goldenseal",
             () -> new GoldensealItem(DBHBlocks.GOLDENSEAL.get(), (new Item.Properties())));

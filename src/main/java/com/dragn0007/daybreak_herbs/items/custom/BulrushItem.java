@@ -1,10 +1,14 @@
 package com.dragn0007.daybreak_herbs.items.custom;
 
+import com.dragn0007.daybreak_herbs.items.DBHItems;
 import com.dragn0007.daybreak_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
@@ -24,7 +28,17 @@ public class BulrushItem extends HerbalNameBlockItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        //turn into fluff & roots
+        ItemStack processedStack = new ItemStack(DBHItems.BULRUSH_FLUFF.get());
+        ItemStack processedStack2 = new ItemStack(DBHItems.BULRUSH_ROOTS.get());
+        if (entity instanceof Player player) {
+            if (player.getOffhandItem().isEmpty() || player.getOffhandItem().getItem() == Items.AIR) {
+                itemStack.shrink(1);
+                player.setItemInHand(InteractionHand.OFF_HAND, processedStack);
+                player.setItemInHand(InteractionHand.OFF_HAND, processedStack2);
+            } else {
+                player.displayClientMessage(Component.translatable("The off-paw must be free to process this plant!").withStyle(ChatFormatting.GOLD), true);
+            }
+        }
         return super.finishUsingItem(itemStack, level, entity);
     }
 

@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:bulrush_roots"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_bulrush_roots"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

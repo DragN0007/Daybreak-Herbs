@@ -96,6 +96,11 @@ public class DBHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(DBHBlocks.WILD_WINTERBLOOM.get(), models().cross(DBHBlocks.WILD_WINTERBLOOM.getId().getPath(),
                 wildPlantTexture("winterbloom_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) DBHBlocks.BULRUSH.get(), "bulrush", "bulrush",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(DBHBlocks.WILD_BULRUSH.get(), models().cross(DBHBlocks.WILD_BULRUSH.getId().getPath(),
+                wildPlantTexture("bulrush_stage3")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {

@@ -19,7 +19,7 @@ public class BulrushRootsItem extends HerbalItem {
     }
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
-        return UseAnim.BRUSH;
+        return UseAnim.EAT;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
