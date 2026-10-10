@@ -141,6 +141,15 @@ public class DBHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cB13).add(LootItem.lootTableItem(DBHItems.CALAMUS.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(DBHBlocks.WILD_CALAMUS.get(), DBHItems.CALAMUS.get());
+
+        LootItemCondition.Builder cB14 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(DBHBlocks.JEWELWEED.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(DBHBlocks.JEWELWEED.get(),
+                this.applyExplosionDecay(DBHBlocks.JEWELWEED.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(DBHItems.JEWELWEED.get())))
+                                .withPool(LootPool.lootPool().when(cB14).add(LootItem.lootTableItem(DBHItems.JEWELWEED.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(DBHBlocks.WILD_JEWELWEED.get(), DBHItems.JEWELWEED.get());
     }
 
     @Override
