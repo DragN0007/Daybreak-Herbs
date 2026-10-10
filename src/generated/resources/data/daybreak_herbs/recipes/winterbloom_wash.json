@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "daybreak_herbs:winterbloom_leaf"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "forge:leaves"
+    },
+    {
+      "tag": "forge:leaves"
+    }
+  ],
+  "result": {
+    "item": "daybreak_herbs:winterbloom_wash"
+  }
+}

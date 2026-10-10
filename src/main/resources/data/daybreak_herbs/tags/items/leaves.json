@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "daybreak_herbs:white_sagebrush_leaf", "required": false},
+    {"id": "daybreak_herbs:ribwort_leaf", "required": false},
+    {"id": "daybreak_herbs:winterbloom_leaf", "required": false}
+  ]
+}

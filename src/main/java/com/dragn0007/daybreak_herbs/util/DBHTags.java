@@ -11,6 +11,7 @@ public class DBHTags {
     public static class Items {
         public static final TagKey<Item> SIMPLE_ROTTERS = forgeTag("simple_rotters"); //plants that just spoil into Rotted Plant Matter
         public static final TagKey<Item> DRIED_ROTTERS = forgeTag("dried_rotters"); //dried items that spoil slower
+        public static final TagKey<Item> LEAVES = forgeTag("leaves"); //leaves that can be used for crafting
 
         public static TagKey<Item> forgeTag (String name) {
             return ItemTags.create(new ResourceLocation("forge", name));
