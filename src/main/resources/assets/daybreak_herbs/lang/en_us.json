@@ -122,9 +122,9 @@
   "item.daybreak_herbs.winterbloom": "Winterbloom",
   "item.daybreak_herbs.winterbloom_leaf": "Winterbloom Leaf",
   "item.daybreak_herbs.dried_winterbloom_leaf": "Dried Winterbloom Leaf",
-  "tooltip.daybreak_herbs.winterbloom.tooltip": "Mixing the leaves with water makes an excellent antimicrobial wash that can also reduce swelling.",
+  "tooltip.daybreak_herbs.winterbloom_wash.tooltip": "An excellent antimicrobial wash that can reduce swelling.",
   "tooltip.daybreak_herbs.winterbloom_plants.tooltip": "Plants Winterbloom.",
-  "tooltip.daybreak_herbs.winterbloom_leaf.tooltip": "Makes an excellent antimicrobial wash when combined with water that can also reduce swelling.",
+  "tooltip.daybreak_herbs.winterbloom_leaf.tooltip": "Makes an excellent antimicrobial wash when combined with water that can reduce swelling.",
 
   "block.daybreak_herbs.bulrush": "Bulrush",
   "block.daybreak_herbs.wild_bulrush": "Bulrush",

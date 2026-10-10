@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:winterbloom_leaf"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_winterbloom_leaf"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

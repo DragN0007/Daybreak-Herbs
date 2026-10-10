@@ -238,6 +238,11 @@ public class DBHItems {
             () -> new PokeweedItem(new Item.Properties()));
 
     //Misc
+    public static final RegistryObject<Item> WINTERBLOOM_WASH = ITEMS.register("winterbloom_wash",
+            () -> new WinterbloomWashItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
+                    .build())));
+
     public static final RegistryObject<Item> ROTTED_PLANT_MATTER = ITEMS.register("rotted_plant_matter",
             () -> new MatterItem(new Item.Properties()));
 

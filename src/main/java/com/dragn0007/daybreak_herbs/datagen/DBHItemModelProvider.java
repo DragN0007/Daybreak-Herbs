@@ -82,6 +82,12 @@ public class DBHItemModelProvider extends ItemModelProvider {
         advancedBlockItem(DBHBlocks.WILD_JEWELWEED, "jewelweed_stage3");
         simpleItem(DBHItems.JEWELWEED);
         simpleItem(DBHItems.DRIED_JEWELWEED);
+
+        advancedBlockItem(DBHBlocks.WILD_WINTERBLOOM, "winterbloom_stage3");
+        simpleItem(DBHItems.WINTERBLOOM);
+        simpleItem(DBHItems.WINTERBLOOM_LEAF);
+        advancedItem(DBHItems.DRIED_WINTERBLOOM_LEAF, "dried_leaf");
+        simpleItem(DBHItems.WINTERBLOOM_WASH);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

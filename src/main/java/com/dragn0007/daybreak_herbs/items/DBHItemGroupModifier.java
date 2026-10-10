@@ -21,6 +21,8 @@ public class DBHItemGroupModifier {
                         output.accept(DBHItems.COBWEB.get());
                         output.accept(DBHItems.MOSS_CLUMP.get());
                         output.accept(DBHItems.PINE_RESIN.get());
+                        output.accept(DBHItems.WINTERBLOOM_WASH.get());
+                        output.accept(DBHItems.ROTTED_PLANT_MATTER.get());
 
                         output.accept(DBHItems.GOLDENROD_POULTICE.get());
                         output.accept(DBHItems.RIBWORT_POULTICE.get());

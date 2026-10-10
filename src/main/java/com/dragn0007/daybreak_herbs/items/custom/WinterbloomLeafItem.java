@@ -19,7 +19,7 @@ public class WinterbloomLeafItem extends HerbalItem {
     }
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
-        return UseAnim.EAT;
+        return UseAnim.BRUSH;
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
