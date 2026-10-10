@@ -9,10 +9,10 @@
       "item": "minecraft:water_bucket"
     },
     {
-      "tag": "forge:leaves"
+      "tag": "daybreak_herbs:leaves"
     },
     {
-      "tag": "forge:leaves"
+      "tag": "daybreak_herbs:leaves"
     }
   ],
   "result": {
