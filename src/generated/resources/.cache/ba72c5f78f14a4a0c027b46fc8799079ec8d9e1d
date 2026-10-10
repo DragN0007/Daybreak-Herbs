@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-10T03:51:05.0168165	Item Models: daybreak_herbs
+// 1.20.1	2026-10-10T04:01:02.4275128	Item Models: daybreak_herbs
 db704cef59b159d4f8d330aaaf807846a5401ca6 assets/daybreak_herbs/models/item/boneset.json
 12b46ad25135b9b13247a11930e174bb8a05dc6b assets/daybreak_herbs/models/item/bulrush.json
 47e7839efca33de61afc8be770201c03ab891e9d assets/daybreak_herbs/models/item/bulrush_fluff.json
@@ -12,6 +12,7 @@ b9913fbb42629aa7b84031689d149bc84714017d assets/daybreak_herbs/models/item/dried
 6e9b74dbe0a7665ba549deccb0f9e6d3b31b890f assets/daybreak_herbs/models/item/dried_echinacea_roots.json
 68cd67cc3cd4f44ca87603dfce58121e31db99b7 assets/daybreak_herbs/models/item/dried_elderberry.json
 89ecefae6f5488dbecd03273296b1785bb935cf6 assets/daybreak_herbs/models/item/dried_goldenrod_petals.json
+3daf0e1b273179bb239684328d3ef59770df0ad7 assets/daybreak_herbs/models/item/dried_goldenseal.json
 89ecefae6f5488dbecd03273296b1785bb935cf6 assets/daybreak_herbs/models/item/dried_horse_mint_petals.json
 c825a337b9454f21b86a29e4d7e7d0fb368c0c53 assets/daybreak_herbs/models/item/dried_jewelweed.json
 eea5b4b1ab943f420ffca7389c5899216be12920 assets/daybreak_herbs/models/item/dried_marsh_mallow_roots.json
@@ -25,6 +26,8 @@ b8e765a57273a3a662bdb3336db10b73d813daee assets/daybreak_herbs/models/item/dried
 b264192bf1462d8606199b3a7fe337fe19a13bc2 assets/daybreak_herbs/models/item/goldenrod.json
 e9bc374a8d66369f86ad457005598d32887e84ed assets/daybreak_herbs/models/item/goldenrod_petals.json
 63630551de0285c640a2ce097c209476c4372846 assets/daybreak_herbs/models/item/goldenrod_poultice.json
+9c75b6d68c32b7db1f415513b85f038e6499d548 assets/daybreak_herbs/models/item/goldenseal.json
+61a5d025b5272a6234a81f1f7bbd34793c2b1b3f assets/daybreak_herbs/models/item/goldenseal_poultice.json
 a8eec2b9137daa5633341b48f26c9683f274a26a assets/daybreak_herbs/models/item/horse_mint.json
 063bd1e2f46691be5f75c86184c12089d5baf567 assets/daybreak_herbs/models/item/horse_mint_petals.json
 42969bd1767c6f00b14f69e5cb1dff4675a0b25a assets/daybreak_herbs/models/item/jewelweed.json
@@ -46,6 +49,7 @@ ace9c775f677454fa62b7e0f5130f4ec96b6f6be assets/daybreak_herbs/models/item/sweet
 f4ad7dea55962ca48b67ff748251d8b2921d0426 assets/daybreak_herbs/models/item/wild_echinacea.json
 3eafabdb9e9c01c1bfe0dd7d8a654cb655a1227d assets/daybreak_herbs/models/item/wild_elderberry.json
 3395cd51505fa5b5a65928b37c24f96078208ff4 assets/daybreak_herbs/models/item/wild_goldenrod.json
+16719fc84a8a0c70c0acba69e0b13722aa50cbd7 assets/daybreak_herbs/models/item/wild_goldenseal.json
 1a49d40389ef677897937f33ae21d6d67f02c70f assets/daybreak_herbs/models/item/wild_horse_mint.json
 31218a9ae1e90a3d43f8ad31558ddc3bdccae933 assets/daybreak_herbs/models/item/wild_jewelweed.json
 86f4d4a8f1005f4b07a43912daf8e7b3d51f15f6 assets/daybreak_herbs/models/item/wild_marsh_mallow.json

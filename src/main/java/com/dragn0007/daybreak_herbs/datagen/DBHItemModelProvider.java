@@ -94,6 +94,11 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.BULRUSH_ROOTS);
         simpleItem(DBHItems.DRIED_BULRUSH_ROOTS);
         simpleItem(DBHItems.BULRUSH_FLUFF);
+
+        advancedBlockItem(DBHBlocks.WILD_GOLDENSEAL, "goldenseal_stage3");
+        simpleItem(DBHItems.GOLDENSEAL);
+        simpleItem(DBHItems.DRIED_GOLDENSEAL);
+        simpleItem(DBHItems.GOLDENSEAL_POULTICE);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

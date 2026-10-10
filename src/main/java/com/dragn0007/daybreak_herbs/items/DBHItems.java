@@ -144,7 +144,9 @@ public class DBHItems {
             () -> new SundropsPasteItem(new Item.Properties()));
 
     public static final RegistryObject<Item> GOLDENSEAL_POULTICE = ITEMS.register("goldenseal_poultice",
-            () -> new GoldensealPasteItem(new Item.Properties()));
+            () -> new GoldensealPasteItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F)
+                    .build())));
 
     //Materials
     public static final RegistryObject<Item> WHITE_WILLOW = ITEMS.register("white_willow",
