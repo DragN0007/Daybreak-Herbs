@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:calamus"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_calamus"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

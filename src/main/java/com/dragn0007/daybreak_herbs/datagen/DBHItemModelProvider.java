@@ -74,6 +74,10 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.MARSH_MALLOW);
         simpleItem(DBHItems.MARSH_MALLOW_ROOTS);
         simpleItem(DBHItems.DRIED_MARSH_MALLOW_ROOTS);
+
+        advancedBlockItem(DBHBlocks.WILD_CALAMUS, "calamus_stage3");
+        simpleItem(DBHItems.CALAMUS);
+        simpleItem(DBHItems.DRIED_CALAMUS);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

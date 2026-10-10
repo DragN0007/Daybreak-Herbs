@@ -81,6 +81,11 @@ public class DBHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(DBHBlocks.WILD_MARSH_MALLOW.get(), models().cross(DBHBlocks.WILD_MARSH_MALLOW.getId().getPath(),
                 wildPlantTexture("marsh_mallow_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) DBHBlocks.CALAMUS.get(), "calamus", "calamus",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(DBHBlocks.WILD_CALAMUS.get(), models().cross(DBHBlocks.WILD_CALAMUS.getId().getPath(),
+                wildPlantTexture("calamus_stage3")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {

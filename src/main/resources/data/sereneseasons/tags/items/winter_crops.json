@@ -4,6 +4,7 @@
     {"id": "daybreak_herbs:horse_mint", "required": false},
     {"id": "daybreak_herbs:elderberry", "required": false},
     {"id": "daybreak_herbs:echinacea", "required": false},
-    {"id": "daybreak_herbs:boneset", "required": false}
+    {"id": "daybreak_herbs:boneset", "required": false},
+    {"id": "daybreak_herbs:calamus", "required": false}
   ]
 }
