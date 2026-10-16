@@ -99,6 +99,11 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.GOLDENSEAL);
         simpleItem(DBHItems.DRIED_GOLDENSEAL);
         simpleItem(DBHItems.GOLDENSEAL_POULTICE);
+
+        advancedBlockItem(DBHBlocks.WILD_ARNICA, "arnica_stage3");
+        simpleItem(DBHItems.ARNICA);
+        simpleItem(DBHItems.ARNICA_PETALS);
+        advancedItem(DBHItems.DRIED_ARNICA_PETALS, "dried_petals");
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

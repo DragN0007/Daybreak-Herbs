@@ -1,10 +1,13 @@
-// 1.20.1	2026-10-10T04:01:02.4275128	Item Models: daybreak_herbs
+// 1.20.1	2026-10-16T02:42:12.3089122	Item Models: daybreak_herbs
+4b706f9867043d1f537592393361129653d65934 assets/daybreak_herbs/models/item/arnica.json
+3eb4427af3c394b05c5ddef65a1738299d99eac3 assets/daybreak_herbs/models/item/arnica_petals.json
 db704cef59b159d4f8d330aaaf807846a5401ca6 assets/daybreak_herbs/models/item/boneset.json
 12b46ad25135b9b13247a11930e174bb8a05dc6b assets/daybreak_herbs/models/item/bulrush.json
 47e7839efca33de61afc8be770201c03ab891e9d assets/daybreak_herbs/models/item/bulrush_fluff.json
 6bb3a4c8d714689377f55ebe0b353704cb0e3b9a assets/daybreak_herbs/models/item/bulrush_roots.json
 311aff6394103c7611ad66984648103aab878680 assets/daybreak_herbs/models/item/calamus.json
 937872a8523712fdb1223e40390f6fb2facdc200 assets/daybreak_herbs/models/item/catmint.json
+89ecefae6f5488dbecd03273296b1785bb935cf6 assets/daybreak_herbs/models/item/dried_arnica_petals.json
 3ce93005f7833fed3cf778ec732e313e687c22b0 assets/daybreak_herbs/models/item/dried_boneset.json
 a9f13084c2b291a8e4d3c407312d2344c9cd4995 assets/daybreak_herbs/models/item/dried_bulrush_roots.json
 b9913fbb42629aa7b84031689d149bc84714017d assets/daybreak_herbs/models/item/dried_calamus.json
@@ -42,6 +45,7 @@ b9502657788e6ad855a0e4a54f21d4427a0e75fb assets/daybreak_herbs/models/item/sundr
 ace9c775f677454fa62b7e0f5130f4ec96b6f6be assets/daybreak_herbs/models/item/sweetroot.json
 523f4e5a603ff659cbb241397017e4b86be0e18f assets/daybreak_herbs/models/item/white_sagebrush.json
 27b19dd796dbc80772f327d38d0b9e953ae656e0 assets/daybreak_herbs/models/item/white_sagebrush_leaf.json
+f402cbfb046a04a0dbcc1acb6780953f9f047aee assets/daybreak_herbs/models/item/wild_arnica.json
 817a2bf8fe199bde9bc707d474fdf377bd90f13b assets/daybreak_herbs/models/item/wild_boneset.json
 2f8fc812d08a7de3570d315d94701c4d63185697 assets/daybreak_herbs/models/item/wild_bulrush.json
 1cfa3ec2ac9a808058d6a7e66fdf4ef3b802d55d assets/daybreak_herbs/models/item/wild_calamus.json

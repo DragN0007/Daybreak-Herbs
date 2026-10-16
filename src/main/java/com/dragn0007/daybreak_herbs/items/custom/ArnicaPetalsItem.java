@@ -29,5 +29,6 @@ public class ArnicaPetalsItem extends HerbalItem {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.arnica.tooltip").withStyle(ChatFormatting.GRAY));
+        appendEffectText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

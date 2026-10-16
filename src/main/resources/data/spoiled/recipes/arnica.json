@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:arnica_petals"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_arnica_petals"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}

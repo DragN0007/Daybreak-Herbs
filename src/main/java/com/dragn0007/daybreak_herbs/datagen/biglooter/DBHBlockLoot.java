@@ -177,6 +177,15 @@ public class DBHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cB17).add(LootItem.lootTableItem(DBHItems.GOLDENSEAL.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(DBHBlocks.WILD_GOLDENSEAL.get(), DBHItems.GOLDENSEAL.get());
+
+        LootItemCondition.Builder cB18 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(DBHBlocks.ARNICA.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(DBHBlocks.ARNICA.get(),
+                this.applyExplosionDecay(DBHBlocks.ARNICA.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(DBHItems.ARNICA.get())))
+                                .withPool(LootPool.lootPool().when(cB18).add(LootItem.lootTableItem(DBHItems.ARNICA.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(DBHBlocks.WILD_ARNICA.get(), DBHItems.ARNICA.get());
     }
 
     @Override
