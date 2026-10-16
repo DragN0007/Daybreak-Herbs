@@ -101,12 +101,12 @@ public class DBHItems {
             () -> new GoldensealItem(DBHBlocks.GOLDENSEAL.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> ARNICA = ITEMS.register("arnica",
-            () -> new ArnicaItem(DBHBlocks.ARNICA.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
-                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
-                    .build())));
+            () -> new ArnicaItem(DBHBlocks.ARNICA.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> ARNICA_PETALS = ITEMS.register("arnica_petals",
-            () -> new ArnicaPetalsItem(new Item.Properties()));
+            () -> new ArnicaPetalsItem( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> RATTLEWEED = ITEMS.register("rattleweed",
             () -> new RattleweedItem(DBHBlocks.RATTLEWEED.get(), (new Item.Properties())));

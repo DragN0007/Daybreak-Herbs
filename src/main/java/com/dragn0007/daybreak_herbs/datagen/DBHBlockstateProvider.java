@@ -111,6 +111,11 @@ public class DBHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(DBHBlocks.WILD_ARNICA.get(), models().cross(DBHBlocks.WILD_ARNICA.getId().getPath(),
                 wildPlantTexture("arnica_stage3")).renderType("cutout"));
+
+        createCrossCrop((HerbCropBlock) DBHBlocks.RATTLEWEED.get(), "rattleweed", "rattleweed",
+                0, 0, 1, 1, 2, 2, 2, 3);
+        simpleBlock(DBHBlocks.WILD_RATTLEWEED.get(), models().cross(DBHBlocks.WILD_RATTLEWEED.getId().getPath(),
+                wildPlantTexture("rattleweed_stage3")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {
