@@ -104,7 +104,7 @@ public class DBHItems {
             () -> new ArnicaItem(DBHBlocks.ARNICA.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> ARNICA_PETALS = ITEMS.register("arnica_petals",
-            () -> new ArnicaPetalsItem( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+            () -> new ArnicaPetalsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
                     .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
                     .build())));
 
@@ -112,7 +112,10 @@ public class DBHItems {
             () -> new RattleweedItem(DBHBlocks.RATTLEWEED.get(), (new Item.Properties())));
 
     public static final RegistryObject<Item> USNEA = ITEMS.register("usnea",
-            () -> new UsneaItem(DBHBlocks.USNEA.get(), (new Item.Properties())));
+            () -> new UsneaItem(DBHBlocks.USNEA.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DARKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> JUNIPER_BERRY = ITEMS.register("juniper_berry",
             () -> new JuniperBerryItem(DBHBlocks.JUNIPER.get(), (new Item.Properties())));

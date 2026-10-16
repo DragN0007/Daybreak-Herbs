@@ -108,6 +108,10 @@ public class DBHItemModelProvider extends ItemModelProvider {
         advancedBlockItem(DBHBlocks.WILD_RATTLEWEED, "rattleweed_stage3");
         simpleItem(DBHItems.RATTLEWEED);
         simpleItem(DBHItems.DRIED_RATTLEWEED);
+
+        advancedBlockItem(DBHBlocks.WILD_USNEA, "usnea_stage3");
+        simpleItem(DBHItems.USNEA);
+        simpleItem(DBHItems.DRIED_USNEA);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

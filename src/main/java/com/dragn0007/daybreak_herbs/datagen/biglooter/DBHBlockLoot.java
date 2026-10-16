@@ -195,6 +195,15 @@ public class DBHBlockLoot extends BlockLootSubProvider {
                                 .withPool(LootPool.lootPool().when(cB19).add(LootItem.lootTableItem(DBHItems.RATTLEWEED.get())
                                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
         dropOther(DBHBlocks.WILD_RATTLEWEED.get(), DBHItems.RATTLEWEED.get());
+
+        LootItemCondition.Builder cB20 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(DBHBlocks.USNEA.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(HerbCropBlock.AGE, 7));
+        this.add(DBHBlocks.USNEA.get(),
+                this.applyExplosionDecay(DBHBlocks.USNEA.get(),
+                        LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(DBHItems.USNEA.get())))
+                                .withPool(LootPool.lootPool().when(cB20).add(LootItem.lootTableItem(DBHItems.USNEA.get())
+                                        .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2))))));
+        dropOther(DBHBlocks.WILD_USNEA.get(), DBHItems.USNEA.get());
     }
 
     @Override

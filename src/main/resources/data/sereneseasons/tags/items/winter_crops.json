@@ -6,6 +6,7 @@
     {"id": "daybreak_herbs:echinacea", "required": false},
     {"id": "daybreak_herbs:boneset", "required": false},
     {"id": "daybreak_herbs:calamus", "required": false},
-    {"id": "daybreak_herbs:winterbloom", "required": false}
+    {"id": "daybreak_herbs:winterbloom", "required": false},
+    {"id": "daybreak_herbs:usnea", "required": false}
   ]
 }
