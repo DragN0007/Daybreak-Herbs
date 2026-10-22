@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:deadly_nightshade_berry"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_deadly_nightshade_berry"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
