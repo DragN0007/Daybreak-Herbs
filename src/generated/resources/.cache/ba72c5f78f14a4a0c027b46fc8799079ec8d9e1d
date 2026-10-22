@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-22T00:16:19.3199005	Item Models: daybreak_herbs
+// 1.20.1	2026-10-22T00:21:38.4197048	Item Models: daybreak_herbs
 4b706f9867043d1f537592393361129653d65934 assets/daybreak_herbs/models/item/arnica.json
 3eb4427af3c394b05c5ddef65a1738299d99eac3 assets/daybreak_herbs/models/item/arnica_petals.json
 db704cef59b159d4f8d330aaaf807846a5401ca6 assets/daybreak_herbs/models/item/boneset.json
@@ -57,6 +57,7 @@ b374678bd977ee90517adabdf9c1177fb4e9797e assets/daybreak_herbs/models/item/poiso
 80a32ddf1328a5e2847e8cf9b3910217cf5da0e4 assets/daybreak_herbs/models/item/ribwort.json
 8ae3ccff568a39cac89c18b02a2d7613e045997a assets/daybreak_herbs/models/item/ribwort_leaf.json
 2c148225c2a2d8721844075da84b3f91aa1b16dc assets/daybreak_herbs/models/item/ribwort_poultice.json
+1f7e5220d775a4d86026ef8e6c1180c78ffc749d assets/daybreak_herbs/models/item/rotted_plant_matter.json
 abb3df711427c3744996840c86246f138ff71370 assets/daybreak_herbs/models/item/sundrops.json
 a4364d44b6ff818970f197678bea34616497fe22 assets/daybreak_herbs/models/item/sundrops_buds.json
 b9502657788e6ad855a0e4a54f21d4427a0e75fb assets/daybreak_herbs/models/item/sundrops_poultice.json

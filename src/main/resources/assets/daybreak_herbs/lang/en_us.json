@@ -176,27 +176,27 @@
   "tooltip.daybreak_herbs.juniper.tooltip": "Used as a mildly effective antiseptic.",
   "tooltip.daybreak_herbs.juniper_plants.tooltip": "Plants Juniper Bush.",
 
-  "block.daybreak_herbs.death_camas": "Death Camas",
+  "block.daybreak_herbs.wild_death_camas": "Death Camas",
   "item.daybreak_herbs.death_camas": "Death Camas",
   "item.daybreak_herbs.dried_death_camas": "Dried Death Camas",
   "tooltip.daybreak_herbs.death_camas.tooltip": "Causes vomiting, weakness, slowed heartbeat, and can be fatal.",
 
-  "block.daybreak_herbs.larkspur": "Larkspur",
+  "block.daybreak_herbs.wild_larkspur": "Larkspur",
   "item.daybreak_herbs.larkspur": "Larkspur",
   "item.daybreak_herbs.dried_larkspur": "Dried Larkspur",
   "tooltip.daybreak_herbs.larkspur.tooltip": "Its beautiful blue-purple flowers hide potent alkaloids that affect the nervous system.",
 
-  "block.daybreak_herbs.deadly_nightshade": "Deadly Nightshade",
+  "block.daybreak_herbs.wild_deadly_nightshade": "Deadly Nightshade",
   "item.daybreak_herbs.deadly_nightshade_berry": "Nightshade Berry",
   "item.daybreak_herbs.dried_deadly_nightshade_berry": "Dried Nightshade Berry",
   "tooltip.daybreak_herbs.nightshade.tooltip": "Berries and foliage may cause stomach upset, confusion, weakness, and, in larger amounts, more severe neurological symptoms.",
 
-  "block.daybreak_herbs.poison_ivy": "Poison Ivy",
+  "block.daybreak_herbs.wild_poison_ivy": "Poison Ivy",
   "item.daybreak_herbs.poison_ivy": "Poison Ivy",
   "item.daybreak_herbs.dried_poison_ivy": "Dried Poison Ivy",
   "tooltip.daybreak_herbs.poison_ivy.tooltip": "Not deadly, but contact with the oils causes painful itching and blistering. Can be treated with Jewelweed.",
 
-  "block.daybreak_herbs.devils_trumpet": "Devils Trumpet",
+  "block.daybreak_herbs.wild_devils_trumpet": "Devils Trumpet",
   "item.daybreak_herbs.devils_trumpet": "Devils Trumpet",
   "item.daybreak_herbs.dried_devils_trumpet": "Dried Devils Trumpet",
   "tooltip.daybreak_herbs.devils_trumpet.tooltip": "Highly toxic plant that affects the nervous system, causing confusion, dilated pupils, and dangerous hallucinations.",
@@ -220,6 +220,8 @@
 
   "item.daybreak_herbs.rotted_plant_matter": "Rotted Plant Matter",
   "tooltip.daybreak_herbs.rotted_plant_matter.tooltip": "The remains of what used to be a plant, now spoiled into useless debris.",
+  "item.daybreak_herbs.leaf_bowl": "Leaf Bowl",
   "tooltip.daybreak_herbs.leaf_bowl.tooltip": "Used to scoop up a small amount of water.",
+  "item.daybreak_herbs.water_leaf_bowl": "Water Leaf Bowl",
   "tooltip.daybreak_herbs.water_leaf_bowl.tooltip": "A small amount of water that can be used in recipes."
 }

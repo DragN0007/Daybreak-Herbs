@@ -142,6 +142,7 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.DRIED_POKEWEED);
 
 
+        simpleItem(DBHItems.ROTTED_PLANT_MATTER);
         simpleItem(DBHItems.LEAF_BOWL);
         simpleItem(DBHItems.WATER_LEAF_BOWL);
     }

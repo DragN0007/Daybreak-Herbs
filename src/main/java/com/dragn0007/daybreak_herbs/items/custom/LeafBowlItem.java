@@ -52,7 +52,7 @@ public class LeafBowlItem extends Item {
                 level.gameEvent(player, GameEvent.FLUID_PICKUP, blockpos);
             }
 
-            ItemStack result = this.fillItem(itemstack, player, new ItemStack(DBHItems.LEAF_BOWL.get()));
+            ItemStack result = this.fillItem(itemstack, player, new ItemStack(DBHItems.WATER_LEAF_BOWL.get()));
             return InteractionResultHolder.sidedSuccess(result, level.isClientSide());
         }
 
