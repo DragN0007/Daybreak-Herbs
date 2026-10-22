@@ -118,7 +118,9 @@ public class DBHItems {
                     .build())));
 
     public static final RegistryObject<Item> JUNIPER_BERRY = ITEMS.register("juniper_berry",
-            () -> new JuniperBerryItem(DBHBlocks.JUNIPER.get(), (new Item.Properties())));
+            () -> new JuniperBerryItem(DBHBlocks.JUNIPER.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DEATH_CAMAS = ITEMS.register("death_camas",
             () -> new DeathCamasItem(new Item.Properties()));

@@ -6,6 +6,7 @@
     {"id": "daybreak_herbs:yarrow", "required": false},
     {"id": "daybreak_herbs:echinacea", "required": false},
     {"id": "daybreak_herbs:arnica", "required": false},
-    {"id": "daybreak_herbs:rattleweed", "required": false}
+    {"id": "daybreak_herbs:rattleweed", "required": false},
+    {"id": "daybreak_herbs:juniper", "required": false}
   ]
 }

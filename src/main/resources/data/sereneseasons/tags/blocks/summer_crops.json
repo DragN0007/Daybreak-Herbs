@@ -11,6 +11,7 @@
     {"id": "daybreak_herbs:sundrops", "required": false},
     {"id": "daybreak_herbs:marsh_mallow", "required": false},
     {"id": "daybreak_herbs:arnica", "required": false},
-    {"id": "daybreak_herbs:rattleweed", "required": false}
+    {"id": "daybreak_herbs:rattleweed", "required": false},
+    {"id": "daybreak_herbs:juniper", "required": false}
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:juniper_berry"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_juniper_berry"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
