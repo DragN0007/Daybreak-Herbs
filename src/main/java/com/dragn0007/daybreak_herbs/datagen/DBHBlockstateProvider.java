@@ -129,6 +129,9 @@ public class DBHBlockstateProvider extends BlockStateProvider {
 
         simpleBlock(DBHBlocks.WILD_DEATH_CAMAS.get(), models().cross(DBHBlocks.WILD_DEATH_CAMAS.getId().getPath(),
                 wildPlantTexture("death_camas")).renderType("cutout"));
+
+        simpleBlock(DBHBlocks.WILD_LARKSPUR.get(), models().cross(DBHBlocks.WILD_LARKSPUR.getId().getPath(),
+                wildPlantTexture("larkspur")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {

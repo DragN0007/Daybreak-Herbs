@@ -131,7 +131,12 @@ public class DBHItems {
                     .build())));
 
     public static final RegistryObject<Item> LARKSPUR = ITEMS.register("larkspur",
-            () -> new LarkspurItem(new Item.Properties()));
+            () -> new LarkspurItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.WITHER, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DEADLY_NIGHTSHADE_BERRY = ITEMS.register("deadly_nightshade_berry",
             () -> new NightshadeItem(new Item.Properties()));

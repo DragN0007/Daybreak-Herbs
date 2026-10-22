@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-21T23:24:37.6508177	Block States: daybreak_herbs
+// 1.20.1	2026-10-21T23:46:10.21882	Block States: daybreak_herbs
 ba3065b5e36f66e5e3201c890612fe112c2f29b4 assets/daybreak_herbs/blockstates/arnica.json
 9ad1267f6d3d42aa18e199a4006202f925e657e2 assets/daybreak_herbs/blockstates/boneset.json
 e86e80be768f24be25435ea487968b23ebfbc3e9 assets/daybreak_herbs/blockstates/bulrush.json
@@ -31,6 +31,7 @@ cc683dc53e6bd5b18bfc179e47ab14e7d31f5e2e assets/daybreak_herbs/blockstates/wild_
 557ab4e328e45b8caaf226ab78bc5bc2a9b24897 assets/daybreak_herbs/blockstates/wild_horse_mint.json
 fce2cfed6fe8f5f66d37e163cffc32f1e04da8c9 assets/daybreak_herbs/blockstates/wild_jewelweed.json
 dc8b11634743612cf2b7507da31c95052c2a0798 assets/daybreak_herbs/blockstates/wild_juniper.json
+1095b54037db83e8a287db923910a0b1d2ee0dc9 assets/daybreak_herbs/blockstates/wild_larkspur.json
 11ee5b1107467fa9aa400aeb9fc2201b74ad23fa assets/daybreak_herbs/blockstates/wild_marsh_mallow.json
 fa9ae33c7951facc145543eb98265a798582d38a assets/daybreak_herbs/blockstates/wild_rattleweed.json
 d6d2c24d98713235d4e68e8f9b698514a9524730 assets/daybreak_herbs/blockstates/wild_ribwort.json
@@ -131,6 +132,7 @@ a7fb5d7f9da8dc7b15dcc9345786777245e4ccec assets/daybreak_herbs/models/block/wild
 ed43f158da7ada28fe0409d5e8fc90b7dc372c40 assets/daybreak_herbs/models/block/wild_horse_mint.json
 a6ac2ea4e73dca53caac2217507bbd450d808e46 assets/daybreak_herbs/models/block/wild_jewelweed.json
 714c04e4a1aa3d0c49ed9284ee66cf3041035e17 assets/daybreak_herbs/models/block/wild_juniper.json
+a987f66b79939b7ebdfc305b764a8f345b44dabf assets/daybreak_herbs/models/block/wild_larkspur.json
 7e0fc5dc96915a01f67b5d7c97155125514af928 assets/daybreak_herbs/models/block/wild_marsh_mallow.json
 b8c3d5943515e93668abc8574cab48ec45ffc3ae assets/daybreak_herbs/models/block/wild_rattleweed.json
 085125d6f680973b168952a6f45101f0357d0662 assets/daybreak_herbs/models/block/wild_ribwort.json

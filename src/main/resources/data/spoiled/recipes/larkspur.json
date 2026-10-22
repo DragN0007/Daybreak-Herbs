@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:larkspur"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_larkspur"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
