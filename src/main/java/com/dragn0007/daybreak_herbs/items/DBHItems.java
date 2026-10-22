@@ -147,7 +147,9 @@ public class DBHItems {
                     .build())));
 
     public static final RegistryObject<Item> POISON_IVY = ITEMS.register("poison_ivy",
-            () -> new PoisonIvyItem(new Item.Properties()));
+            () -> new PoisonIvyItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.POISON, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DEVILS_TRUMPET = ITEMS.register("devils_trumpet",
             () -> new DevilsTrumpetItem(new Item.Properties()));

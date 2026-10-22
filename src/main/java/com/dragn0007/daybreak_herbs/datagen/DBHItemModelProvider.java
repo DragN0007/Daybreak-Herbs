@@ -129,6 +129,11 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.DEADLY_NIGHTSHADE_BERRY);
         simpleItem(DBHItems.DRIED_DEADLY_NIGHTSHADE_BERRY);
 
+        advancedBlockItem(DBHBlocks.WILD_POISON_IVY, "poison_ivy");
+        simpleItem(DBHItems.POISON_IVY);
+        simpleItem(DBHItems.DRIED_POISON_IVY);
+
+
         simpleItem(DBHItems.LEAF_BOWL);
         simpleItem(DBHItems.WATER_LEAF_BOWL);
     }
