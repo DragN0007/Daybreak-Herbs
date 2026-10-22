@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-21T23:13:44.0813955	Block States: daybreak_herbs
+// 1.20.1	2026-10-21T23:24:37.6508177	Block States: daybreak_herbs
 ba3065b5e36f66e5e3201c890612fe112c2f29b4 assets/daybreak_herbs/blockstates/arnica.json
 9ad1267f6d3d42aa18e199a4006202f925e657e2 assets/daybreak_herbs/blockstates/boneset.json
 e86e80be768f24be25435ea487968b23ebfbc3e9 assets/daybreak_herbs/blockstates/bulrush.json
@@ -23,6 +23,7 @@ b3fcd4e5ee9988f7897ae0e75b5aa3c22ff6d62f assets/daybreak_herbs/blockstates/usnea
 76b32853e97a38183aa9bf1d36f78451ba721e7d assets/daybreak_herbs/blockstates/wild_bulrush.json
 4595ed246c1d9ed7dd30440c4ad42eda0ca7c395 assets/daybreak_herbs/blockstates/wild_calamus.json
 84188e802e839756d7da8b385a0db3622b17ecca assets/daybreak_herbs/blockstates/wild_catmint.json
+e98e3beab118c0546962d185c924f4195447f5e9 assets/daybreak_herbs/blockstates/wild_death_camas.json
 e7aae1bab5988c11c16fd0b31b2012151d8a2f3c assets/daybreak_herbs/blockstates/wild_echinacea.json
 f18a67edecadbee89f9c43f26a98d9562d764b80 assets/daybreak_herbs/blockstates/wild_elderberry.json
 cc683dc53e6bd5b18bfc179e47ab14e7d31f5e2e assets/daybreak_herbs/blockstates/wild_goldenrod.json
@@ -122,6 +123,7 @@ c6c9c81f89ad9abedd5bec5e02f82e7e9c46cb75 assets/daybreak_herbs/models/block/wild
 d56ae77c69e0633fb84d5b62f6c9626d9e468d4b assets/daybreak_herbs/models/block/wild_bulrush.json
 5f6832e0814e8b30a9de0299e1f553e856866533 assets/daybreak_herbs/models/block/wild_calamus.json
 bd01269ffaad338616916c54d38c5f045d2eeac5 assets/daybreak_herbs/models/block/wild_catmint.json
+7983ca62291bc3ef117953cc92849541eb1ebc24 assets/daybreak_herbs/models/block/wild_death_camas.json
 bae2f923932ce2b6a8cbff359ac0249c17118016 assets/daybreak_herbs/models/block/wild_echinacea.json
 0c89b27d53e1bde39c8b0d9d1e7236a62590209e assets/daybreak_herbs/models/block/wild_elderberry.json
 cdb611cc5f299351bf7e8ee087c9c0aeebee486b assets/daybreak_herbs/models/block/wild_goldenrod.json

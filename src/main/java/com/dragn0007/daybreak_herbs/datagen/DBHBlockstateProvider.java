@@ -126,6 +126,9 @@ public class DBHBlockstateProvider extends BlockStateProvider {
                 0, 0, 1, 1, 2, 2, 2, 3);
         simpleBlock(DBHBlocks.WILD_JUNIPER.get(), models().cross(DBHBlocks.WILD_JUNIPER.getId().getPath(),
                 wildPlantTexture("juniper_stage3")).renderType("cutout"));
+
+        simpleBlock(DBHBlocks.WILD_DEATH_CAMAS.get(), models().cross(DBHBlocks.WILD_DEATH_CAMAS.getId().getPath(),
+                wildPlantTexture("death_camas")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {

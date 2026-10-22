@@ -123,7 +123,12 @@ public class DBHItems {
                     .build())));
 
     public static final RegistryObject<Item> DEATH_CAMAS = ITEMS.register("death_camas",
-            () -> new DeathCamasItem(new Item.Properties()));
+            () -> new DeathCamasItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.CONFUSION, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.HARM, 20, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> LARKSPUR = ITEMS.register("larkspur",
             () -> new LarkspurItem(new Item.Properties()));
@@ -247,6 +252,9 @@ public class DBHItems {
             () -> new PokeweedItem(new Item.Properties()));
 
     //Misc
+    public static final RegistryObject<Item> LEAF_BOWL = ITEMS.register("leaf_bowl", LeafBowlItem::new);
+    public static final RegistryObject<Item> WATER_LEAF_BOWL = ITEMS.register("water_leaf_bowl", WaterLeafBowlItem::new);
+
     public static final RegistryObject<Item> WINTERBLOOM_WASH = ITEMS.register("winterbloom_wash",
             () -> new WinterbloomWashItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
                     .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
