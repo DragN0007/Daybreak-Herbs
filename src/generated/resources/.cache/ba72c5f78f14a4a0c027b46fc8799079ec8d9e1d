@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-21T23:24:37.6508177	Item Models: daybreak_herbs
+// 1.20.1	2026-10-21T23:34:36.9086814	Item Models: daybreak_herbs
 4b706f9867043d1f537592393361129653d65934 assets/daybreak_herbs/models/item/arnica.json
 3eb4427af3c394b05c5ddef65a1738299d99eac3 assets/daybreak_herbs/models/item/arnica_petals.json
 db704cef59b159d4f8d330aaaf807846a5401ca6 assets/daybreak_herbs/models/item/boneset.json
@@ -40,6 +40,7 @@ a8eec2b9137daa5633341b48f26c9683f274a26a assets/daybreak_herbs/models/item/horse
 063bd1e2f46691be5f75c86184c12089d5baf567 assets/daybreak_herbs/models/item/horse_mint_petals.json
 42969bd1767c6f00b14f69e5cb1dff4675a0b25a assets/daybreak_herbs/models/item/jewelweed.json
 8364f8719d6d68fdd2070608bc687e78191e62e8 assets/daybreak_herbs/models/item/juniper_berry.json
+5148ad5235010653e56beb0758b0683f34b0ae67 assets/daybreak_herbs/models/item/leaf_bowl.json
 d41e2e62982290b4b2aa83847545105aa31996c7 assets/daybreak_herbs/models/item/marsh_mallow.json
 1764baa2cd3ecf1b86802f718984b60ab87e3787 assets/daybreak_herbs/models/item/marsh_mallow_roots.json
 9c06ad715e0d7ad8b57f7b55b9642288b8320e34 assets/daybreak_herbs/models/item/rattleweed.json
@@ -51,6 +52,7 @@ a4364d44b6ff818970f197678bea34616497fe22 assets/daybreak_herbs/models/item/sundr
 b9502657788e6ad855a0e4a54f21d4427a0e75fb assets/daybreak_herbs/models/item/sundrops_poultice.json
 ace9c775f677454fa62b7e0f5130f4ec96b6f6be assets/daybreak_herbs/models/item/sweetroot.json
 2d51b9f43ca0858581da4013b2ec648b26271a53 assets/daybreak_herbs/models/item/usnea.json
+cfd836dbb669f9258cd9ec23dead6b3321c6fde3 assets/daybreak_herbs/models/item/water_leaf_bowl.json
 523f4e5a603ff659cbb241397017e4b86be0e18f assets/daybreak_herbs/models/item/white_sagebrush.json
 27b19dd796dbc80772f327d38d0b9e953ae656e0 assets/daybreak_herbs/models/item/white_sagebrush_leaf.json
 f402cbfb046a04a0dbcc1acb6780953f9f047aee assets/daybreak_herbs/models/item/wild_arnica.json
@@ -77,5 +79,5 @@ bf1e98ce08f033c05a8eaacee4fe41b747b2eb7c assets/daybreak_herbs/models/item/wild_
 0cde643c31885eb97dd7332295db90ae85a674c1 assets/daybreak_herbs/models/item/wild_yarrow.json
 adc0fb1012a948e9470933d7f4860ce39e74020c assets/daybreak_herbs/models/item/winterbloom.json
 45427ee1d697bd689d94ff7751b95a073bd416e4 assets/daybreak_herbs/models/item/winterbloom_leaf.json
-18a3e47d50c2f2446558390b34b428bbee35ba0a assets/daybreak_herbs/models/item/winterbloom_wash.json
+cfd836dbb669f9258cd9ec23dead6b3321c6fde3 assets/daybreak_herbs/models/item/winterbloom_wash.json
 efb849cbd0fd8ea90366baf5f83c5b30cb96b3d8 assets/daybreak_herbs/models/item/yarrow.json

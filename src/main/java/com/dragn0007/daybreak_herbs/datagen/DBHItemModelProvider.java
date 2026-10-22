@@ -87,7 +87,7 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.WINTERBLOOM);
         simpleItem(DBHItems.WINTERBLOOM_LEAF);
         advancedItem(DBHItems.DRIED_WINTERBLOOM_LEAF, "dried_leaf");
-        simpleItem(DBHItems.WINTERBLOOM_WASH);
+        advancedItem(DBHItems.WINTERBLOOM_WASH, "water_leaf_bowl");
 
         advancedBlockItem(DBHBlocks.WILD_BULRUSH, "bulrush_stage3");
         simpleItem(DBHItems.BULRUSH);
@@ -121,8 +121,8 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.DEATH_CAMAS);
         simpleItem(DBHItems.DRIED_DEATH_CAMAS);
 
-
-        simpleItem(DBHItems.WINTERBLOOM_WASH);
+        simpleItem(DBHItems.LEAF_BOWL);
+        simpleItem(DBHItems.WATER_LEAF_BOWL);
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

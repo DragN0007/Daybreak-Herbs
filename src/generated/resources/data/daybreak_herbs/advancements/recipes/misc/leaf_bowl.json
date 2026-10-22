@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "daybreak_herbs:leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "daybreak_herbs:leaf_bowl"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_leaves",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "daybreak_herbs:leaf_bowl"
+    ]
+  },
+  "sends_telemetry_event": false
+}

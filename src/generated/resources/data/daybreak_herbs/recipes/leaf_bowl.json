@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "tag": "daybreak_herbs:leaves"
+    },
+    {
+      "tag": "daybreak_herbs:leaves"
+    }
+  ],
+  "result": {
+    "item": "daybreak_herbs:leaf_bowl"
+  }
+}

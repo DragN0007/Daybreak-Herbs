@@ -20,9 +20,17 @@ public class DBHRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DBHItems.LEAF_BOWL.get())
+                .requires(Items.STRING)
+                .requires(DBHTags.Items.LEAVES)
+                .requires(DBHTags.Items.LEAVES)
+                .unlockedBy("has_leaves", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DBHTags.Items.LEAVES).build()))
+                .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DBHItems.WINTERBLOOM_WASH.get())
                 .requires(DBHItems.WINTERBLOOM_LEAF.get())
-                .requires(Items.WATER_BUCKET)
+                .requires(DBHItems.WATER_LEAF_BOWL.get())
                 .requires(DBHTags.Items.LEAVES)
                 .requires(DBHTags.Items.LEAVES)
                 .unlockedBy("has_leaves", inventoryTrigger(ItemPredicate.Builder.item()

@@ -219,5 +219,7 @@
   "tooltip.daybreak_herbs.white_willow.tooltip": "Can be used as a mild pain relief, and to soothe fevers. This herb is digestible and should be eaten for treatment.",
 
   "item.daybreak_herbs.rotted_plant_matter": "Rotted Plant Matter",
-  "tooltip.daybreak_herbs.rotted_plant_matter.tooltip": "The remains of what used to be a plant, now spoiled into useless debris."
+  "tooltip.daybreak_herbs.rotted_plant_matter.tooltip": "The remains of what used to be a plant, now spoiled into useless debris.",
+  "tooltip.daybreak_herbs.leaf_bowl.tooltip": "Used to scoop up a small amount of water.",
+  "tooltip.daybreak_herbs.water_leaf_bowl.tooltip": "A small amount of water that can be used in recipes."
 }
