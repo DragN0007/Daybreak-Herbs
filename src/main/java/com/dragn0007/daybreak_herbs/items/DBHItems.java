@@ -160,7 +160,11 @@ public class DBHItems {
                     .build())));
 
     public static final RegistryObject<Item> POKEWEED = ITEMS.register("pokeweed",
-            () -> new PokeweedItem(new Item.Properties()));
+            () -> new PokeweedItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WITHER, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.CONFUSION, 1200, 0), 1.0F)
+                    .build())));
 
     //Pastes
     public static final RegistryObject<Item> GOLDENROD_POULTICE = ITEMS.register("goldenrod_poultice",

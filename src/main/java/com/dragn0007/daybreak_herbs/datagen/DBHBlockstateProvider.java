@@ -141,6 +141,9 @@ public class DBHBlockstateProvider extends BlockStateProvider {
 
         simpleBlock(DBHBlocks.WILD_DEVILS_TRUMPET.get(), models().cross(DBHBlocks.WILD_DEVILS_TRUMPET.getId().getPath(),
                 wildPlantTexture("devils_trumpet")).renderType("cutout"));
+
+        simpleBlock(DBHBlocks.WILD_POKEWEED.get(), models().cross(DBHBlocks.WILD_POKEWEED.getId().getPath(),
+                wildPlantTexture("pokeweed")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {
