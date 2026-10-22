@@ -138,6 +138,9 @@ public class DBHBlockstateProvider extends BlockStateProvider {
 
         simpleBlock(DBHBlocks.WILD_POISON_IVY.get(), models().cross(DBHBlocks.WILD_POISON_IVY.getId().getPath(),
                 wildPlantTexture("poison_ivy")).renderType("cutout"));
+
+        simpleBlock(DBHBlocks.WILD_DEVILS_TRUMPET.get(), models().cross(DBHBlocks.WILD_DEVILS_TRUMPET.getId().getPath(),
+                wildPlantTexture("devils_trumpet")).renderType("cutout"));
     }
 
     public ResourceLocation wildPlantTexture(String getTextureName) {

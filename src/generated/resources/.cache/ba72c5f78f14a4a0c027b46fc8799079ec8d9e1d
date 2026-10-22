@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-22T00:01:54.0882168	Item Models: daybreak_herbs
+// 1.20.1	2026-10-22T00:10:08.4198295	Item Models: daybreak_herbs
 4b706f9867043d1f537592393361129653d65934 assets/daybreak_herbs/models/item/arnica.json
 3eb4427af3c394b05c5ddef65a1738299d99eac3 assets/daybreak_herbs/models/item/arnica_petals.json
 db704cef59b159d4f8d330aaaf807846a5401ca6 assets/daybreak_herbs/models/item/boneset.json
@@ -9,6 +9,7 @@ db704cef59b159d4f8d330aaaf807846a5401ca6 assets/daybreak_herbs/models/item/bones
 937872a8523712fdb1223e40390f6fb2facdc200 assets/daybreak_herbs/models/item/catmint.json
 15bb8e81122eecfa5cc6dceaf9b4445bea7065a6 assets/daybreak_herbs/models/item/deadly_nightshade_berry.json
 b53c94af3229aff294ad36f3c1348d3d7009dfc5 assets/daybreak_herbs/models/item/death_camas.json
+5877d6a074d52dc3c90bfaddf2faf20f5f6b37b5 assets/daybreak_herbs/models/item/devils_trumpet.json
 89ecefae6f5488dbecd03273296b1785bb935cf6 assets/daybreak_herbs/models/item/dried_arnica_petals.json
 3ce93005f7833fed3cf778ec732e313e687c22b0 assets/daybreak_herbs/models/item/dried_boneset.json
 a9f13084c2b291a8e4d3c407312d2344c9cd4995 assets/daybreak_herbs/models/item/dried_bulrush_roots.json
@@ -16,6 +17,7 @@ b9913fbb42629aa7b84031689d149bc84714017d assets/daybreak_herbs/models/item/dried
 04dc7ec02cf9a0e10d3a4e515a89c45ee9c03f56 assets/daybreak_herbs/models/item/dried_catmint.json
 5062f58a3aee11d044353a1e01c6c9c99d42d3a3 assets/daybreak_herbs/models/item/dried_deadly_nightshade_berry.json
 254203d9e934292350e0ff7bcc7465511566ae33 assets/daybreak_herbs/models/item/dried_death_camas.json
+39fe197ac37ecb93c036d836e058d6cbae94c84f assets/daybreak_herbs/models/item/dried_devils_trumpet.json
 6e9b74dbe0a7665ba549deccb0f9e6d3b31b890f assets/daybreak_herbs/models/item/dried_echinacea_roots.json
 68cd67cc3cd4f44ca87603dfce58121e31db99b7 assets/daybreak_herbs/models/item/dried_elderberry.json
 89ecefae6f5488dbecd03273296b1785bb935cf6 assets/daybreak_herbs/models/item/dried_goldenrod_petals.json
@@ -68,6 +70,7 @@ f402cbfb046a04a0dbcc1acb6780953f9f047aee assets/daybreak_herbs/models/item/wild_
 25ec58b82a602786e9a7c9686a9a52b62a7717b7 assets/daybreak_herbs/models/item/wild_catmint.json
 fc1467564135b53fd61b6e0b029645c913917a5c assets/daybreak_herbs/models/item/wild_deadly_nightshade.json
 66465f46cfa6c11b5d6d0a562ed18046ae23048d assets/daybreak_herbs/models/item/wild_death_camas.json
+7eb00041281243ff26f94fcc2a213509eaf93089 assets/daybreak_herbs/models/item/wild_devils_trumpet.json
 f4ad7dea55962ca48b67ff748251d8b2921d0426 assets/daybreak_herbs/models/item/wild_echinacea.json
 3eafabdb9e9c01c1bfe0dd7d8a654cb655a1227d assets/daybreak_herbs/models/item/wild_elderberry.json
 3395cd51505fa5b5a65928b37c24f96078208ff4 assets/daybreak_herbs/models/item/wild_goldenrod.json

@@ -218,6 +218,7 @@ public class DBHBlockLoot extends BlockLootSubProvider {
         dropOther(DBHBlocks.WILD_LARKSPUR.get(), DBHItems.LARKSPUR.get());
         dropOther(DBHBlocks.WILD_DEADLY_NIGHTSHADE.get(), DBHItems.DEADLY_NIGHTSHADE_BERRY.get());
         dropOther(DBHBlocks.WILD_POISON_IVY.get(), DBHItems.POISON_IVY.get());
+        dropOther(DBHBlocks.WILD_DEVILS_TRUMPET.get(), DBHItems.DEVILS_TRUMPET.get());
     }
 
     @Override

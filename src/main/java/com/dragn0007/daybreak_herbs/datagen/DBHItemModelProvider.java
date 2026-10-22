@@ -133,6 +133,10 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.POISON_IVY);
         simpleItem(DBHItems.DRIED_POISON_IVY);
 
+        advancedBlockItem(DBHBlocks.WILD_DEVILS_TRUMPET, "devils_trumpet");
+        simpleItem(DBHItems.DEVILS_TRUMPET);
+        simpleItem(DBHItems.DRIED_DEVILS_TRUMPET);
+
 
         simpleItem(DBHItems.LEAF_BOWL);
         simpleItem(DBHItems.WATER_LEAF_BOWL);

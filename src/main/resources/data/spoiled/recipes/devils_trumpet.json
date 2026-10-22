@@ -1,0 +1,11 @@
+{
+  "type": "spoiled:spoil_recipe",
+  "ingredient": {
+    "item": "daybreak_herbs:devils_trumpet"
+  },
+  "result": {
+    "item": "daybreak_herbs:dried_devils_trumpet"
+  },
+  "spoiltime": 600,
+  "priority": 5
+}
