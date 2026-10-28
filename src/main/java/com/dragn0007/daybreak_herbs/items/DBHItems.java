@@ -222,7 +222,9 @@ public class DBHItems {
             () -> new DriedSweetrootItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_BONESET = ITEMS.register("dried_boneset",
-            () -> new DriedBonesetItem(new Item.Properties()));
+            () -> new DriedBonesetItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_MARSH_MALLOW_ROOTS = ITEMS.register("dried_marsh_mallow_roots",
             () -> new MarshMallowRootsItem(new Item.Properties()));

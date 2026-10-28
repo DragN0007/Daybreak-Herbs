@@ -201,7 +201,7 @@
   "item.daybreak_herbs.dried_devils_trumpet": "Dried Devils Trumpet",
   "tooltip.daybreak_herbs.devils_trumpet.tooltip": "Highly toxic plant that affects the nervous system, causing confusion, dilated pupils, and dangerous hallucinations.",
 
-  "block.daybreak_herbs.pokeweed": "Pokeweed",
+  "block.daybreak_herbs.wild_pokeweed": "Pokeweed",
   "item.daybreak_herbs.pokeweed": "Pokeweed",
   "item.daybreak_herbs.dried_pokeweed": "Dried Pokeweed",
   "tooltip.daybreak_herbs.pokeweed.tooltip": "Young shoots and mature plants are highly toxic. When eaten, it can cause stomach illness and eventual death if not treated.",
@@ -216,7 +216,7 @@
   "tooltip.daybreak_herbs.cobweb.tooltip": "Used to wrap and cover wounds.",
 
   "item.daybreak_herbs.white_willow": "White Willow",
-  "tooltip.daybreak_herbs.white_willow.tooltip": "Can be used as a mild pain relief, and to soothe fevers. This herb is digestible and should be eaten for treatment.",
+  "tooltip.daybreak_herbs.white_willow.tooltip": "Can be used as a mild pain relief, and to soothe fevers. Digestible and should be eaten for treatment.",
 
   "item.daybreak_herbs.rotted_plant_matter": "Rotted Plant Matter",
   "tooltip.daybreak_herbs.rotted_plant_matter.tooltip": "The remains of what used to be a plant, now spoiled into useless debris.",
