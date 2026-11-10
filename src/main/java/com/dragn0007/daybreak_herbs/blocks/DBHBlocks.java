@@ -1,6 +1,7 @@
 package com.dragn0007.daybreak_herbs.blocks;
 
 import com.dragn0007.daybreak_herbs.DaybreakHerbs;
+import com.dragn0007.daybreak_herbs.blocks.base.*;
 import com.dragn0007.daybreak_herbs.blocks.crop.*;
 import com.dragn0007.daybreak_herbs.items.DBHItems;
 import net.minecraft.world.effect.MobEffects;
@@ -22,6 +23,20 @@ import java.util.function.Supplier;
 public class DBHBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DaybreakHerbs.MODID);
     public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, DaybreakHerbs.MODID);
+
+    public static final RegistryObject<Block> FUR_NEST = registerBlock("fur_nest",
+            () -> new FurNestBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()));
+    public static final RegistryObject<Block> OLD_FUR_NEST = registerBlock("old_fur_nest",
+            () -> new BaseOldNestBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()));
+    public static final RegistryObject<Block> MOSS_NEST = registerBlock("moss_nest",
+            () -> new MossNestBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()));
+    public static final RegistryObject<Block> OLD_MOSS_NEST = registerBlock("old_moss_nest",
+            () -> new BaseOldNestBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()));
+    public static final RegistryObject<Block> REED_NEST = registerBlock("reed_nest",
+            () -> new ReedNestBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()));
+    public static final RegistryObject<Block> OLD_REED_NEST = registerBlock("old_reed_nest",
+            () -> new BaseOldNestBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()));
+
 
     public static final RegistryObject<Block> GOLDENROD = registerBlockWithoutItem("goldenrod",
             () -> new GoldenrodBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));

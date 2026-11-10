@@ -1,0 +1,7 @@
+{
+  "parent": "daybreak_herbs:block/parent/nest",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "texture": "daybreak_herbs:block/fur_nest"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "daybreak_herbs:block/parent/prey_pile",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "texture": "daybreak_herbs:block/whistle_pile"
+  }
+}

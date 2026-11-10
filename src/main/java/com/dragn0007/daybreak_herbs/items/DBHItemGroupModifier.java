@@ -17,6 +17,10 @@ public class DBHItemGroupModifier {
     public static final RegistryObject<CreativeModeTab> GROUP = CREATIVE_MODE_TABS.register("daybreak_herbs",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(DBHItems.GOLDENROD.get())).title(Component.translatable("itemGroup.daybreak_herbs"))
                     .displayItems((displayParameters, output) -> {
+                        output.accept(DBHBlocks.FUR_NEST.get());
+                        output.accept(DBHBlocks.MOSS_NEST.get());
+                        output.accept(DBHBlocks.REED_NEST.get());
+
                         output.accept(DBHItems.LEAF_BOWL.get());
                         output.accept(DBHItems.WATER_LEAF_BOWL.get());
                         output.accept(DBHItems.WINTERBLOOM_WASH.get());

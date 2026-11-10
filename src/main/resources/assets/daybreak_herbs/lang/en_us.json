@@ -223,5 +223,12 @@
   "item.daybreak_herbs.leaf_bowl": "Leaf Bowl",
   "tooltip.daybreak_herbs.leaf_bowl.tooltip": "Used to scoop up a small amount of water.",
   "item.daybreak_herbs.water_leaf_bowl": "Water Leaf Bowl",
-  "tooltip.daybreak_herbs.water_leaf_bowl.tooltip": "A small amount of water that can be used in recipes."
+  "tooltip.daybreak_herbs.water_leaf_bowl.tooltip": "A small amount of water that can be used in recipes.",
+
+  "block.daybreak_herbs.fur_nest": "Fur Nest",
+  "block.daybreak_herbs.old_fur_nest": "Worn Fur Nest",
+  "block.daybreak_herbs.moss_nest": "Moss Nest",
+  "block.daybreak_herbs.old_moss_nest": "Worn Moss Nest",
+  "block.daybreak_herbs.reed_nest": "Reed Nest",
+  "block.daybreak_herbs.old_reed_nest": "Worn Reed Nest"
 }
