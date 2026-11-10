@@ -1,0 +1,73 @@
+{
+	"format_version": "1.9.0",
+	"credit": "DragN0007",
+	"texture_size": [32, 32],
+	"render_type": "cutout",
+	"textures": {
+		"0": "daybreak_herbs:block/white_willow",
+		"particle": "daybreak_herbs:block/white_willow"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7.21751],
+			"to": [16, 1, 8.21751],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0.5, 7.71751]},
+			"faces": {
+				"north": {"uv": [2, 0, 10, 0.5], "texture": "#0"},
+				"east": {"uv": [3.5, 2, 4, 2.5], "texture": "#0"},
+				"south": {"uv": [2, 0.5, 10, 1], "texture": "#0"},
+				"west": {"uv": [2.5, 3.5, 3, 4], "texture": "#0"},
+				"up": {"uv": [2, 1, 10, 1.5], "texture": "#0"},
+				"down": {"uv": [2, 1.5, 10, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9.42843, 1.7, 8.84594],
+			"to": [13.42843, 5.7, 8.84594],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [11.42843, 3.7, 8.84594]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [2, 0, 0, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0, 6.21751],
+			"to": [6, 1, 7.21751],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0.5, 7.71751]},
+			"faces": {
+				"north": {"uv": [3.5, 2.5, 4, 3], "texture": "#0"},
+				"east": {"uv": [3, 3.5, 3.5, 4], "texture": "#0"},
+				"south": {"uv": [3.5, 3, 4, 3.5], "texture": "#0"},
+				"west": {"uv": [3.5, 3.5, 4, 4], "texture": "#0"},
+				"up": {"uv": [0, 4, 0.5, 4.5], "texture": "#0"},
+				"down": {"uv": [0.5, 4, 1, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 1, 7.21751],
+			"to": [10, 4, 8.21751],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0.5, 7.71751]},
+			"faces": {
+				"north": {"uv": [2, 2, 2.5, 3.5], "texture": "#0"},
+				"east": {"uv": [2.5, 2, 3, 3.5], "texture": "#0"},
+				"south": {"uv": [3, 2, 3.5, 3.5], "texture": "#0"},
+				"west": {"uv": [2, 3.5, 2.5, 5], "texture": "#0"},
+				"up": {"uv": [1, 4, 1.5, 4.5], "texture": "#0"},
+				"down": {"uv": [1.5, 4, 2, 4.5], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

@@ -24,6 +24,11 @@ public class DBHBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DaybreakHerbs.MODID);
     public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, DaybreakHerbs.MODID);
 
+    public static final RegistryObject<Block> MOSS_CLUMP_BLOCK = registerBlock("moss_clump_block", AttachedBlock::new);
+    public static final RegistryObject<Block> PINE_RESIN_BLOCK = registerBlock("pine_resin_block", AttachedBlock::new);
+    public static final RegistryObject<Block> COBWEB_BLOCK = registerBlock("cobweb_block", BaseNaturalBlock::new);
+    public static final RegistryObject<Block> WHITE_WILLOW_BLOCK = registerBlock("white_willow_block", GroundBlock::new);
+
     public static final RegistryObject<Block> FUR_NEST = registerBlock("fur_nest",
             () -> new FurNestBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()));
     public static final RegistryObject<Block> OLD_FUR_NEST = registerBlock("old_fur_nest",

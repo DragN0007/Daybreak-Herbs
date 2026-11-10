@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "daybreak_herbs:block/pine_resin",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "daybreak_herbs:block/pine_resin"
+    },
+    "facing=south": {
+      "model": "daybreak_herbs:block/pine_resin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "daybreak_herbs:block/pine_resin",
+      "y": 270
+    }
+  }
+}

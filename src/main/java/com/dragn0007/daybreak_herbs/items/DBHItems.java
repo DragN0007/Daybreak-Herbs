@@ -183,16 +183,16 @@ public class DBHItems {
 
     //Materials
     public static final RegistryObject<Item> WHITE_WILLOW = ITEMS.register("white_willow",
-            () -> new WhiteWillowItem(new Item.Properties()));
+            () -> new WhiteWillowItem(DBHBlocks.WHITE_WILLOW_BLOCK.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> COBWEB = ITEMS.register("cobweb",
-            () -> new CobwebItem(new Item.Properties()));
+            () -> new CobwebItem(DBHBlocks.COBWEB_BLOCK.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> MOSS_CLUMP = ITEMS.register("moss_clump",
-            () -> new MossItem(new Item.Properties()));
+            () -> new MossItem(DBHBlocks.MOSS_CLUMP_BLOCK.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> PINE_RESIN = ITEMS.register("pine_resin",
-            () -> new PineResinItem(new Item.Properties()));
+            () -> new PineResinItem(DBHBlocks.PINE_RESIN_BLOCK.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_GOLDENROD_PETALS = ITEMS.register("dried_goldenrod_petals",
             () -> new GoldenrodPetalsItem(new Item.Properties()));

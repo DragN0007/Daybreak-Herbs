@@ -220,6 +220,18 @@ public class DBHBlockLoot extends BlockLootSubProvider {
         dropOther(DBHBlocks.WILD_POISON_IVY.get(), DBHItems.POISON_IVY.get());
         dropOther(DBHBlocks.WILD_DEVILS_TRUMPET.get(), DBHItems.DEVILS_TRUMPET.get());
         dropOther(DBHBlocks.WILD_POKEWEED.get(), DBHItems.POKEWEED.get());
+
+        dropOther(DBHBlocks.MOSS_CLUMP_BLOCK.get(), DBHItems.MOSS_CLUMP.get());
+        dropOther(DBHBlocks.PINE_RESIN_BLOCK.get(), DBHItems.PINE_RESIN.get());
+        dropOther(DBHBlocks.COBWEB_BLOCK.get(), DBHItems.COBWEB.get());
+        dropOther(DBHBlocks.WHITE_WILLOW_BLOCK.get(), DBHItems.WHITE_WILLOW.get());
+
+        dropSelf(DBHBlocks.FUR_NEST.get());
+        dropSelf(DBHBlocks.OLD_FUR_NEST.get());
+        dropSelf(DBHBlocks.MOSS_NEST.get());
+        dropSelf(DBHBlocks.OLD_MOSS_NEST.get());
+        dropSelf(DBHBlocks.REED_NEST.get());
+        dropSelf(DBHBlocks.OLD_REED_NEST.get());
     }
 
     @Override

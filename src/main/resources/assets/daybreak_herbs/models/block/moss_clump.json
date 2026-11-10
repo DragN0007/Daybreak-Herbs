@@ -1,0 +1,188 @@
+{
+	"format_version": "1.9.0",
+	"credit": "DragN0007",
+	"render_type": "cutout",
+	"textures": {
+		"0": "daybreak_herbs:item/moss_clump",
+		"particle": "daybreak_herbs:item/moss_clump"
+	},
+	"elements": [
+		{
+			"name": "moss_clump",
+			"from": [12, 11, 15],
+			"to": [13, 12, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [13, 4, 12, 5], "texture": "#0"},
+				"east": {"uv": [13, 4, 12, 5], "texture": "#0"},
+				"south": {"uv": [12, 4, 13, 5], "texture": "#0"},
+				"west": {"uv": [13, 4, 12, 5], "texture": "#0"},
+				"up": {"uv": [12, 5, 13, 4], "texture": "#0"},
+				"down": {"uv": [12, 5, 13, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [8, 6, 15],
+			"to": [12, 11, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [12, 5, 8, 10], "texture": "#0"},
+				"east": {"uv": [12, 5, 11, 10], "texture": "#0"},
+				"south": {"uv": [8, 5, 12, 10], "texture": "#0"},
+				"west": {"uv": [9, 5, 8, 10], "texture": "#0"},
+				"up": {"uv": [8, 6, 12, 5], "texture": "#0"},
+				"down": {"uv": [8, 10, 12, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [13, 10, 15],
+			"to": [14, 11, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [14, 5, 13, 6], "texture": "#0"},
+				"east": {"uv": [14, 5, 13, 6], "texture": "#0"},
+				"south": {"uv": [13, 5, 14, 6], "texture": "#0"},
+				"west": {"uv": [14, 5, 13, 6], "texture": "#0"},
+				"up": {"uv": [13, 6, 14, 5], "texture": "#0"},
+				"down": {"uv": [13, 6, 14, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [4, 9, 15],
+			"to": [5, 10, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [5, 6, 4, 7], "texture": "#0"},
+				"east": {"uv": [5, 6, 4, 7], "texture": "#0"},
+				"south": {"uv": [4, 6, 5, 7], "texture": "#0"},
+				"west": {"uv": [5, 6, 4, 7], "texture": "#0"},
+				"up": {"uv": [4, 7, 5, 6], "texture": "#0"},
+				"down": {"uv": [4, 7, 5, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [6, 4, 15],
+			"to": [8, 10, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [8, 6, 6, 12], "texture": "#0"},
+				"east": {"uv": [8, 6, 7, 12], "texture": "#0"},
+				"south": {"uv": [6, 6, 8, 12], "texture": "#0"},
+				"west": {"uv": [7, 6, 6, 12], "texture": "#0"},
+				"up": {"uv": [6, 7, 8, 6], "texture": "#0"},
+				"down": {"uv": [6, 12, 8, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [12, 7, 15],
+			"to": [13, 10, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [13, 6, 12, 9], "texture": "#0"},
+				"east": {"uv": [13, 6, 12, 9], "texture": "#0"},
+				"south": {"uv": [12, 6, 13, 9], "texture": "#0"},
+				"west": {"uv": [13, 6, 12, 9], "texture": "#0"},
+				"up": {"uv": [12, 7, 13, 6], "texture": "#0"},
+				"down": {"uv": [12, 9, 13, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [5, 2, 15],
+			"to": [6, 9, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [6, 7, 5, 14], "texture": "#0"},
+				"east": {"uv": [6, 7, 5, 14], "texture": "#0"},
+				"south": {"uv": [5, 7, 6, 14], "texture": "#0"},
+				"west": {"uv": [6, 7, 5, 14], "texture": "#0"},
+				"up": {"uv": [5, 8, 6, 7], "texture": "#0"},
+				"down": {"uv": [5, 14, 6, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [4, 2, 15],
+			"to": [5, 6, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [5, 10, 4, 14], "texture": "#0"},
+				"east": {"uv": [5, 10, 4, 14], "texture": "#0"},
+				"south": {"uv": [4, 10, 5, 14], "texture": "#0"},
+				"west": {"uv": [5, 10, 4, 14], "texture": "#0"},
+				"up": {"uv": [4, 11, 5, 10], "texture": "#0"},
+				"down": {"uv": [4, 14, 5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [8, 5, 15],
+			"to": [10, 6, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [10, 10, 8, 11], "texture": "#0"},
+				"east": {"uv": [10, 10, 9, 11], "texture": "#0"},
+				"south": {"uv": [8, 10, 10, 11], "texture": "#0"},
+				"west": {"uv": [9, 10, 8, 11], "texture": "#0"},
+				"up": {"uv": [8, 11, 10, 10], "texture": "#0"},
+				"down": {"uv": [8, 11, 10, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [11, 5, 15],
+			"to": [12, 6, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [12, 10, 11, 11], "texture": "#0"},
+				"east": {"uv": [12, 10, 11, 11], "texture": "#0"},
+				"south": {"uv": [11, 10, 12, 11], "texture": "#0"},
+				"west": {"uv": [12, 10, 11, 11], "texture": "#0"},
+				"up": {"uv": [11, 11, 12, 10], "texture": "#0"},
+				"down": {"uv": [11, 11, 12, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [9, 3, 15],
+			"to": [10, 5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [10, 11, 9, 13], "texture": "#0"},
+				"east": {"uv": [10, 11, 9, 13], "texture": "#0"},
+				"south": {"uv": [9, 11, 10, 13], "texture": "#0"},
+				"west": {"uv": [10, 11, 9, 13], "texture": "#0"},
+				"up": {"uv": [9, 12, 10, 11], "texture": "#0"},
+				"down": {"uv": [9, 13, 10, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "moss_clump",
+			"from": [7, 1, 15],
+			"to": [8, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [8, 12, 7, 15], "texture": "#0"},
+				"east": {"uv": [8, 12, 7, 15], "texture": "#0"},
+				"south": {"uv": [7, 12, 8, 15], "texture": "#0"},
+				"west": {"uv": [8, 12, 7, 15], "texture": "#0"},
+				"up": {"uv": [7, 13, 8, 12], "texture": "#0"},
+				"down": {"uv": [7, 15, 8, 14], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "moss_clump",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "daybreak_herbs:block/white_willow",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "daybreak_herbs:block/white_willow"
+    },
+    "facing=south": {
+      "model": "daybreak_herbs:block/white_willow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "daybreak_herbs:block/white_willow",
+      "y": 270
+    }
+  }
+}

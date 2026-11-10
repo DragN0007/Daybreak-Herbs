@@ -1,0 +1,24 @@
+{
+	"format_version": "1.9.0",
+	"credit": "DragN0007",
+	"render_type": "cutout",
+	"textures": {
+		"0": "daybreak_herbs:block/cobweb",
+		"particle": "daybreak_herbs:block/cobweb"
+	},
+	"elements": [
+		{
+			"from": [-0.01, -0.01, 8.39],
+			"to": [16.01, 16.01, 8.41],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8.4]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	]
+}

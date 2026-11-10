@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "daybreak_herbs:block/cobweb",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "daybreak_herbs:block/cobweb"
+    },
+    "facing=south": {
+      "model": "daybreak_herbs:block/cobweb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "daybreak_herbs:block/cobweb",
+      "y": 270
+    }
+  }
+}

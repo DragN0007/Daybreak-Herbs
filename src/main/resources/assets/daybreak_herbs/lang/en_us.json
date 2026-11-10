@@ -230,5 +230,10 @@
   "block.daybreak_herbs.moss_nest": "Moss Nest",
   "block.daybreak_herbs.old_moss_nest": "Worn Moss Nest",
   "block.daybreak_herbs.reed_nest": "Reed Nest",
-  "block.daybreak_herbs.old_reed_nest": "Worn Reed Nest"
+  "block.daybreak_herbs.old_reed_nest": "Worn Reed Nest",
+
+  "block.daybreak_herbs.moss_clump_block": "Moss Clump",
+  "block.daybreak_herbs.pine_resin_block": "Pine Resin",
+  "block.daybreak_herbs.cobweb_block": "Cobweb",
+  "block.daybreak_herbs.white_willow_block": "White Willow"
 }
