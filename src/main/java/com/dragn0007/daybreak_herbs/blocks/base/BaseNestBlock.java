@@ -11,7 +11,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class BaseNestBlock extends Block {
     public BaseNestBlock(Properties properties) {super(properties);}
-    protected static final VoxelShape AABB =  Block.box(0, 0, 0, 16, 3, 16);
+    protected static final VoxelShape AABB =  Block.box(-2.5, 0, -2.5, 18.5, 3, 18.5);
 
     public static final IntegerProperty DEGRADE_TIME = IntegerProperty.create("degrade_time", 0, 33);
     public IntegerProperty getDegradeTimeProperty() {return DEGRADE_TIME;}

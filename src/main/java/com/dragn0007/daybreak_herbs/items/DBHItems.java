@@ -263,7 +263,12 @@ public class DBHItems {
             () -> new LarkspurItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_DEADLY_NIGHTSHADE_BERRY = ITEMS.register("dried_deadly_nightshade_berry",
-            () -> new NightshadeItem(new Item.Properties()));
+            () -> new NightshadeItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.CONFUSION, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.HARM, 20, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_POISON_IVY = ITEMS.register("dried_poison_ivy",
             () -> new PoisonIvyItem(new Item.Properties()));
@@ -277,6 +282,7 @@ public class DBHItems {
     //Misc
     public static final RegistryObject<Item> LEAF_BOWL = ITEMS.register("leaf_bowl", LeafBowlItem::new);
     public static final RegistryObject<Item> WATER_LEAF_BOWL = ITEMS.register("water_leaf_bowl", WaterLeafBowlItem::new);
+    public static final RegistryObject<Item> WET_MOSS_CLUMP = ITEMS.register("wet_moss_clump", WetMossClumpItem::new);
 
     public static final RegistryObject<Item> WINTERBLOOM_WASH = ITEMS.register("winterbloom_wash",
             () -> new WinterbloomWashItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()

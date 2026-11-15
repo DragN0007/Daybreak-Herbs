@@ -33,11 +33,12 @@ public class RibwortItem extends HerbalNameBlockItem {
             if (player.getOffhandItem().isEmpty() || player.getOffhandItem().getItem() == Items.AIR) {
                 itemStack.shrink(1);
                 player.setItemInHand(InteractionHand.OFF_HAND, processedStack);
+                return super.finishUsingItem(itemStack, level, entity);
             } else {
                 player.displayClientMessage(Component.translatable("The off-paw must be free to process this plant!").withStyle(ChatFormatting.GOLD), true);
             }
         }
-        return super.finishUsingItem(itemStack, level, entity);
+        return itemStack;
     }
 
     @Override

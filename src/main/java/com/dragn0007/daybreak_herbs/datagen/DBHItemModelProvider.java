@@ -145,6 +145,7 @@ public class DBHItemModelProvider extends ItemModelProvider {
         simpleItem(DBHItems.ROTTED_PLANT_MATTER);
         simpleItem(DBHItems.LEAF_BOWL);
         simpleItem(DBHItems.WATER_LEAF_BOWL);
+        simpleItem(DBHItems.WET_MOSS_CLUMP);
         simpleItem(DBHItems.WHITE_WILLOW);
         simpleItem(DBHItems.COBWEB);
         simpleItem(DBHItems.MOSS_CLUMP);

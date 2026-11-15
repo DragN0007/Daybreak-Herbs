@@ -5,6 +5,7 @@ import com.dragn0007.daybreak_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -35,11 +36,12 @@ public class BulrushItem extends HerbalNameBlockItem {
                 itemStack.shrink(1);
                 player.setItemInHand(InteractionHand.OFF_HAND, processedStack);
                 player.setItemInHand(InteractionHand.OFF_HAND, processedStack2);
+                return super.finishUsingItem(itemStack, level, entity);
             } else {
                 player.displayClientMessage(Component.translatable("The off-paw must be free to process this plant!").withStyle(ChatFormatting.GOLD), true);
             }
         }
-        return super.finishUsingItem(itemStack, level, entity);
+        return itemStack;
     }
 
     @Override

@@ -32,6 +32,9 @@ public class HerbalNameBlockItem extends ItemNameBlockItem {
             serverPlayer.awardStat(Stats.ITEM_USED.get(this));
         }
 
+        if (livingEntity instanceof Player player && !player.isCreative())
+            stack.shrink(1);
+
         return super.finishUsingItem(stack, level, livingEntity);
     }
 

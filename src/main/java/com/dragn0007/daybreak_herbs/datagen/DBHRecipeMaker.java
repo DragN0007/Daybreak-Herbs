@@ -36,5 +36,11 @@ public class DBHRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .unlockedBy("has_leaves", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DBHTags.Items.LEAVES).build()))
                 .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.STRING, 2)
+                .requires(DBHItems.COBWEB.get())
+                .unlockedBy("has_cobweb", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DBHItems.COBWEB.get()).build()))
+                .save(pFinishedRecipeConsumer);
     }
 }

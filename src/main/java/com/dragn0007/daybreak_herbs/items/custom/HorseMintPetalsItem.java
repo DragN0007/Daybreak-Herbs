@@ -3,6 +3,8 @@ package com.dragn0007.daybreak_herbs.items.custom;
 import com.dragn0007.daybreak_herbs.items.custom.base.HerbalItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -23,11 +25,16 @@ public class HorseMintPetalsItem extends HerbalItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
+        RandomSource random = RandomSource.create();
+        if (random.nextDouble() < 0.40) if (!level.isClientSide) entity.heal(2F);
+        else entity.heal(1F);
+        if (!level.isClientSide) entity.removeEffect(MobEffects.POISON);
         return super.finishUsingItem(itemStack, level, entity);
     }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.horse_mint_petals.tooltip").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.light_healing.tooltip").withStyle(ChatFormatting.GOLD));
     }
 }

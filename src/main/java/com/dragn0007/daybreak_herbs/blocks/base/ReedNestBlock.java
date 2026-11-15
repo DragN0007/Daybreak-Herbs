@@ -54,7 +54,7 @@ public class ReedNestBlock extends BaseNestBlock {
         }
 
         if (i >= this.getMaxDegradeTime()) {
-            BlockState setOld = DBHBlocks.OLD_MOSS_NEST.get().defaultBlockState();
+            BlockState setOld = DBHBlocks.OLD_REED_NEST.get().defaultBlockState();
             level.setBlockAndUpdate(pos, setOld);
         }
 

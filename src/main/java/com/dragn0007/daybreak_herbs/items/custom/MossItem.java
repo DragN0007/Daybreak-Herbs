@@ -1,14 +1,28 @@
 package com.dragn0007.daybreak_herbs.items.custom;
 
+import com.dragn0007.daybreak_herbs.items.DBHItems;
 import com.dragn0007.daybreak_herbs.items.custom.base.HerbalNameBlockItem;
 import net.minecraft.ChatFormatting;
+import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.stats.Stats;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ItemUtils;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.gameevent.GameEvent;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.HitResult;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -23,8 +37,38 @@ public class MossItem extends HerbalNameBlockItem {
         return UseAnim.BOW;
     }
 
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        return super.finishUsingItem(itemStack, level, entity);
+    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
+        ItemStack itemstack = player.getItemInHand(hand);
+        BlockHitResult blockhitresult = getPlayerPOVHitResult(level, player, ClipContext.Fluid.SOURCE_ONLY);
+
+        if (blockhitresult.getType() == HitResult.Type.MISS) {
+            return InteractionResultHolder.pass(itemstack);
+        }
+
+        if (blockhitresult.getType() == HitResult.Type.BLOCK) {
+            BlockPos blockpos = blockhitresult.getBlockPos();
+
+            if (!level.mayInteract(player, blockpos)) {
+                return InteractionResultHolder.pass(itemstack);
+            }
+
+            if (level.getFluidState(blockpos).is(FluidTags.WATER)) {
+                level.playSound(player, player.getX(), player.getY(), player.getZ(),
+                        SoundEvents.BOTTLE_FILL, SoundSource.NEUTRAL, 1.0F, 1.0F);
+
+                level.gameEvent(player, GameEvent.FLUID_PICKUP, blockpos);
+            }
+
+            ItemStack result = this.fillItem(itemstack, player, new ItemStack(DBHItems.WET_MOSS_CLUMP.get()));
+            return InteractionResultHolder.sidedSuccess(result, level.isClientSide());
+        }
+
+        return InteractionResultHolder.pass(itemstack);
+    }
+
+    protected ItemStack fillItem(ItemStack p_40652_, Player p_40653_, ItemStack p_40654_) {
+        p_40653_.awardStat(Stats.ITEM_USED.get(this));
+        return ItemUtils.createFilledResult(p_40652_, p_40653_, p_40654_);
     }
 
     @Override

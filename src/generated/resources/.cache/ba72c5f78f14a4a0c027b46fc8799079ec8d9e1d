@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-27T22:25:20.6722145	Item Models: daybreak_herbs
+// 1.20.1	2026-11-15T00:55:44.885874	Item Models: daybreak_herbs
 4b706f9867043d1f537592393361129653d65934 assets/daybreak_herbs/models/item/arnica.json
 3eb4427af3c394b05c5ddef65a1738299d99eac3 assets/daybreak_herbs/models/item/arnica_petals.json
 db704cef59b159d4f8d330aaaf807846a5401ca6 assets/daybreak_herbs/models/item/boneset.json
@@ -67,6 +67,7 @@ b9502657788e6ad855a0e4a54f21d4427a0e75fb assets/daybreak_herbs/models/item/sundr
 ace9c775f677454fa62b7e0f5130f4ec96b6f6be assets/daybreak_herbs/models/item/sweetroot.json
 2d51b9f43ca0858581da4013b2ec648b26271a53 assets/daybreak_herbs/models/item/usnea.json
 cfd836dbb669f9258cd9ec23dead6b3321c6fde3 assets/daybreak_herbs/models/item/water_leaf_bowl.json
+68edb95254fea3c0fa2a5fbbeaa78f18b9b089af assets/daybreak_herbs/models/item/wet_moss_clump.json
 523f4e5a603ff659cbb241397017e4b86be0e18f assets/daybreak_herbs/models/item/white_sagebrush.json
 27b19dd796dbc80772f327d38d0b9e953ae656e0 assets/daybreak_herbs/models/item/white_sagebrush_leaf.json
 5ab42116ff04341855090c18c706e7f2c7f1bddd assets/daybreak_herbs/models/item/white_willow.json

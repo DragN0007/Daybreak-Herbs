@@ -224,6 +224,8 @@
   "tooltip.daybreak_herbs.leaf_bowl.tooltip": "Used to scoop up a small amount of water.",
   "item.daybreak_herbs.water_leaf_bowl": "Water Leaf Bowl",
   "tooltip.daybreak_herbs.water_leaf_bowl.tooltip": "A small amount of water that can be used in recipes.",
+  "item.daybreak_herbs.wet_moss_clump": "Wet Moss Clump",
+  "tooltip.daybreak_herbs.wet_moss_clump.tooltip": "A small amount of water.",
 
   "block.daybreak_herbs.fur_nest": "Fur Nest",
   "block.daybreak_herbs.old_fur_nest": "Worn Fur Nest",

@@ -1,5 +1,7 @@
-// 1.20.1	2026-10-21T23:34:36.9086814	Recipes
+// 1.20.1	2026-11-15T00:55:44.8878694	Recipes
 d5249ca066d16a99d765dae38bd7dd9c24ecfd69 data/daybreak_herbs/advancements/recipes/misc/leaf_bowl.json
 bbdb64fa3cc4040c2b09dc9336d10d3deba486bb data/daybreak_herbs/advancements/recipes/misc/winterbloom_wash.json
 192eeb2f32eaad46321fa5de90945318df4011fd data/daybreak_herbs/recipes/leaf_bowl.json
 214d09ff3e695861fa1580fb06e1d1728b711da3 data/daybreak_herbs/recipes/winterbloom_wash.json
+c543807bc3b7405eb7d128fc073766113ffdc6f9 data/minecraft/advancements/recipes/misc/string.json
+27f7280c34e6da9f13cde932b0977fd98423c010 data/minecraft/recipes/string.json
