@@ -1,4 +1,4 @@
-// 1.20.1	2026-11-10T01:04:57.8461865	Loot Tables
+// 1.20.1	2026-11-15T22:33:24.1809876	Loot Tables
 a6bfa8ac5fc868d2052ccbc376e35bd801e01500 data/daybreak_herbs/loot_tables/blocks/arnica.json
 ecd8a6cbe52c138bea5c2fb1f3ebe47d0e343c00 data/daybreak_herbs/loot_tables/blocks/boneset.json
 13f49d3052586f89e7e9be3ad10640e654e72fc5 data/daybreak_herbs/loot_tables/blocks/bulrush.json
@@ -10,6 +10,7 @@ e7a750a29d08be2b174126be626aa27e70430d37 data/daybreak_herbs/loot_tables/blocks/
 405d35a7ea9bc8b45d228f424c6f05e53f63847e data/daybreak_herbs/loot_tables/blocks/fur_nest.json
 ddb0bd8768fe868dfd69cb08764af2121b9dcb0b data/daybreak_herbs/loot_tables/blocks/goldenrod.json
 eef4bb5efbca488dc7226a1ff507ecfa2bd685cb data/daybreak_herbs/loot_tables/blocks/goldenseal.json
+d471398a7330c84594893d6c1f02659290e6f3d4 data/daybreak_herbs/loot_tables/blocks/hanging_usnea.json
 1393a54a4665db83a33519a4148ca2d79fad09a4 data/daybreak_herbs/loot_tables/blocks/horse_mint.json
 a4f471f1619c7542b3ff88ac38f955061f132cbc data/daybreak_herbs/loot_tables/blocks/jewelweed.json
 84307c3857b847848466cce16d04a560996721d8 data/daybreak_herbs/loot_tables/blocks/juniper.json

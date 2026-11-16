@@ -142,6 +142,7 @@ public class DBHBlocks {
             () -> new UsneaBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
     public static final RegistryObject<Block> WILD_USNEA = registerBlock("wild_usnea",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+    public static final RegistryObject<Block> HANGING_USNEA = registerBlock("hanging_usnea", AttachedBlock::new);
 
     public static final RegistryObject<Block> JUNIPER = registerBlockWithoutItem("juniper",
             () -> new JuniperBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission()));
@@ -158,7 +159,7 @@ public class DBHBlocks {
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> WILD_POISON_IVY = registerBlock("wild_poison_ivy",
-            () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
+            () -> new PoisonIvyBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
 
     public static final RegistryObject<Block> WILD_DEVILS_TRUMPET = registerBlock("wild_devils_trumpet",
             () -> new FlowerBlock(MobEffects.REGENERATION, 7, BlockBehaviour.Properties.copy(Blocks.POPPY)));
