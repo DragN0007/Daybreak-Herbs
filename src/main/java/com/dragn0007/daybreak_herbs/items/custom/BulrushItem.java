@@ -32,8 +32,7 @@ public class BulrushItem extends HerbalNameBlockItem {
         ItemStack processedStack2 = new ItemStack(DBHItems.BULRUSH_ROOTS.get());
         if (entity instanceof Player player) {
             if (player.getOffhandItem().isEmpty() || player.getOffhandItem().getItem() == Items.AIR) {
-                itemStack.shrink(1);
-                player.setItemInHand(InteractionHand.OFF_HAND, processedStack);
+                player.setItemInHand(InteractionHand.MAIN_HAND, processedStack);
                 player.setItemInHand(InteractionHand.OFF_HAND, processedStack2);
                 return super.finishUsingItem(itemStack, level, entity);
             } else {
