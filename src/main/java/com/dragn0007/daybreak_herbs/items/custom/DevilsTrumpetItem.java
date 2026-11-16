@@ -22,10 +22,6 @@ public class DevilsTrumpetItem extends HerbalItem {
         return UseAnim.EAT;
     }
 
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        return super.finishUsingItem(itemStack, level, entity);
-    }
-
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.devils_trumpet.tooltip").withStyle(ChatFormatting.GRAY));

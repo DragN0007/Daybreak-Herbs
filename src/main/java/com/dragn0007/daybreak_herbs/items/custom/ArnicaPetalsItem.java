@@ -3,6 +3,7 @@ package com.dragn0007.daybreak_herbs.items.custom;
 import com.dragn0007.daybreak_herbs.items.custom.base.HerbalItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -23,6 +24,9 @@ public class ArnicaPetalsItem extends HerbalItem {
     }
 
     public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
+        RandomSource random = RandomSource.create();
+        if (random.nextDouble() < 0.40) if (!level.isClientSide) entity.heal(2F);
+        else entity.heal(1F);
         return super.finishUsingItem(itemStack, level, entity);
     }
 

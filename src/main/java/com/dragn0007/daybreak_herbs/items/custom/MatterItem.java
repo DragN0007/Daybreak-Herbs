@@ -22,10 +22,6 @@ public class MatterItem extends HerbalItem {
         return UseAnim.BOW;
     }
 
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        return super.finishUsingItem(itemStack, level, entity);
-    }
-
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.rotted_plant_matter.tooltip").withStyle(ChatFormatting.GRAY));

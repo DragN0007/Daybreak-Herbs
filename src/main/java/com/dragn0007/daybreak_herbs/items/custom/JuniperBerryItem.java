@@ -23,10 +23,6 @@ public class JuniperBerryItem extends HerbalNameBlockItem {
         return UseAnim.EAT;
     }
 
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        return super.finishUsingItem(itemStack, level, entity);
-    }
-
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.juniper.tooltip").withStyle(ChatFormatting.GRAY));

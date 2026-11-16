@@ -21,9 +21,7 @@ import java.util.List;
 
 public class HerbalNameBlockItem extends ItemNameBlockItem {
 
-    public HerbalNameBlockItem(Block block, Properties properties) {
-        super(block, properties);
-    }
+    public HerbalNameBlockItem(Block block, Properties properties) {super(block, properties);}
 
     @Override
     public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity livingEntity) {
@@ -45,10 +43,6 @@ public class HerbalNameBlockItem extends ItemNameBlockItem {
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         ItemUtils.startUsingInstantly(level, player, hand);
         return super.use(level, player, hand);
-    }
-
-    @Override
-    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
     }
 
     public void appendEffectText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {

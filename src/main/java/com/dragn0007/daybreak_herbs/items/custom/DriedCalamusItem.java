@@ -21,11 +21,6 @@ public class DriedCalamusItem extends HerbalItem {
     public UseAnim getUseAnimation(ItemStack p_42931_) {
         return UseAnim.EAT;
     }
-
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        return super.finishUsingItem(itemStack, level, entity);
-    }
-
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.daybreak_herbs.calamus.tooltip").withStyle(ChatFormatting.GRAY));

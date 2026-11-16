@@ -29,10 +29,6 @@ public class UsneaItem extends HerbalNameBlockItem {
         return UseAnim.EAT;
     }
 
-    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
-        return super.finishUsingItem(itemStack, level, entity);
-    }
-
     public InteractionResult place(BlockPlaceContext context) {
         BlockPos blockpos = context.getClickedPos();
         Level level = context.getLevel();

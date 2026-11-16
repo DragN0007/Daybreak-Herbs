@@ -20,9 +20,7 @@ import java.util.List;
 
 public class HerbalItem extends Item {
 
-    public HerbalItem(Properties properties) {
-        super(properties);
-    }
+    public HerbalItem(Properties properties) {super(properties);}
 
     @Override
     public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity livingEntity) {

@@ -245,22 +245,39 @@ public class DBHItems {
             () -> new DriedGoldensealItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_ARNICA_PETALS = ITEMS.register("dried_arnica_petals",
-            () -> new ArnicaPetalsItem(new Item.Properties()));
+            () -> new ArnicaPetalsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_RATTLEWEED = ITEMS.register("dried_rattleweed",
             () -> new DriedRattleweedItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_USNEA = ITEMS.register("dried_usnea",
-            () -> new DriedUsneaItem(new Item.Properties()));
+            () -> new DriedUsneaItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DARKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_JUNIPER_BERRY = ITEMS.register("dried_juniper_berry",
-            () -> new DriedJuniperBerryItem(new Item.Properties()));
+            () -> new DriedJuniperBerryItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_DEATH_CAMAS = ITEMS.register("dried_death_camas",
-            () -> new DeathCamasItem(new Item.Properties()));
+            () -> new DeathCamasItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.CONFUSION, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.HARM, 20, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_LARKSPUR = ITEMS.register("dried_larkspur",
-            () -> new LarkspurItem(new Item.Properties()));
+            () -> new LarkspurItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.WITHER, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_DEADLY_NIGHTSHADE_BERRY = ITEMS.register("dried_deadly_nightshade_berry",
             () -> new NightshadeItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
@@ -271,13 +288,24 @@ public class DBHItems {
                     .build())));
 
     public static final RegistryObject<Item> DRIED_POISON_IVY = ITEMS.register("dried_poison_ivy",
-            () -> new PoisonIvyItem(new Item.Properties()));
+            () -> new PoisonIvyItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.POISON, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_DEVILS_TRUMPET = ITEMS.register("dried_devils_trumpet",
-            () -> new DevilsTrumpetItem(new Item.Properties()));
+            () -> new DevilsTrumpetItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.POISON, 600, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.CONFUSION, 1200, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_POKEWEED = ITEMS.register("dried_pokeweed",
-            () -> new PokeweedItem(new Item.Properties()));
+            () -> new PokeweedItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.WITHER, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.WEAKNESS, 1200, 0), 1.0F)
+                    .effect(new MobEffectInstance(MobEffects.CONFUSION, 1200, 0), 1.0F)
+                    .build())));
 
     //Misc
     public static final RegistryObject<Item> LEAF_BOWL = ITEMS.register("leaf_bowl", LeafBowlItem::new);
