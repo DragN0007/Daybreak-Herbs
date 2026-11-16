@@ -1,6 +1,8 @@
 package com.dragn0007.daybreak_herbs;
 
 import com.dragn0007.daybreak_herbs.blocks.DBHBlocks;
+import com.dragn0007.daybreak_herbs.blocks.entity.DBHBlockEntities;
+import com.dragn0007.daybreak_herbs.common.gui.DBHMenuTypes;
 import com.dragn0007.daybreak_herbs.items.DBHItemGroupModifier;
 import com.dragn0007.daybreak_herbs.items.DBHItems;
 import net.minecraftforge.common.MinecraftForge;
@@ -20,7 +22,8 @@ public class DaybreakHerbs
         DBHBlocks.register(eventBus);
         DBHItems.register(eventBus);
         DBHItemGroupModifier.register(eventBus);
-        DBHBlocks.TILE_ENTITIES.register(eventBus);
+        DBHBlockEntities.BLOCK_ENTITIES.register(eventBus);
+        DBHMenuTypes.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

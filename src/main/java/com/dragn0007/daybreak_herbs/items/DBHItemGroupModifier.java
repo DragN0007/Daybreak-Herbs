@@ -20,6 +20,9 @@ public class DBHItemGroupModifier {
                         output.accept(DBHBlocks.FUR_NEST.get());
                         output.accept(DBHBlocks.MOSS_NEST.get());
                         output.accept(DBHBlocks.REED_NEST.get());
+                        output.accept(DBHBlocks.WHARF_PREY_PILE.get());
+                        output.accept(DBHBlocks.WHISTLE_PREY_PILE.get());
+                        output.accept(DBHBlocks.WHITHER_PREY_PILE.get());
 
                         output.accept(DBHItems.LEAF_BOWL.get());
                         output.accept(DBHItems.WATER_LEAF_BOWL.get());

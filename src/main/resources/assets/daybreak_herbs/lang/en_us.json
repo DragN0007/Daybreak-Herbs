@@ -235,8 +235,13 @@
   "block.daybreak_herbs.reed_nest": "Reed Nest",
   "block.daybreak_herbs.old_reed_nest": "Worn Reed Nest",
 
+  "block.daybreak_herbs.wharf_prey_pile": "Wharf Prey Pile",
+  "block.daybreak_herbs.whistle_prey_pile": "Whistle Prey Pile",
+  "block.daybreak_herbs.whither_prey_pile": "Whither Prey Pile",
+
   "block.daybreak_herbs.moss_clump_block": "Moss Clump",
   "block.daybreak_herbs.pine_resin_block": "Pine Resin",
   "block.daybreak_herbs.cobweb_block": "Cobweb",
-  "block.daybreak_herbs.white_willow_block": "White Willow"
+  "block.daybreak_herbs.white_willow_block": "White Willow",
+  "blockentities.daybreak_herbs.prey_pile": "Prey Pile"
 }

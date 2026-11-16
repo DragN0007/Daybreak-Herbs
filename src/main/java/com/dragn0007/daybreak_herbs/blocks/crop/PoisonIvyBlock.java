@@ -1,22 +1,14 @@
 package com.dragn0007.daybreak_herbs.blocks.crop;
 
-import com.dragn0007.daybreak_herbs.blocks.DBHBlocks;
-import com.dragn0007.daybreak_herbs.blocks.base.HerbCropBlock;
-import com.dragn0007.daybreak_herbs.items.DBHItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class PoisonIvyBlock extends FlowerBlock {
 

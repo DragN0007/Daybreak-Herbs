@@ -233,6 +233,10 @@ public class DBHBlockLoot extends BlockLootSubProvider {
         dropSelf(DBHBlocks.OLD_MOSS_NEST.get());
         dropSelf(DBHBlocks.REED_NEST.get());
         dropSelf(DBHBlocks.OLD_REED_NEST.get());
+
+        dropSelf(DBHBlocks.WHARF_PREY_PILE.get());
+        dropSelf(DBHBlocks.WHISTLE_PREY_PILE.get());
+        dropSelf(DBHBlocks.WHITHER_PREY_PILE.get());
     }
 
     @Override

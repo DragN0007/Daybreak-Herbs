@@ -1,4 +1,4 @@
-// 1.20.1	2026-11-15T22:33:24.1809876	Loot Tables
+// 1.20.1	2026-11-15T22:57:55.6741256	Loot Tables
 a6bfa8ac5fc868d2052ccbc376e35bd801e01500 data/daybreak_herbs/loot_tables/blocks/arnica.json
 ecd8a6cbe52c138bea5c2fb1f3ebe47d0e343c00 data/daybreak_herbs/loot_tables/blocks/boneset.json
 13f49d3052586f89e7e9be3ad10640e654e72fc5 data/daybreak_herbs/loot_tables/blocks/bulrush.json
@@ -27,8 +27,11 @@ b61491c3a4b05128c14d4dbc27a12f510b9fea49 data/daybreak_herbs/loot_tables/blocks/
 961c1e445219b081e123de86e9fa65cd730778d8 data/daybreak_herbs/loot_tables/blocks/sundrops.json
 8d9c2883dd6144cc7d1ee785b865fe49d1be656b data/daybreak_herbs/loot_tables/blocks/sweetroot.json
 e54636863e4aed31b7c9669643fd8738748790cb data/daybreak_herbs/loot_tables/blocks/usnea.json
+eb1ffed7e40bc98ea0e7f3d7414894d9a490e7d4 data/daybreak_herbs/loot_tables/blocks/wharf_prey_pile.json
+b3f0a3a91ed59833bb397a29c2a5806901fa2ab2 data/daybreak_herbs/loot_tables/blocks/whistle_prey_pile.json
 d29cc5491fc687c45e0f04cf0ee8782f57aac8cd data/daybreak_herbs/loot_tables/blocks/white_sagebrush.json
 d951ad4fc2c892a3e69b7def77a0294b9271ec51 data/daybreak_herbs/loot_tables/blocks/white_willow_block.json
+737acf114df7c7634e2abd41d433f66619593f1e data/daybreak_herbs/loot_tables/blocks/whither_prey_pile.json
 09d0268c8b2eab49fc1d83b81f0d6a0144898f16 data/daybreak_herbs/loot_tables/blocks/wild_arnica.json
 30246d04b66758ef73bf32b4f17d81c4d7e98403 data/daybreak_herbs/loot_tables/blocks/wild_boneset.json
 6bc5bb602508703de80a27a28519e5dcbeabcd69 data/daybreak_herbs/loot_tables/blocks/wild_bulrush.json

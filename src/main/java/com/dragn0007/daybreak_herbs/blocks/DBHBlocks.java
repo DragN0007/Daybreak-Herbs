@@ -11,7 +11,6 @@ import net.minecraft.world.item.PlaceOnWaterBlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,7 +21,13 @@ import java.util.function.Supplier;
 
 public class DBHBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DaybreakHerbs.MODID);
-    public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, DaybreakHerbs.MODID);
+
+    public static final RegistryObject<Block> WHARF_PREY_PILE = registerBlock("wharf_prey_pile",
+            () -> new PreyPileBlock(BlockBehaviour.Properties.copy(Blocks.SAND).strength(-1.0F, 3600000.0F).noOcclusion()));
+    public static final RegistryObject<Block> WHISTLE_PREY_PILE = registerBlock("whistle_prey_pile",
+            () -> new PreyPileBlock(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT).strength(-1.0F, 3600000.0F).noOcclusion()));
+    public static final RegistryObject<Block> WHITHER_PREY_PILE = registerBlock("whither_prey_pile",
+            () -> new PreyPileBlock(BlockBehaviour.Properties.copy(Blocks.GRAVEL).strength(-1.0F, 3600000.0F).noOcclusion()));
 
     public static final RegistryObject<Block> MOSS_CLUMP_BLOCK = registerBlock("moss_clump_block", AttachedBlock::new);
     public static final RegistryObject<Block> PINE_RESIN_BLOCK = registerBlock("pine_resin_block", AttachedBlock::new);
