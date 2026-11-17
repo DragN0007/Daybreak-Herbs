@@ -37,6 +37,15 @@ public class DBHRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DBHTags.Items.LEAVES).build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DBHItems.WINTERBLOOM_WASH.get())
+                .requires(DBHItems.DRIED_WINTERBLOOM_LEAF.get())
+                .requires(DBHItems.WATER_LEAF_BOWL.get())
+                .requires(DBHTags.Items.LEAVES)
+                .requires(DBHTags.Items.LEAVES)
+                .unlockedBy("has_leaves", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DBHTags.Items.LEAVES).build()))
+                .save(pFinishedRecipeConsumer, "winterbloom_wash_dry");
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.STRING, 2)
                 .requires(DBHItems.COBWEB.get())
                 .unlockedBy("has_cobweb", inventoryTrigger(ItemPredicate.Builder.item()

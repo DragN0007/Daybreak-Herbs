@@ -23,14 +23,17 @@ public class BaseOldNestBlock extends Block {
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
         ItemStack itemstack = player.getItemInHand(hand);
         if (state.is(DBHBlocks.OLD_FUR_NEST.get()) && itemstack.is(DBHItems.PINE_RESIN.get())) {
+            if (!player.getAbilities().instabuild) player.getMainHandItem().shrink(1);
             BlockState setOld = DBHBlocks.FUR_NEST.get().defaultBlockState();
             level.setBlockAndUpdate(pos, setOld);
         }
         if (state.is(DBHBlocks.OLD_MOSS_NEST.get()) && itemstack.is(DBHItems.MOSS_CLUMP.get())) {
+            if (!player.getAbilities().instabuild) player.getMainHandItem().shrink(1);
             BlockState setOld = DBHBlocks.MOSS_NEST.get().defaultBlockState();
             level.setBlockAndUpdate(pos, setOld);
         }
         if (state.is(DBHBlocks.OLD_REED_NEST.get()) && itemstack.is(DBHItems.BULRUSH_FLUFF.get())) {
+            if (!player.getAbilities().instabuild) player.getMainHandItem().shrink(1);
             BlockState setOld = DBHBlocks.REED_NEST.get().defaultBlockState();
             level.setBlockAndUpdate(pos, setOld);
         }

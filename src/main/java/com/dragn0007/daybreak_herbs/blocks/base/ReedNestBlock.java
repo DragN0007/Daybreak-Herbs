@@ -36,6 +36,7 @@ public class ReedNestBlock extends BaseNestBlock {
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
         ItemStack itemstack = player.getItemInHand(hand);
         if (itemstack.is(DBHItems.BULRUSH_FLUFF.get())) {
+            if (!player.getAbilities().instabuild) player.getMainHandItem().shrink(1);
             BlockState newState = this.getStateForDegradeTime(1);
             level.setBlockAndUpdate(pos, newState);
         }

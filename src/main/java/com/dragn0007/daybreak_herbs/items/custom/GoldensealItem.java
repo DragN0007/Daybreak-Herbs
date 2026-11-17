@@ -31,7 +31,6 @@ public class GoldensealItem extends HerbalNameBlockItem {
         ItemStack processedStack = new ItemStack(DBHItems.GOLDENSEAL_POULTICE.get());
         if (entity instanceof Player player) {
             if (player.getOffhandItem().isEmpty() || player.getOffhandItem().getItem() == Items.AIR) {
-                itemStack.shrink(1);
                 player.setItemInHand(InteractionHand.OFF_HAND, processedStack);
             } else {
                 player.displayClientMessage(Component.translatable("The off-paw must be free to process this plant!").withStyle(ChatFormatting.GOLD), true);

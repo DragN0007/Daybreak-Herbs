@@ -27,4 +27,9 @@ public class BaseNestBlock extends Block {
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
         return AABB;
     }
+
+    @Override
+    public boolean isCollisionShapeFullBlock(BlockState p_181242_, BlockGetter p_181243_, BlockPos p_181244_) {
+        return false;
+    }
 }

@@ -1,9 +1,15 @@
 package com.dragn0007.daybreak_herbs.blocks.base;
 
+import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.MultifaceBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -32,4 +38,12 @@ public class AttachedBlock extends DecorRotator {
     public static final VoxelShape WEST = Stream.of(
             Block.box(15, 1, 3, 16, 11, 13)
     ).reduce((v1, v2) -> Shapes.join(v1, v2,BooleanOp.OR)).get();
+
+    @Override
+    public boolean canSurvive(BlockState state, LevelReader level, BlockPos pos) {
+        Direction facing = state.getValue(FACING);
+        BlockPos attachedPos = pos.relative(facing.getOpposite());
+        BlockState attachedState = level.getBlockState(attachedPos);
+        return attachedState.isFaceSturdy(level, attachedPos, facing);
+    }
 }

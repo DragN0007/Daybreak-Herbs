@@ -210,7 +210,9 @@ public class DBHItems {
             () -> new DriedYarrowItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_ECHINACEA_ROOTS = ITEMS.register("dried_echinacea_roots",
-            () -> new DriedEchinaceaItem(new Item.Properties()));
+            () -> new DriedEchinaceaItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(0).alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F)
+                    .build())));
 
     public static final RegistryObject<Item> DRIED_WHITE_SAGEBRUSH_LEAF = ITEMS.register("dried_white_sagebrush_leaf",
             () -> new WhiteSagebrushLeafItem(new Item.Properties()));
@@ -239,7 +241,7 @@ public class DBHItems {
             () -> new WinterbloomLeafItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_BULRUSH_ROOTS = ITEMS.register("dried_bulrush_roots",
-            () -> new BulrushRootsItem(new Item.Properties()));
+            () -> new BulrushRootsItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).build())));
 
     public static final RegistryObject<Item> DRIED_GOLDENSEAL = ITEMS.register("dried_goldenseal",
             () -> new DriedGoldensealItem(new Item.Properties()));
