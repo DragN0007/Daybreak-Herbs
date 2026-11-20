@@ -3,7 +3,9 @@ package com.dragn0007.daybreak_herbs.items.custom;
 import com.dragn0007.daybreak_herbs.items.custom.base.HerbalItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
@@ -20,6 +22,11 @@ public class WhiteSagebrushLeafItem extends HerbalItem {
 
     public UseAnim getUseAnimation(ItemStack p_42931_) {
         return UseAnim.BRUSH;
+    }
+
+    public ItemStack finishUsingItem(ItemStack itemStack, Level level, LivingEntity entity) {
+        if (entity instanceof Player && !((Player)entity).getAbilities().instabuild) itemStack.shrink(1);
+        return super.finishUsingItem(itemStack, level, entity);
     }
 
     @Override

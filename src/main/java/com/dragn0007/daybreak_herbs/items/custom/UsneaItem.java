@@ -9,6 +9,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
@@ -33,6 +34,7 @@ public class UsneaItem extends HerbalNameBlockItem {
         BlockPos blockpos = context.getClickedPos();
         Level level = context.getLevel();
         if (context.getClickedFace() != Direction.DOWN && context.getClickedFace() != Direction.UP) {
+            if (!context.getPlayer().getAbilities().instabuild) context.getItemInHand().shrink(1);
             level.setBlock(blockpos, DBHBlocks.HANGING_USNEA.get().defaultBlockState().setValue(AttachedBlock.FACING, context.getHorizontalDirection().getOpposite()), 2);
         }
         return super.place(context);
